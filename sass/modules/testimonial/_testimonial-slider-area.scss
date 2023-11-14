@@ -1,0 +1,265 @@
+.testimonial-slider-area{
+    &.style-1{
+      position: relative;
+      .shape{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        @include rmaxwd(1199){
+          display: none;
+        }
+      }
+      .shape-2{
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        @include rmaxwd(1199){
+          display: none;
+        }
+      }
+      .arrow-btn-wrapper{
+        display: flex;
+        gap: 16px;
+        @include rmaxwd(991){
+          justify-content: center;
+        }
+        .arrow,a{
+          width: 50px;
+          height: 50px;
+          border-radius: 50px;
+          background-color: transparent;
+          border: 1px solid $white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: $white;
+          @include transition;
+          &:hover{
+            background-color: $white;
+            color: $primary-color;
+          }
+        }
+      }
+      .testimonial-slider-wrapper{
+        // padding: 120px 0;
+          position: relative;
+        .large-one,
+        .large-two,
+        .small-one,
+        .small-two{
+          position: absolute;
+          @include rmaxwd(1199){
+            display: none;
+          }
+        }
+        .large-one{
+          top: 0;
+          left: 0;
+        }
+        .small-one{
+          top: 0;
+          right: 0;
+        }
+        .large-two{
+          left: 0;
+          bottom: 0;
+        }
+        .small-two{
+          bottom: 0;
+          right: 0;
+        }
+      }
+        .testimonial-slider{
+            // margin-top: 56px;
+            padding: 120px 0;
+            @include rmaxwd(991){
+              padding: 30px 0;
+            }
+            @include lg{
+              padding: 0;
+            }
+            .testimonial-arrow-btn{
+              i{
+                position: unset;
+              }
+              
+                
+                &.prev-btn{
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    @include sm{
+                      top: unset;
+                      bottom: 0;
+                      right: 50%;
+                      left: unset;
+                      transform: translate(0px, 72px);
+                    }
+                    .swip{
+                      height: 20px;
+                      .title-wrapper{
+                        display: flex;
+                        margin-left: 12px;
+                        gap: 32px;
+                      }
+                    }
+                    &:hover{
+                      .swip{
+                        .title-wrapper{
+                          transform: translateX(-54px);
+                        }
+                      }
+                    }
+                }
+                &.next-btn{
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    margin-left: 12px;
+                    @include sm{
+                      top: unset;
+                      bottom: 0;
+                      left: 50%;
+                      transform: translate(0px, 72px);
+                    }
+                    .swip{
+                      height: 20px;
+                      .title-wrapper{
+                        display: flex;
+                        margin-left: -40px;
+                        gap: 32px;
+                      }
+                    }
+                    &:hover{
+                      .swip{
+                        .title-wrapper{
+                          transform: translateX(54px);
+                        }
+                      }
+                    }
+                }
+            }
+            .slick-dots {
+                display: flex;
+                gap: 20px;
+                flex-direction: column;
+                position: absolute;
+                top: 50%;
+                right: 46px;
+                transform: translateY(-50%);
+                z-index: 2;
+                flex-direction: column;
+          
+                @include sm {
+                  position: relative;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: center;
+                  margin-right: 30px;
+                  bottom: 0px;
+                  top: unset;
+                  left: unset;
+                  right: unset;
+                  transform: none;
+                }
+          
+                li {
+                  display: inline-block;
+                  line-height: 0;
+                  outline: 1px solid transparent;
+                  border: 4px solid transparent;
+                  border-radius: 50px;
+                  @include transition;
+          
+                  button {
+                    font-size: 0;
+                    padding: 0;
+                    width: 11px;
+                    height: 11px;
+                    background-color: $black-2;
+                    border-radius: 50px;
+                    position: relative;
+                    @include transition;
+          
+                    &:hover {
+                      background-color: $orange-color;
+                      @include transition;
+                    }
+                  }
+                  &.slick-active {
+                    @include transition;
+                    outline: 1px solid $black;
+          
+                    button {
+                      @include transition;
+                    }
+                  }
+                }
+              }
+        }
+        .testimonial-arrow-btn{
+          display: none !important;
+        }
+        .section-title{
+          margin-bottom: 42px;
+          .short-title{
+              span{
+                  color: $white;
+              }
+          }
+          .title{
+              color: $white;
+          }
+          .desc{
+              color: $white;
+          }
+      } 
+        .icon-card-wrapper{
+          display: flex;
+          align-items: center;
+          gap: 40px;
+          // margin-left: 47px;
+          margin-top: 0;
+          @include sm{
+              margin-left: 0;
+              flex-direction: column;
+              gap: 0;
+          }
+          &.slick-slide{
+            margin: 24px 0;
+            @include sm{
+              margin: 0;
+            }
+          }
+          .icon-card{
+              &.style-2{
+                  box-shadow: unset;
+                  gap: 16px;
+                  @include sm{
+                    margin-top: 28px;
+                  }
+                  .icon{
+                      background-color: transparent;
+                  }
+                  .content{
+                      .desc{
+                          font-size: 18px;
+                          font-weight: 400;
+                          line-height: 32px;
+                      }
+                  }
+              }
+          }
+      }
+        .duo-wrapper{
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          width: 50%;
+          @include sm{
+              gap: 0;
+              width: 100%;
+          }
+      }
+    }
+}

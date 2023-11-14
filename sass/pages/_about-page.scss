@@ -1,0 +1,73 @@
+// about-us-area
+.about-us-area{
+  &.style-3{
+    .about-info-card{
+      @include sm{
+        margin-top: 32px;
+      }
+      .icon-card-wrapper{
+        @include sm{
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+// faq-area
+.faq-area{
+  &.style-3{
+    background: var(--gradient, linear-gradient(76deg, #ECEAFF 0%, #FFF 140.02%));
+  }
+}
+// Testimonial-area
+.testimonial-area{
+    .testimonial-slider-two{
+      .testimonial-arrow-btn {
+        position: absolute;
+        right: 0;
+        top: -56px;
+        &.prev-btn{
+          right: 68px;
+          @include rmaxwd(991){
+            right: 51%;
+            left: unset;
+          }
+        }
+        &.next-btn{
+          @include rmaxwd(991){
+            left: 51%;
+            right: unset;
+          }
+        }
+        @include rmaxwd(991){
+          right: 50%;
+          top: unset;
+          bottom: -32px;
+
+        }
+      }
+      .slick-list{
+        padding: 0 !important;
+        
+      }
+    }
+    .icon-card{
+      &.style-2{
+        margin: 56px 12px;
+        gap: 16px;
+        padding: 38px;
+        display: flex !important;
+        @include rmaxwd(991){
+          &:first-child{
+            margin-top: 0;
+          }
+          margin-top: 24px;
+        }
+        
+          .meta-user{
+            margin-top: 16px;
+          }
+      }
+    }
+}

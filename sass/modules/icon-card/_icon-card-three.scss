@@ -1,0 +1,85 @@
+.icon-card {
+    &.style-3 {
+        background-color: $white;
+        border-radius: 16px;
+        // flex-direction: column;
+        padding: 40px;
+        border-radius: 24px;
+        box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20);
+        @include sm{
+            text-align: center;
+        }
+        @include md{
+            flex-direction: column;
+            align-items: start;
+        }
+        @include lg{
+            flex-direction: column;
+            padding: 32px;
+        }
+        .icon{
+            border-color: transparent;
+            i{
+                font-size: 32px;
+            }
+        }
+        .content{
+            // align-items: center;
+            text-align: start;
+            padding: 0;
+            @include sm{
+                align-items: center;
+                text-align: center;
+            }
+        }
+        .sketch{
+            position: absolute;
+            top: 0;
+            right: 0;
+            visibility: hidden;
+            opacity: 0;
+            @include transition;
+            
+        }
+        .contact-info{
+            text-align: center;
+            border-top: 1px solid $black-3;
+            padding-top: 32px;
+            width: 100%;
+            h6{
+                color: #015DFF;
+            }
+            p{
+                a{
+                    font-family: $body-font;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    color: $black-2;
+                    margin: 0;
+                }
+            }
+        }
+        &:hover{
+            .sketch{
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+    &.style-4{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 40px 0;
+        border: 1px solid $border;
+        border-radius: 12px;
+        .icon{
+            border-color: transparent;
+            background-color: transparent;
+        }
+        .content{
+            padding: 0 66px;
+        }
+    }
+}

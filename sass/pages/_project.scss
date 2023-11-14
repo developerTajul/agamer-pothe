@@ -1,0 +1,59 @@
+.project-card-wrapper{
+    padding: 120px 0;
+    @include sm{
+        padding: 80px 0;
+      }
+      @include md{
+        padding: 80px 0;
+      }
+      @include lg{ 
+        padding: 80px 0;
+      }
+    .project-btn-wrapper{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin: 56px 0;
+        margin-bottom: 16px;
+        @include rmaxwd(1199){
+          flex-wrap: wrap;
+          justify-content: start;
+        }
+        button{
+                padding: 8px 32px;
+                border: 1px solid #E7E7E7;
+                border-radius: 8px;
+                color: $black;
+                font-family: $heading-font;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                background-color: $white;
+                @include sm{
+                  padding: 8px 24px;
+                }
+                &:hover{
+                  color: $primary-color;
+                   border-color: $primary-color; 
+                }
+                &.active{
+                  color: $primary-color;
+                  border-color: $primary-color;
+                }
+        }
+    }
+    .btn-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 56px;
+    }
+    .project-card{
+      @include rmaxwd(1199){
+        margin-top: 24px;
+      }
+    }
+    .post-card{
+      margin-top: 0;
+    }
+}

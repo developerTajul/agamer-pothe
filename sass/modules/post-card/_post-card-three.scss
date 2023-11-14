@@ -1,0 +1,72 @@
+.post-card{
+    &.style-3{
+        margin-top: 0;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        @include sm{
+            flex-direction: column;
+        }
+        .image{
+            @include sm{
+                max-height: 215px;
+            }
+        }
+        .content{
+            width: 50%;
+            padding-right: 0;
+            @include sm{
+                width: 100%;
+                padding-right: 20px;
+            }
+            @include lg{
+                padding: 16px 0 16px 16px;
+            }
+            .title{
+                padding-bottom: 24px;
+                border-bottom: 1px solid $black-3;
+                @include lg{
+                    padding-bottom: 8px;
+
+                }
+            }
+            .meta-user{
+                @include lg{
+                    gap: 8px;
+                }
+                .meta-user-content{
+                    .user,a{
+                        @include lg{
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 28px;
+                        }
+                    }
+                    .desc{
+                        @include lg{
+                            font-size: 12px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.style-4{
+        .meta-user-wrapper{
+            display: flex;
+            justify-content: space-between;
+            .tag-wrapper{
+                align-items: center;
+            }
+        }
+        .title{
+            margin-top: 24px;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 47px;
+        }
+        .desc{
+            margin-top: 8px;
+        }
+    }
+}

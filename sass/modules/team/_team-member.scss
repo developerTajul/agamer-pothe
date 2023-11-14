@@ -1,0 +1,76 @@
+.team-member-card {
+  position: relative;
+  // display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background-color: #F9F9F9;
+  @include transition;
+  &:hover{
+    .content{
+      transform: scale(1);
+      // bottom: -20px;
+      // transform: translate(0px, 50%);
+      visibility: visible;
+      overflow: visible;
+      @include transition;
+    }
+  }
+  
+  .image{
+    overflow: hidden;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .inner-wrapper{
+    position: relative;
+    margin: 0 20px;
+  }
+  .content{
+    text-align: center;
+    padding: 16px 24px;
+    background-color: $primary-color;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    transform: scale(0);
+    visibility: hidden;
+    overflow: hidden;
+    @include transition;
+    .title{
+      margin-bottom: 0;
+      color: $white;
+      transition: unset;
+      a{
+        transition: unset;
+        &:hover{
+          color: $white;
+        }
+      }
+    }
+    .desc{
+      font-family: $body-font;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27.2px ;
+      color: $white;
+      margin-bottom: 0;
+    }
+  }
+  &.style-2{
+    margin-top: 56px;
+    @include sm{
+      margin-top: 8px;
+    }
+    .content{
+      padding: 32px 24px;
+    }
+  }
+}

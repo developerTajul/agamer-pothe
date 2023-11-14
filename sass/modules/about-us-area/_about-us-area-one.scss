@@ -1,0 +1,93 @@
+// About Us Area
+.about-us-area{
+    &.style-2{
+        .about-info-card{
+          .section-title{
+            @include lg{
+              gap: 8px;
+            }
+            .title{
+              @include lg{
+                font-size: 40px;
+                line-height: 54px;
+              }
+            }
+            .desc{
+              @include lg{
+                font-size: 16px;
+              }
+            }
+          }
+          .icon-card-wrapper{
+            @include lg{
+              margin-top: 18px;
+            }
+          }
+          @include rmaxwd(991){
+            margin-top: 32px;
+          }
+            .icon-card{
+              .icon{
+                border-color: transparent;
+              }
+              .content{
+                @include lg{
+                  font-size: 16px;
+                  line-height: 28px;
+                }
+              }
+            }
+          }
+          .about-image-card{
+            position: relative;
+            .shape{
+                position: absolute;
+                bottom: -57px;
+                left: -107px;
+                z-index: 10;
+                box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20);
+                @include rmaxwd(991){
+                  display: none;
+                }
+                @include lg{
+                  display: none;
+                }
+            }
+            .main-img{
+                border-radius: 24px;
+                overflow: hidden;
+                img{
+                  @include md{
+                    width: 100%;
+                  }
+                }
+            }
+          }
+    }
+    &.style-3{
+      .about-image-card{
+        position: relative;
+        .shape{
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            z-index: 10;
+            @include rmaxwd(991){
+              display: none;
+            }
+            @include lg{
+              display: none;
+            }
+        }
+        .main-img{
+            border-radius: 24px;
+            overflow: hidden;
+            img{
+              @include md{
+                width: 100%;
+              }
+            }
+        }
+      }
+    }
+}

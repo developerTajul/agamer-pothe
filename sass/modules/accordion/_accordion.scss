@@ -1,0 +1,72 @@
+.accordion{
+  .accordion-item{
+    margin-bottom: 24px;
+    // border-bottom: unset;
+    z-index: 1;
+    position: relative;
+    background-color: $white;
+    border: 1px solid $border !important;
+    border-radius: 12px;
+    // padding: 32px;
+    &.active{
+      box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20) !important;
+    }
+    // &:nth-child(odd){
+    //   float: left;
+    // }
+    // &:nth-child(even){
+    //   float: right;
+    // }
+    &:last-child{
+      margin-bottom: 0;
+    }
+    .accordion-header{
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .accordion-button{
+      padding: 0;
+      font-family: $heading-font;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34px;
+      color: $black;
+      padding: 32px;
+      padding-bottom: 32px;
+      &:not(.collapsed){
+        padding-bottom: 0;
+       &:after{
+         content: "\f068";
+         background-color: $black;
+         color: $white;
+       } 
+      }
+      &:after{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        content: "\2b";
+        font-family: $font-awesome;
+        background-image: none;
+        background-color: #F9F9F9;
+        padding: 8px;
+        transform: rotate(0deg);
+        font-size: 20px;
+        @include transition;
+      }
+    }
+    .accordion-body{
+      background-color: $white;
+      border-radius: 12px;
+      padding: 0;
+      padding: 8px 85px 32px 32px;
+    }
+    .accordion-button:not(.collapsed){
+      background-color: $white;
+      box-shadow: none;
+    }
+  }
+}
