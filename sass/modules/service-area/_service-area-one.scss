@@ -22,10 +22,41 @@
       @include rmaxwd(1900){
         margin-top: 32px;
       }
-      .icon-card{
-        &.style-2{
-          @include rmaxwd(991){
-            // margin-top: 24px;
+    }
+    .icon-card{
+      &.style-2{
+        .icon{
+          &:before{
+            width: 50px;
+            height: 50px;
+            border-radius: 84% 16% 34% 66% / 63% 29% 71% 37% ;
+            background-color: #FEE1E6;
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: unset;
+        }
+        }
+        &:nth-child(2){
+          .icon{
+            &:before{
+              background-color: #FFF2D0;
+            }
+          }
+        }
+        &:nth-child(3){
+          .icon{
+            &:before{
+              background-color: #D9E8FF;
+            }
+          }
+        }
+        &:nth-child(4){
+          .icon{
+            &:before{
+              background-color: #F8DDFF;
+            }
           }
         }
       }

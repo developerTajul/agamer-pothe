@@ -26,6 +26,9 @@
             gap: 48px;
         }
         .content{
+            @include md{
+                text-align: center;
+            }
             .title{
                 margin-bottom: 8px;
                 color: $white;
@@ -36,10 +39,13 @@
                 font-weight: 400;
                 line-height: 27px;
                 color: $white;
-                @include xl{
-                    br{
-                        display: none;
-                    }
+                br{
+                    @include xl{
+                            display: none;
+                        }
+                        @include sm{
+                            display: none;   
+                        }
                 }
             }
         }

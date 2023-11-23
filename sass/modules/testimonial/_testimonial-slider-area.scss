@@ -5,7 +5,7 @@
         position: absolute;
         left: 0;
         bottom: 0;
-        @include rmaxwd(1199){
+        @include rmaxwd(1399){
           display: none;
         }
       }
@@ -13,7 +13,7 @@
         position: absolute;
         top: 50%;
         right: 40px;
-        @include rmaxwd(1199){
+        @include rmaxwd(1440){
           display: none;
         }
       }
@@ -50,6 +50,9 @@
           position: absolute;
           @include rmaxwd(1199){
             display: none;
+          }
+          @include xl{
+            width: 300px;
           }
         }
         .large-one{
@@ -209,9 +212,22 @@
           }
           .title{
               color: $white;
+              @include xl{
+                font-size: 50px;
+              }
+              br{
+                @include xl{
+                  display: none;
+                }
+              }
           }
           .desc{
               color: $white;
+              br{
+                @include xl{
+                  display: none;
+                }
+              }
           }
       } 
         .icon-card-wrapper{
@@ -238,6 +254,9 @@
                   @include sm{
                     margin-top: 28px;
                   }
+                  @include xl{
+                    // padding: 32px;
+                  }
                   .icon{
                       background-color: transparent;
                   }
@@ -246,6 +265,9 @@
                           font-size: 18px;
                           font-weight: 400;
                           line-height: 32px;
+                          @include xl{
+                            font-size: 16px;
+                          }
                       }
                   }
               }

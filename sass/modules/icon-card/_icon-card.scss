@@ -112,6 +112,10 @@
         align-items: center;
         gap: 16px;
         margin-top: 16px;
+        .image{
+            border-radius: 50%;
+            overflow: hidden;
+        }
         .meta-user-content{
           display: flex;
           flex-direction: column;

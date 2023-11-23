@@ -46,6 +46,7 @@
                 left: -107px;
                 z-index: 10;
                 box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20);
+                animation: MoveLeftRight 2s linear infinite alternate;
                 @include rmaxwd(991){
                   display: none;
                 }
@@ -82,11 +83,45 @@
         .main-img{
             border-radius: 24px;
             overflow: hidden;
+            @include md{
+              text-align: center;
+            }
             img{
+              border-radius: 24px;
               @include md{
-                width: 100%;
+                // width: 100%;
               }
             }
+        }
+      }
+      .about-info-card{
+        @include md{
+          margin-top: 32px;
+        }
+        .section-title{
+          .title{
+            br{
+              @include lg{
+                display: none;
+              }
+              @include xl{
+                display: none;
+              }
+            }
+          }
+          .desc{
+            br{
+              @include lg{
+                display: none;
+              }
+              @include xl{
+                display: none;
+              }
+              @include lg{
+                display: none;
+              }
+            }
+          }
         }
       }
     }

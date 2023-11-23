@@ -36,6 +36,22 @@
 }
 // our-mission-area
 .our-mission-area{
+    .section-title{
+        .title{
+            @include xl{
+                br{
+                  display: none;
+                }
+              }
+        }
+        .desc{
+            @include xl{
+                br{
+                  display: none;
+                }
+              }
+        }
+    }
     .about-image-card{
             @include sm{
                 margin-top: 32px;
@@ -49,9 +65,15 @@
             }
         }
         .about-image-card{
+            @include md{
+                margin-top: 48px;
+            }
             .main-img{
                 border-radius: 12px;
                 overflow: hidden;
+                img{
+                    border-radius: 12px;
+                }
             }
         }
 }

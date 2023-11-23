@@ -2,6 +2,9 @@
     .section-title {
       .title {
         margin-bottom: 0;
+        @include lg{
+          font-size: 38px;
+        }
       }
     }
     .icon-card-wrapper{

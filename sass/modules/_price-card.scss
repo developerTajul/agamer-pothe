@@ -30,7 +30,7 @@
     }
     .ball{
         width: 32px;
-        height: 33px;
+        height: 32px;
         background-color: $white;
         border-radius: 50%;
         position: absolute;
@@ -42,7 +42,15 @@
         &.active{
         transform: translateX(42px);
         }
-
+        @include sm{
+            height: 31px;
+        }
+        @include md{
+            height: 31px;
+        }
+        @include xl{
+            height: 31px;
+        }
     }
 }
 .price-card-wrapper {
@@ -75,6 +83,57 @@
         z-index: 3;
         position: relative;
         box-shadow: 0px 24px 64px 0px rgba(199, 206, 218, 0.25);
+        &:after{
+            content: "";
+            width: 100%;
+            height: 0%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: $background;
+            visibility: hidden;
+            // transform: scale(0);
+            border-radius: 16px;
+            z-index: -1;
+            @include transition;
+        }
+        &:hover{
+            @include transition;
+            &:after{
+                height: 100%;
+                visibility: visible;
+            }
+            .card-title{
+                .sub-title{
+                    color: $white;
+                    background-color: transparent;
+                }
+                .price{
+                    .price-heading{
+                        color: $white;
+                    }
+                    .price-desc{
+                        color: $white;
+                    }
+                }
+            }
+            .divider{
+                &:before{
+                    background: #6E65E5;
+                }
+            }
+            .list-item-wrapper{
+                ul{
+                    li{
+                        color: $white;
+                        &:before{
+                            background-color: $white;
+                            color: $black;
+                        }
+                    }
+                }
+            }
+        }
         .shape{
             position: absolute;
             top: 0;
@@ -219,6 +278,42 @@
                     &:hover{
                         background-color: $black;
                         color: $white;
+                    }
+                }
+            }
+            &:hover{
+                &:after{
+                    background-color: $white;
+                }
+                .card-title{
+                    .sub-title{
+                        @include transition;
+                        color: $black;
+                        background-color: transparent;
+                    }
+                    .price{
+                        .price-heading{
+                            color: $black;
+                        }
+                        .price-desc{
+                            color: $black-2;
+                        }
+                    }
+                }
+                .divider{
+                    &:before{
+                        background: #6E65E5;
+                    }
+                }
+                .list-item-wrapper{
+                    ul{
+                        li{
+                            color: $black;
+                            &:before{
+                                background-color: $black;
+                                color: $white;
+                            }
+                        }
                     }
                 }
             }

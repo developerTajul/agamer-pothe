@@ -9,12 +9,19 @@
         // width: 50%;
         @include md{
             align-items: start;
+            padding: 32px;
         }
         .icon{
             // width: 80px;
             // height: 80px;
-            border: none;
+            border: none; 
             background-color: transparent;
+            position: relative;
+            img{
+                position: relative;
+                z-index: 3;
+                width: auto;
+            }
         }
         .content{
             padding-right: 0;
@@ -41,6 +48,11 @@
                 visibility: visible;
                 opacity: 1;
                 transform: translate(0%, 0%);
+            }
+            .icon{
+                &:before{
+                    animation: ZoomInOut 1s ;
+                }
             }
         }
     }

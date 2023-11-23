@@ -121,5 +121,30 @@
                 }
             }
         }
+        .section-title{
+            .title{
+                br{
+                  @include lg{
+                    display: none;
+                  }
+                  @include xl{
+                    display: none;
+                  }
+                }
+              }
+              .desc{
+                br{
+                  @include lg{
+                    display: none;
+                  }
+                  @include xl{
+                    display: none;
+                  }
+                  @include lg{
+                    display: none;
+                  }
+                }
+              }
+        }
     }
 }

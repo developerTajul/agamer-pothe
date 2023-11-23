@@ -1,7 +1,7 @@
 .slider-area {
   &.style-2 {
     position: relative;
-
+    
     .social-share {
       @include rmaxwd(991) {
         display: none;

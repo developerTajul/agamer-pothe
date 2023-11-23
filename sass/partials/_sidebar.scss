@@ -630,6 +630,7 @@
         overflow: hidden;
         border-radius: 12px;
         img {
+          border-radius: 12px;
           transform: scale(1);
           @include transition;
         }

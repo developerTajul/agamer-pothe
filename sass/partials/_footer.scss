@@ -19,6 +19,7 @@
       position: absolute;
       top: 0;
       left: 0;
+      animation: MoveTopRight 4s infinite;
       @include sm{
         display: none;
       }
@@ -402,6 +403,12 @@
     position: absolute;
     top: 0;
     left: 0;
+    @include lg{
+      display: none;
+    }
+    @include xl{
+      display: none;
+    }
   }
   .content-wrapper {
     display: flex;

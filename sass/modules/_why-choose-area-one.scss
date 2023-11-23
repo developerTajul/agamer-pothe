@@ -54,6 +54,13 @@
         }
     }
     &.style-3{
+        .section-title{
+            .title{
+                @include sm{
+                    font-size: 37px;
+                }
+            }
+        }
         .about-image-card{
             .main-img{
                 img{

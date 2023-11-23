@@ -5,10 +5,66 @@
                 margin-top: 24px;
             }
             .icon{
-                width: 92px;
-                height: 92px;
+                width: auto;
+                position: relative;
+                &:before{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 84% 16% 34% 66% / 63% 29% 71% 37% ;
+                    background-color: #FEE1E6;
+                    content: "";
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    z-index: unset;
+                }
+                img{
+                    position: relative;
+                    z-index: 3;
+                }
             }
-
+            .content{
+                @include xl{
+                    padding: 0 56px;
+                }
+            }
+        }
+    }
+    .icon-card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        .icon-card{
+            &.style-4{
+                &:hover{
+                    .icon{
+                        &:before{
+                            animation: ZoomInOut 1s;
+                        }
+                    }
+                }
+                &:nth-child(2){
+                    .icon{
+                      &:before{
+                        background-color: #FFF2D0;
+                      }
+                    }
+                  }
+                  &:nth-child(3){
+                    .icon{
+                      &:before{
+                        background-color: #D9E8FF;
+                      }
+                    }
+                  }
+                  &:nth-child(4){
+                    .icon{
+                      &:before{
+                        background-color: #F8DDFF;
+                      }
+                    }
+                  }
+            }
         }
     }
 }
@@ -48,7 +104,7 @@
           top: 0;
           right: -28%;
           z-index: 0;
-          @include sm{
+          @include rmaxwd(1199){
             display: none;
           }
     }

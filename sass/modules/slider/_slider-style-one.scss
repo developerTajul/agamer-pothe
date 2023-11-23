@@ -43,6 +43,18 @@
       transform-origin: bottom left;
     }
   }
+  &:hover{
+    .slider-arrow-btn{
+      visibility: visible;
+      @include transition;
+      &.prev-btn{
+        margin-left: 30px;
+      }
+      &.next-btn{
+        margin-right: 30px;
+      }
+    }
+  }
 
   .slider-wrapper {
     // Active Slider Animate
@@ -191,7 +203,8 @@
     top: 50%;
     transform: translateY(-50%);
     overflow: hidden;
-    // display: none !important;
+    visibility: hidden;
+    @include transition;
 
     @include rmaxwd(1650) {
       width: 44px;
@@ -209,16 +222,18 @@
       display: none !important;
     }
     &.prev-btn {
-      margin-left: 30px;
       left: 0;
+      margin-left: -70px;
+      @include transition;
       @include rmaxwd(1650) {
         left: 50%;
         margin-left: -50px;
       }
     }
     &.next-btn {
-      margin-right: 30px;
       right: 0;
+      margin-right: -70px;
+      @include transition;
       @include rmaxwd(1650) {
         right: 50%;
         margin-right: -50px;
@@ -231,7 +246,6 @@
       transform: translate(-50%, -50%);
       color: $white;
       font-size: 21px;
-      @include transition;
     }
     &:hover {
       @include transition;
@@ -402,15 +416,15 @@
         position: absolute;
         top: 0;
         right: 0;
-        animation: MoveUpDown 2s linear infinite alternate;
+        animation: MoveLeftRight 2s linear infinite alternate;
         @include rmaxwd(1339) {
           display: none;
         }
       }
       .achieve {
         @include rwd(1440) {
-          width: 243px;
-          height: 268px;
+          width: auto;
+          height: auto;
           position: absolute;
           bottom: 0;
           left: -62px;

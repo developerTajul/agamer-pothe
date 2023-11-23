@@ -46,13 +46,10 @@
     @include md {
       font-size: 38px;
       line-height: 48px;
-      br{
-        display: none;
-      }
     }
-    @include md{
+    @include lg{
       br{
-        display: none;
+        // display: none;
       }
     }
     @include sm {
@@ -74,7 +71,7 @@
     line-height: 32px;
     @include md{
       br{
-        display: none;
+        // display: none;
       }
     }
     @include lg{

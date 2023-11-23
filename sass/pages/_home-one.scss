@@ -11,9 +11,20 @@
         margin-left: 48px;
         img{
           width: 100%;
+          @include md{
+            width: auto;
+          }
         }
         @include md{
           transform: translate(15%, 0);
+        }
+      }
+      .center{
+        @include md{
+          transform: translate(45%, 45%);
+        }
+        @include lg{
+          transform: translate(37%, 37%);
         }
       }
     }
@@ -42,7 +53,7 @@
         }
       }
       @include rmaxwd(991){
-        margin-top: 48px;
+        margin-top: 80px;
       }
     }
 
@@ -58,6 +69,7 @@
       bottom: 0;
       right: 0;
       transform: translate(-100%, 100%);
+      animation: rubberBand 5s linear infinite;
       @include rmaxwd(1440){
         display: none;
       }
@@ -128,6 +140,12 @@
     background-position: center;
     position: relative;
     overflow: hidden;
+    .shape{
+      position: absolute;
+      top: 0;
+      right: 0;
+      animation: MoveTopRight 4s infinite;
+    }
     .sketch{
       position: absolute;
       bottom: 70px;
@@ -176,6 +194,22 @@
         }
       }
     }
+    .section-title{
+      .title{
+        br{
+          @include xl{
+            display: none;
+          }
+        }
+      }
+      .desc{
+        br{
+          @include xl{
+            display: none;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -207,6 +241,22 @@
 // Team-area Style-1
 .team-area{
   &.style-1{
+    .section-title{
+      .title{
+        br{
+          @include md{
+            display: none;
+          }
+        }
+      }
+      .desc{
+        br{
+          @include md{
+            display: none;
+          }
+        }
+      }
+    }
       .team-member-card{
         margin-top: 56px;
         &:first-child{

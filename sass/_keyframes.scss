@@ -132,6 +132,14 @@
   0% { transform: translateX(0); }
   100% { transform: translateX(-10px); }
 }
+@-webkit-keyframes MoveTopRight {
+  0% { transform: translate(0, -50%); }
+  100% { transform: translate(0); }
+}
+@keyframes MoveTopRight {
+  0% { transform: translate(0, -50%); }
+  100% { transform: translate(); }
+}
 
 // Animated Left Right
 @-webkit-keyframes MoveUpDown {
@@ -145,11 +153,11 @@
 
 // Animated Left Right
 @-webkit-keyframes ZoomInOut {
-  0% { transform: scale(0.7); }
+  0% { transform: scale(0.1); }
   100% { transform: scale(1); }
 }
 @keyframes ZoomInOut {
-  0% { transform: scale(0.7); }
+  0% { transform: scale(0.1); }
   100% { transform: scale(1); }
 }
 

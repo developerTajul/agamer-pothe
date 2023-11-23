@@ -76,6 +76,16 @@
 .why-choose-area{
   &.style-2{
     position: relative;
+    .section-title{
+      br{
+        @include lg{
+          display: none;
+        }
+        @include xl{
+          display: none;
+        }
+      }
+    }
     .about-info-card{
       margin-top: 6px;
       .section-title{
@@ -154,6 +164,21 @@
       margin-bottom: 40px;
       position: relative;
     }
+}
+
+// Tesitmonial-slider
+.testimonial-slider-area{
+  &.style-1{
+    .section-title{
+      .desc{
+        br{
+          @include lg{
+            display: block;
+          }
+        }
+      }
+    }
+  }
 }
 
 // Client Logo Area

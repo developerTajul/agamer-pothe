@@ -12,6 +12,26 @@
         @include md{
             padding-bottom: 100px;
         }
+        .section-title{
+            .title{
+                @include md{
+                    font-size: 46px;
+                    line-height: 60px;
+                }
+                br{
+                    @include md{
+                        display: block;
+                    }
+                }
+            }
+            .desc{
+                br{
+                    @include md{
+                        display: block;
+                    }
+                }
+            }
+        }
         .theme-btn-wrapper{
             margin-top: 40px;
         } 
