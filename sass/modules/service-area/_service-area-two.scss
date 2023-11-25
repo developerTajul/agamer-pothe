@@ -46,7 +46,15 @@
                 // }
             }
         }
-        
+        .section-title{
+            .title{
+                br{
+                 @include sm{
+                    display: none;
+                 }   
+                }
+            }
+        }
         .service-card-wrapper{
             margin-top: 56px;  
             padding-bottom: 56px;

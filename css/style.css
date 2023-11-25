@@ -6966,6 +6966,11 @@ button.testimonial-arrow-btn:hover:before {
     padding: 23px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card .content {
+    padding: 32px 24px;
+  }
+}
 .post-card .content .tag-wrapper {
   display: flex;
   gap: 12px;
@@ -7206,11 +7211,6 @@ button.testimonial-arrow-btn:hover:before {
   transform: translateX(42px);
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .switch-wrapper .ball {
-    height: 31px;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
   .switch-wrapper .ball {
     height: 31px;
   }
@@ -8224,6 +8224,63 @@ button.testimonial-arrow-btn:hover:before {
   color: #ffffff;
 }
 
+.list-item-wrapper ul {
+  padding-left: 0;
+}
+.list-item-wrapper ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0 8px;
+  padding-top: 8px;
+  color: #141F39;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .list-item-wrapper ul li {
+    align-items: start;
+  }
+}
+.list-item-wrapper ul li:last-child {
+  padding-bottom: 0;
+}
+.list-item-wrapper ul li:before {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Pro";
+  color: #ffffff;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #6E65E5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  line-height: 28px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .list-item-wrapper ul li:before {
+    margin-top: 12px;
+  }
+}
+.list-item-wrapper.style-2 ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.list-item-wrapper.style-2 ul li:before {
+  background-color: #141F39;
+  border: 1px solid #141F39;
+}
+.list-item-wrapper.style-3 ul li:before {
+  content: "\f111";
+  color: transparent;
+  background-color: #141F39;
+  width: 6px;
+  height: 6px;
+}
+
 .project-detail-area .section-title .desc {
   margin-top: 6px;
 }
@@ -8374,6 +8431,9 @@ button.testimonial-arrow-btn:hover:before {
 .list-item-wrapper ul {
   margin-bottom: 0;
 }
+.list-item-wrapper ul li {
+  align-items: center;
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .list-item-wrapper ul li {
     align-items: start !important;
@@ -8381,6 +8441,9 @@ button.testimonial-arrow-btn:hover:before {
   .list-item-wrapper ul li:before {
     margin-top: 6px;
   }
+}
+.list-item-wrapper ul li:before {
+  margin-top: 0;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -8391,63 +8454,6 @@ button.testimonial-arrow-btn:hover:before {
 }
 .more-project-area .project-card {
   margin-top: 56px;
-}
-
-.list-item-wrapper ul {
-  padding-left: 0;
-}
-.list-item-wrapper ul li {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 0 8px;
-  padding-top: 8px;
-  color: #141F39;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .list-item-wrapper ul li {
-    align-items: start;
-  }
-}
-.list-item-wrapper ul li:last-child {
-  padding-bottom: 0;
-}
-.list-item-wrapper ul li:before {
-  content: "\f00c";
-  font-family: "Font Awesome 6 Pro";
-  color: #ffffff;
-  width: 18px;
-  height: 18px;
-  flex-shrink: 0;
-  border-radius: 50px;
-  background: #6E65E5;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10px;
-  line-height: 28px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .list-item-wrapper ul li:before {
-    margin-top: 12px;
-  }
-}
-.list-item-wrapper.style-2 ul li {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 32px;
-}
-.list-item-wrapper.style-2 ul li:before {
-  background-color: #141F39;
-  border: 1px solid #141F39;
-}
-.list-item-wrapper.style-3 ul li:before {
-  content: "\f111";
-  color: transparent;
-  background-color: #141F39;
-  width: 6px;
-  height: 6px;
 }
 
 @media (max-width: 991px) {
@@ -10555,6 +10561,11 @@ ul.children {
   margin-bottom: 40px;
   position: relative;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .faq-area .section-title .title {
+    font-size: 51px;
+  }
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .testimonial-slider-area.style-1 .section-title .desc br {
@@ -10779,13 +10790,33 @@ ul.children {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .contact-info-area .icon-card.style-4 .content {
-    padding: 0 56px;
+    padding: 0 40px;
   }
 }
 .contact-info-area .icon-card-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .contact-info-area .icon-card-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-info-area .icon-card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact-info-area .icon-card-wrapper .icon-card.style-4 .content {
+    padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-info-area .icon-card-wrapper .icon-card.style-4 .content {
+    padding: 0 24px;
+  }
 }
 .contact-info-area .icon-card-wrapper .icon-card.style-4:hover .icon:before {
   animation: ZoomInOut 1s;
@@ -10804,6 +10835,11 @@ ul.children {
   background-color: #F3F2FF;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .contact-form-area .content-wrapper {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-form-area .content-wrapper {
     text-align: center;
   }
@@ -11367,6 +11403,14 @@ ul.children {
   transition: all 0.5s ease-out;
   color: #6E65E5;
 }
+.footer-widget.widget_nav_menu.widget_nav_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.footer-widget.widget_nav_menu.widget_nav_menu .footer-widget-title {
+  margin-bottom: 0;
+}
 .footer-widget .footer-widget-contact p {
   color: #c7cdda;
 }
@@ -11467,6 +11511,11 @@ ul.children {
     justify-content: flex-start;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-bottom-menu ul {
+    gap: 0 16px;
+  }
+}
 .footer-bottom-menu ul li a {
   font-size: 16px;
   color: #ffffff;
@@ -11481,6 +11530,8 @@ ul.children {
 
 .footer-bottom-area {
   padding: 24px 0;
+  position: relative;
+  z-index: 10;
 }
 @media (max-width: 991px) {
   .footer-bottom-area {
@@ -11535,7 +11586,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .subscribe-area {
-    padding: 40px;
+    padding: 40px 20px;
   }
 }
 .subscribe-area .shape {
@@ -11553,6 +11604,11 @@ ul.children {
     display: none;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .subscribe-area .subscribe-inner-area .section-title .title {
+    font-size: 31px;
+  }
+}
 .subscribe-area .content-wrapper {
   display: flex;
   flex-direction: row;
@@ -11567,6 +11623,11 @@ ul.children {
     text-align: center;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .subscribe-area .content-wrapper {
+    gap: 40px;
+  }
+}
 .subscribe-area .content-wrapper .short-title {
   font-size: 21px;
   font-weight: 700;
@@ -11575,37 +11636,16 @@ ul.children {
 }
 .subscribe-area .content-wrapper .subscribe-title {
   color: #ffffff;
-  font-family: "Urbanist", sans-serif;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 53px;
-  margin-bottom: 0;
-}
-@media (max-width: 375px) {
-  .subscribe-area .content-wrapper .subscribe-title {
-    font-size: 34px !important;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .subscribe-area .content-wrapper .subscribe-title {
-    font-size: 40px;
-    line-height: 42px;
-  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .subscribe-area .content-wrapper .subscribe-title {
-    font-size: 36px;
-    line-height: 42px;
+  .subscribe-area .content-wrapper .subscribe-title br {
+    display: none;
   }
 }
-.subscribe-area .content-wrapper .text {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  color: #525256;
-  margin-bottom: 0;
-  margin-top: 14px;
-  line-height: 32px;
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .subscribe-area .content-wrapper .subscribe-title br {
+    display: none;
+  }
 }
 .subscribe-area.style-2 {
   padding: 32px;
@@ -11660,6 +11700,12 @@ ul.children {
   margin: 0;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .subscribe-form-wrapper {
+    flex-shrink: 0;
+  }
+}
+
 .subscribe-form-widget {
   position: relative;
 }
@@ -11676,6 +11722,12 @@ ul.children {
     flex-direction: column;
     border-radius: 0;
     box-shadow: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .subscribe-form-widget .mc4wp-form-fields {
+    flex-direction: column;
+    border-radius: 24px;
   }
 }
 .subscribe-form-widget .single-field {
@@ -12189,7 +12241,7 @@ ul.children {
     display: none;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .about-us-area.style-2 .about-image-card .shape {
     left: -40px;
   }
@@ -12482,6 +12534,8 @@ ul.children {
 .testimonial-slider-area.style-1 .arrow-btn-wrapper {
   display: flex;
   gap: 16px;
+  position: relative;
+  z-index: 10;
 }
 @media (max-width: 991px) {
   .testimonial-slider-area.style-1 .arrow-btn-wrapper {
@@ -13086,6 +13140,11 @@ ul.children {
 }
 @media (max-width: 1199px) {
   .service-area.style-2 .content-wrapper .sketch-2 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area.style-2 .section-title .title br {
     display: none;
   }
 }
@@ -13757,6 +13816,12 @@ ul.children {
 .post-card.style-4 .meta-user-wrapper .tag-wrapper {
   align-items: center;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card.style-4 .meta-user-wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
 .post-card.style-4 .title {
   margin-top: 24px;
   font-size: 36px;
@@ -13788,6 +13853,11 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .feature-area .section-title .title {
     font-size: 36px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area .section-title .title br {
+    display: none;
   }
 }
 .feature-area .icon-card-wrapper {

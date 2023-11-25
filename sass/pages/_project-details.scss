@@ -151,11 +151,15 @@
     ul{
         margin-bottom: 0;
         li{
+            align-items: center;
             @include lg{
                 align-items: start !important;
                 &:before{
                     margin-top: 6px;
                 }
+            }
+            &:before{
+                margin-top: 0;
             }
         }
     }

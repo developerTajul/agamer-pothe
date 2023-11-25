@@ -163,6 +163,11 @@
     .section-title{
       margin-bottom: 40px;
       position: relative;
+      .title{
+        @include lg{
+          font-size: 51px;
+        }
+      }
     }
 }
 

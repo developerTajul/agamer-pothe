@@ -219,13 +219,7 @@
                 },
             },
             {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                },
-            },
-            {
-                breakpoint: 625,
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
                 },
@@ -274,6 +268,18 @@
         $('.filter-button-group button').removeClass("active");
         $(this).addClass("active");
     });
+
+    // Accordion height
+    const accordionEl = $(".accordion");
+        const  accordionHeight = accordionEl.innerHeight();
+        
+            var width = $(window).width();
+            if (width < 767){
+                accordionEl.css("height",'auto');
+            }else{
+                accordionEl.css("height",accordionHeight);
+            }
+
         /*
        Related Portfolio Slider
        ============================*/

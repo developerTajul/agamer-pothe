@@ -25,7 +25,7 @@
             }
             .content{
                 @include xl{
-                    padding: 0 56px;
+                    padding: 0 40px;
                 }
             }
         }
@@ -34,8 +34,22 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
+        @include sm{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        @include md{
+            grid-template-columns: repeat(2, 1fr);
+        }
         .icon-card{
             &.style-4{
+                .content{
+                    @include md{
+                        padding: 0 40px;
+                    }
+                    @include lg{
+                        padding: 0 24px;
+                    }
+                }
                 &:hover{
                     .icon{
                         &:before{
@@ -72,6 +86,9 @@
     background-color: #F3F2FF;
     .content-wrapper{
         @include sm{
+            text-align: center;
+        }
+        @include md{
             text-align: center;
         }
     }

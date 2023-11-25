@@ -52,6 +52,9 @@
     @include lg{
       padding: 23px;
     }
+    @include sm{
+      padding: 32px 24px;
+    }
 
     .tag-wrapper{
       display: flex;

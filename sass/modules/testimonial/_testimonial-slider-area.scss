@@ -20,6 +20,8 @@
       .arrow-btn-wrapper{
         display: flex;
         gap: 16px;
+        position: relative;
+        z-index: 10;
         @include rmaxwd(991){
           justify-content: center;
         }

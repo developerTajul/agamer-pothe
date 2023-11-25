@@ -58,6 +58,10 @@
             .tag-wrapper{
                 align-items: center;
             }
+            @include sm{
+                flex-direction: column;
+                gap: 24px;
+            }
         }
         .title{
             margin-top: 24px;
