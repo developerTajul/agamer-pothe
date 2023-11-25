@@ -11130,6 +11130,10 @@ ul.children {
   overflow: hidden;
 }
 
+.service-details-title p {
+  margin-bottom: 0;
+}
+
 .service-area.style-1.style-2 .service-area-inner .section-title {
   margin-bottom: 56px;
 }
