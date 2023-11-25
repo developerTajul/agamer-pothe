@@ -8752,11 +8752,11 @@ button.testimonial-arrow-btn:hover:before {
   display: flex;
   padding: 0 !important;
   background-color: #ffffff;
-  border-radius: 50px;
 }
 .widget .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input,
 .widget .search-form .wp-block-search__inside-wrapper .wp-block-search__input {
   border: 1px solid #dfe2e9 !important;
+  border-radius: 8px 0 0 8px;
 }
 .widget .wp-block-search button,
 .widget .search-form button {
@@ -8770,6 +8770,7 @@ button.testimonial-arrow-btn:hover:before {
   line-height: 0;
   margin-left: 0 !important;
   border: 1px solid transparent;
+  border-radius: 0 8px 8px 0;
 }
 .widget .wp-block-search button i,
 .widget .search-form button i {
@@ -8778,13 +8779,12 @@ button.testimonial-arrow-btn:hover:before {
 }
 .widget .wp-block-search button:hover,
 .widget .search-form button:hover {
-  background-color: #ffffff;
-  color: #141F39;
-  border-color: #D6D6D6;
+  background-color: #6E65E5;
+  color: #ffffff;
 }
 .widget .wp-block-search button:hover i,
 .widget .search-form button:hover i {
-  color: #141F39;
+  color: #ffffff;
 }
 .widget .tagcloud,
 .widget .wp-block-tag-cloud {
