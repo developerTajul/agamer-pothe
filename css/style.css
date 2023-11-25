@@ -6346,6 +6346,7 @@ button.testimonial-arrow-btn:hover:before {
   padding: 40px;
   border: 1px solid #D6D6D6;
   border-radius: 0 0 16px 16px;
+  border-radius: 16px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-post-item .post-content-wrapper {
@@ -8728,24 +8729,34 @@ button.testimonial-arrow-btn:hover:before {
 }
 .widget .wp-block-search label,
 .widget .search-form label {
-  font-size: 24px;
   display: block;
-  line-height: 28px;
+  font-size: 36px;
   font-weight: 700;
+  line-height: 46px;
   margin-bottom: 30px;
-  color: #FF7F63;
+  color: #141F39;
   font-family: "Urbanist", sans-serif;
 }
 .widget .wp-block-search input,
 .widget .search-form input {
   background-color: #ffffff;
-  padding: 15px 24px;
-  height: 62px;
+  padding: 0 25px;
+  height: 60px;
   width: 100%;
   color: #5e6f92;
   font-size: 15px;
-  border-radius: 8px;
-  border: 1px solid #E4E4E7;
+  border-color: transparent !important;
+}
+.widget .wp-block-search .wp-block-search__inside-wrapper,
+.widget .search-form .wp-block-search__inside-wrapper {
+  display: flex;
+  padding: 0 !important;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.widget .wp-block-search .wp-block-search__inside-wrapper .wp-block-search__input,
+.widget .search-form .wp-block-search__inside-wrapper .wp-block-search__input {
+  border: 1px solid #dfe2e9 !important;
 }
 .widget .wp-block-search button,
 .widget .search-form button {
@@ -8756,21 +8767,20 @@ button.testimonial-arrow-btn:hover:before {
   background-color: #141F39;
   top: 0;
   height: auto;
-  border-radius: 8px;
   line-height: 0;
-  border: 0;
   margin-left: 0 !important;
+  border: 1px solid transparent;
 }
 .widget .wp-block-search button i,
 .widget .search-form button i {
   font-size: 24px;
   color: #ffffff;
-  transition: all 0.5s ease-out;
 }
 .widget .wp-block-search button:hover,
 .widget .search-form button:hover {
   background-color: #ffffff;
   color: #141F39;
+  border-color: #D6D6D6;
 }
 .widget .wp-block-search button:hover i,
 .widget .search-form button:hover i {

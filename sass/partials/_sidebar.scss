@@ -277,23 +277,31 @@
       padding: 0 !important;
     }
     label {
-      font-size: 24px;
       display: block;
-      line-height: 28px;
+      font-size: 36px;
       font-weight: 700;
+      line-height: 46px;
       margin-bottom: 30px;
-      color: $secondary-color;
+      color: $black;
       font-family: $heading-font;
     }
     input {
       background-color: $white;
-      padding: 15px 24px;
-      height: 62px;
+      padding: 0 25px;
+      height: 60px;
       width: 100%;
       color: $text-color;
       font-size: 15px;
-      border-radius: 8px;
-      border: 1px solid #E4E4E7;
+      border-color: transparent !important;
+    }
+    .wp-block-search__inside-wrapper {
+      display: flex;
+      padding: 0 !important;
+      background-color: $white;
+      border-radius: 50px;
+      .wp-block-search__input{
+        border: 1px solid #dfe2e9 !important;
+      }
     }
     button {
       color: $white;
@@ -303,18 +311,17 @@
       background-color: $black;
       top: 0;
       height: auto;
-      border-radius: 8px;
       line-height: 0;
-      border: 0;
       margin-left: 0 !important;
+      border: 1px solid transparent;
       i{
         font-size: 24px;
         color: $white;
-        @include transition;
       }
       &:hover{
         background-color: $white;
         color: $black;
+        border-color: $border;
         i{
           color: $black;
         }
