@@ -404,6 +404,7 @@
         @include transition;
 
         &:hover {
+          color: $primary-color;
           text-decoration: underline;
           @include transition;
         }

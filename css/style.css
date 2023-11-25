@@ -6394,6 +6394,9 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item.sticky .post-content p {
   margin-bottom: 0;
 }
+.single-post-item.has-post-thumbnail .post-content-wrapper {
+  border-radius: 0 0 16px 16px;
+}
 .single-post-item .post-title {
   font-size: 36px;
   font-weight: 700;
@@ -8859,6 +8862,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 .widget ul li a:hover,
 .widget ol li a:hover {
+  color: #6E65E5;
   text-decoration: underline;
   transition: all 0.5s ease-out;
 }

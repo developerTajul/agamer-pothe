@@ -310,6 +310,12 @@
       }
     }
   }
+  // has-post-thumbnail
+  &.has-post-thumbnail{
+    .post-content-wrapper{
+      border-radius: 0 0 16px 16px;
+    }
+  }
 
   .post-title {
     font-size: 36px;
