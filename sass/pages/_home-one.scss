@@ -9,6 +9,9 @@
     .about-image-card{
       .main-img{
         margin-left: 48px;
+        @include sm{
+          margin-left: 24px;
+        }
         img{
           width: 100%;
           @include md{
@@ -45,6 +48,11 @@
           @include sm{
             margin-top: 0;
           }
+          br{
+            @include xl{
+              display: none;
+            }
+          }
         }
       }
       .icon-card{
@@ -76,6 +84,15 @@
     }
     .btn-wrapper{
       margin-top: 24px;
+    }
+  }
+  .icon-card-wrapper{
+    .icon-card{
+      &.style-2{
+        @include xl{
+          padding: 40px 38px;
+        }
+      }
     }
   }
 }
@@ -245,6 +262,9 @@
       .title{
         br{
           @include md{
+            display: none;
+          }
+          @include lg{
             display: none;
           }
         }

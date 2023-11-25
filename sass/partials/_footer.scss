@@ -579,8 +579,8 @@
     border-radius: 50px;
     margin: 8px;
     &:hover{
-      color: $white;
-      background-color: $background;
+      color: $black;
+      background-color: $white;
     }
     
   @include sm {

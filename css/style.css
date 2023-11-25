@@ -5355,6 +5355,17 @@ body.admin-bar .header-menu-area.sticky_menu {
   width: 88px;
   height: 88px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .video-popup-btn.style-3 .icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .video-popup-btn.style-3 .icon i {
+    font-size: 18px;
+  }
+}
 
 .counter-card {
   z-index: 1;
@@ -7257,14 +7268,18 @@ button.testimonial-arrow-btn:hover:before {
 .price-card-wrapper .price-card:hover .card-title .sub-title {
   color: #ffffff;
   background-color: transparent;
+  border-color: #ffffff;
+  transition: all 0.5s ease-out;
 }
 .price-card-wrapper .price-card:hover .card-title .price .price-heading {
   color: #ffffff;
 }
 .price-card-wrapper .price-card:hover .card-title .price .price-desc {
   color: #ffffff;
+  transition: all 0.5s ease-out;
 }
 .price-card-wrapper .price-card:hover .divider:before {
+  transition: all 0.5s ease-out;
   background: #6E65E5;
 }
 .price-card-wrapper .price-card:hover .list-item-wrapper ul li {
@@ -7296,6 +7311,7 @@ button.testimonial-arrow-btn:hover:before {
   padding: 8px 24px;
   background-color: #F9F9F9;
   border-radius: 50px;
+  border: 1px solid transparent;
   text-transform: capitalize;
 }
 .price-card-wrapper .price-card .card-title .price .price-heading {
@@ -7323,6 +7339,7 @@ button.testimonial-arrow-btn:hover:before {
   line-height: 32px;
   color: #525256;
   margin-bottom: 0;
+  transition: all 0.5s ease-out;
 }
 .price-card-wrapper .price-card .card-title .price .price-desc .monthly,
 .price-card-wrapper .price-card .card-title .price .price-desc .yearly {
@@ -7342,6 +7359,7 @@ button.testimonial-arrow-btn:hover:before {
   width: 100%;
   height: 1px;
   background: #E4E4E7;
+  transition: all 0.5s ease-out;
 }
 .price-card-wrapper .price-card .list-item-wrapper {
   margin-top: 0;
@@ -7351,9 +7369,11 @@ button.testimonial-arrow-btn:hover:before {
 }
 .price-card-wrapper .price-card .list-item-wrapper ul li {
   padding-top: 8px;
+  transition: all 0.5s ease-out;
 }
 .price-card-wrapper .price-card .list-item-wrapper ul li:before {
   border: none;
+  transition: all 0.5s ease-out;
 }
 .price-card-wrapper .price-card .list-item-wrapper ul li:first-child {
   padding-top: 0;
@@ -7410,6 +7430,7 @@ button.testimonial-arrow-btn:hover:before {
   transition: all 0.5s ease-out;
   color: #141F39;
   background-color: transparent;
+  border-color: #D6D6D6;
 }
 .price-card-wrapper.active .price-card:hover .card-title .price .price-heading {
   color: #141F39;
@@ -7418,7 +7439,7 @@ button.testimonial-arrow-btn:hover:before {
   color: #525256;
 }
 .price-card-wrapper.active .price-card:hover .divider:before {
-  background: #6E65E5;
+  background: #E4E4E7;
 }
 .price-card-wrapper.active .price-card:hover .list-item-wrapper ul li {
   color: #141F39;
@@ -7426,6 +7447,9 @@ button.testimonial-arrow-btn:hover:before {
 .price-card-wrapper.active .price-card:hover .list-item-wrapper ul li:before {
   background-color: #141F39;
   color: #ffffff;
+}
+.price-card-wrapper.active .price-card:hover .price-btn .theme-btn {
+  border: 1px solid #D6D6D6;
 }
 
 .triangle-shape-card-one {
@@ -7567,7 +7591,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title .title {
-    font-size: 38px;
+    font-size: 36px;
     line-height: 48px;
   }
 }
@@ -7583,6 +7607,14 @@ button.testimonial-arrow-btn:hover:before {
   color: #525256;
   margin-bottom: 0;
   line-height: 32px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .section-title .desc {
+    font-size: 16px;
+  }
+  .section-title .desc br {
+    display: none;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title .desc br {
@@ -9804,7 +9836,7 @@ ul.children {
   background-color: #F9F9F9;
   transition: all 0.5s ease-out;
 }
-.team-member-card:hover .image {
+.team-member-card:hover .image img {
   transform: scale(1.03);
 }
 .team-member-card:hover .content {
@@ -9819,8 +9851,10 @@ ul.children {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: scale(1.001);
+}
+.team-member-card .image img {
   transition: all 0.5s ease-out;
+  transform: scale(1.001);
 }
 .team-member-card .inner-wrapper {
   position: relative;
@@ -10063,6 +10097,11 @@ ul.children {
 .about-us-area.style-1 .about-image-card .main-img {
   margin-left: 48px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-1 .about-image-card .main-img {
+    margin-left: 24px;
+  }
+}
 .about-us-area.style-1 .about-image-card .main-img img {
   width: 100%;
 }
@@ -10106,6 +10145,11 @@ ul.children {
     margin-top: 0;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .about-us-area.style-1 .about-info-card .section-title .desc br {
+    display: none;
+  }
+}
 .about-us-area.style-1 .about-info-card .icon-card .icon {
   border-color: transparent;
 }
@@ -10135,6 +10179,11 @@ ul.children {
 }
 .service-area .section-title .btn-wrapper {
   margin-top: 24px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .service-area .icon-card-wrapper .icon-card.style-2 {
+    padding: 40px 38px;
+  }
 }
 
 .portfolio-slider-area.style-1 {
@@ -10271,6 +10320,11 @@ ul.children {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .team-area.style-1 .section-title .title br {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .team-area.style-1 .section-title .title br {
     display: none;
   }
@@ -11677,8 +11731,8 @@ ul.children {
   margin: 8px;
 }
 .subscribe-form-widget .submit-btn:hover {
-  color: #ffffff;
-  background-color: #5F54D3;
+  color: #141F39;
+  background-color: #ffffff;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .subscribe-form-widget .submit-btn {
@@ -12133,6 +12187,11 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .about-us-area.style-2 .about-image-card .shape {
     display: none;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .about-us-area.style-2 .about-image-card .shape {
+    left: -40px;
   }
 }
 .about-us-area.style-2 .about-image-card .main-img {
@@ -12679,6 +12738,11 @@ ul.children {
     font-size: 16px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-slider-area.style-1 .icon-card-wrapper .icon-card.style-2 .content .desc {
+    font-size: 16px;
+  }
+}
 .testimonial-slider-area.style-1 .duo-wrapper {
   display: flex;
   flex-direction: column;
@@ -13055,6 +13119,11 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .service-area.style-2 .service-card-wrapper .icon-card {
     padding: 32px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area.style-2 .service-card-wrapper .icon-card {
+    padding: 40px 24px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -13714,6 +13783,11 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area {
     padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .feature-area .section-title .title {
+    font-size: 36px;
   }
 }
 .feature-area .icon-card-wrapper {

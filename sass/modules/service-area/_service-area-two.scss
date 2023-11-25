@@ -71,6 +71,9 @@
                 @include lg{
                     padding: 32px;
                 }
+                @include sm{
+                    padding: 40px 24px;
+                }
                 .desc{
                     @include lg{
                         font-size: 16px;

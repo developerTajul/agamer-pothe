@@ -163,6 +163,15 @@
       background-color: $white;
       width: 88px;
       height: 88px;
+      @include sm{
+        width: 60px; 
+        height: 60px; 
+      }
+      i{
+        @include sm{
+          font-size: 18px;
+        }
+      }
     }
   }
 }

@@ -53,7 +53,7 @@
       }
     }
     @include sm {
-      font-size: 38px;
+      font-size: 36px;
       line-height: 48px;
     }
     @media only screen and (min-width: 0px) and (max-width: 439px){
@@ -69,9 +69,10 @@
     color: $black-2;
     margin-bottom: 0;
     line-height: 32px;
-    @include md{
+    @include sm{
+      font-size: 16px;
       br{
-        // display: none;
+        display: none;
       }
     }
     @include lg{

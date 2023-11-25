@@ -9,7 +9,9 @@
   @include transition;
   &:hover{
     .image{
-      transform: scale(1.03);
+      img{
+        transform: scale(1.03);
+      }
     }
     .content{
       transform: scale(1);
@@ -27,8 +29,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: scale(1.001);
-    @include transition;
+    img{
+      @include transition;
+      transform: scale(1.001);
+    }
 
   }
   .inner-wrapper{
