@@ -124,6 +124,7 @@
         overflow: hidden;
         img{
             transform: scale(1.01);
+            @include transition;
         }
         &:hover{
             img{

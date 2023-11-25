@@ -6539,6 +6539,7 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .post-video img,
 .single-post-item .post-gallery img,
 .single-post-item .post-audio img {
+  width: 100%;
   transform: scale(1);
   transition: all 0.5s ease-out;
 }
@@ -8415,6 +8416,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 .image-wrapper .image img {
   transform: scale(1.01);
+  transition: all 0.5s ease-out;
 }
 .image-wrapper .image:hover img {
   transform: scale(1.03);
@@ -11141,6 +11143,7 @@ ul.children {
 .service-details-wrapper .image-wrapper .image {
   border-radius: 24px;
   overflow: hidden;
+  transition: all 0.5s ease-out;
 }
 
 .service-details-title p {

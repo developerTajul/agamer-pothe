@@ -114,6 +114,7 @@
         .image{
             border-radius: 24px;
             overflow: hidden;
+            @include transition;
         }
     }
 }
