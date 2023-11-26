@@ -6323,6 +6323,7 @@ button.testimonial-arrow-btn:hover:before {
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 48px;
+  border: 1px solid #D6D6D6;
   /* Quote Format Post */
   /* Sticky Post */
 }
@@ -6344,7 +6345,6 @@ button.testimonial-arrow-btn:hover:before {
 }
 .single-post-item .post-content-wrapper {
   padding: 40px;
-  border: 1px solid #D6D6D6;
   border-radius: 0 0 16px 16px;
   border-radius: 16px;
 }
@@ -6539,7 +6539,6 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .post-video img,
 .single-post-item .post-gallery img,
 .single-post-item .post-audio img {
-  width: 100%;
   transform: scale(1);
   transition: all 0.5s ease-out;
 }
