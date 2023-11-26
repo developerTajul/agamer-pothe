@@ -6414,7 +6414,7 @@ button.testimonial-arrow-btn:hover:before {
   font-weight: 700;
   line-height: 46px;
   margin-bottom: 0;
-  margin-top: 40px;
+  margin-top: 32px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-post-item .post-title {
