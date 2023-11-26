@@ -583,8 +583,11 @@
         }
       }
     }
-    .tag-wrapper{
+    .comment-wrapper{
       margin-left: auto;
+    }
+    .tag-wrapper{
+      // margin-left: auto;
       @include sm{
         margin-left: 0;
       }
