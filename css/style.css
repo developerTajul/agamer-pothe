@@ -3351,6 +3351,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   padding: 0;
   position: relative;
 }
+.main-menu ul li:last-child a {
+  padding-right: 0;
+}
 .main-menu ul li.active {
   position: relative;
 }
@@ -3501,7 +3504,9 @@ body.admin-bar .header-menu-area.sticky_menu {
   margin-left: 26px;
   display: flex;
   align-items: center;
+  justify-content: end;
   gap: 31px;
+  flex-grow: 1;
 }
 @media only screen and (max-width: 1199px) {
   .header-btn {
