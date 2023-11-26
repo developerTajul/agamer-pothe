@@ -32,6 +32,10 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  .image{
+    border-radius: 50px;
+    overflow: hidden;
+  }
   .meta-user-content{
     .title{
       margin: 0;

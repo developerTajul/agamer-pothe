@@ -6142,6 +6142,10 @@ button.testimonial-arrow-btn:hover:before {
   align-items: center;
   gap: 16px;
 }
+.post-meta .image {
+  border-radius: 50px;
+  overflow: hidden;
+}
 .post-meta .meta-user-content .title {
   margin: 0;
 }
