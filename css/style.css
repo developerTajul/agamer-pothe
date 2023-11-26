@@ -6565,7 +6565,10 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .post-video img,
 .single-post-item .post-gallery img,
 .single-post-item .post-audio img {
+  width: 100%;
   transform: scale(1);
+  height: 364px;
+  object-fit: cover;
   transition: all 0.5s ease-out;
 }
 .single-post-item .post-thumbnail .popup-video-wrapper,
@@ -6668,7 +6671,7 @@ button.testimonial-arrow-btn:hover:before {
   font-family: "Font Awesome 6 Pro";
   color: #525256;
 }
-.single-post-item .content-header .comment-wrapper {
+.single-post-item .content-header .post-meta-right {
   margin-left: auto;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
