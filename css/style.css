@@ -11743,6 +11743,11 @@ ul.children {
 .subscribe-area .content-wrapper .subscribe-title {
   color: #ffffff;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .subscribe-area .content-wrapper .subscribe-title {
+    font-size: 47px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .subscribe-area .content-wrapper .subscribe-title br {
     display: none;
@@ -11828,12 +11833,6 @@ ul.children {
     flex-direction: column;
     border-radius: 0;
     box-shadow: none;
-  }
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .subscribe-form-widget .mc4wp-form-fields {
-    flex-direction: column;
-    border-radius: 24px;
   }
 }
 .subscribe-form-widget .single-field {
