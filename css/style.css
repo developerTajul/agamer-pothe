@@ -8758,7 +8758,6 @@ button.testimonial-arrow-btn:hover:before {
   width: 100%;
   overflow: hidden;
   background-color: transparent;
-  gap: 16px;
 }
 .widget .wp-block-search .wp-block-search__inside-wrapper,
 .widget .search-form .wp-block-search__inside-wrapper {
