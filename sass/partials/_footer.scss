@@ -437,6 +437,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
     @include rmaxwd(1199){
       flex-direction: column;
       gap: 30px;
@@ -525,9 +526,7 @@
   }
 }
 .subscribe-form-wrapper{
-  @media only screen and (min-width: 1200px) and (max-width: 1399px){
-    flex-shrink: 0;
-  }
+  flex-shrink: 0;
 }
 .subscribe-form-widget {
   position: relative;

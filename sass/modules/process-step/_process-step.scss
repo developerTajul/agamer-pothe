@@ -21,6 +21,9 @@
         &:hover{
             .icon-wrapper{
                 .icon{
+                    h3{
+                        color: $white;
+                    }
                     &:after{
                         visibility: visible;
                         transform: scale(1);

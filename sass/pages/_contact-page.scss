@@ -14,7 +14,7 @@
                     background-color: #FEE1E6;
                     content: "";
                     position: absolute;
-                    right: 0;
+                    right: -12px;
                     bottom: 0;
                     z-index: unset;
                 }
@@ -67,7 +67,7 @@
                   &:nth-child(3){
                     .icon{
                       &:before{
-                        background-color: #D9E8FF;
+                        background-color: #F8DDFF;
                       }
                     }
                   }

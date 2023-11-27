@@ -2962,13 +2962,19 @@ body.admin-bar .header-menu-area.sticky_menu {
   100% {
     transform: translate(0);
   }
+  0% {
+    transform: translate(0, -50%);
+  }
 }
 @keyframes MoveTopRight {
   0% {
     transform: translate(0, -50%);
   }
   100% {
-    transform: translate();
+    transform: translate(0);
+  }
+  0% {
+    transform: translate(0, -50%);
   }
 }
 @-webkit-keyframes MoveUpDown {
@@ -5517,6 +5523,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding: 24px;
     padding-bottom: 0;
   }
+}
+.process-step:hover .icon-wrapper .icon h3 {
+  color: #ffffff;
 }
 .process-step:hover .icon-wrapper .icon:after {
   visibility: visible;
@@ -10301,7 +10310,7 @@ ul.children {
   position: absolute;
   top: 0;
   right: 0;
-  animation: MoveTopRight 4s infinite;
+  animation: MoveTopRight 4s infinite ease-in-out;
 }
 .why-choose-area.style-1 .sketch {
   position: absolute;
@@ -10887,7 +10896,7 @@ ul.children {
   background-color: #FEE1E6;
   content: "";
   position: absolute;
-  right: 0;
+  right: -12px;
   bottom: 0;
   z-index: unset;
 }
@@ -10932,7 +10941,7 @@ ul.children {
   background-color: #FFF2D0;
 }
 .contact-info-area .icon-card-wrapper .icon-card.style-4:nth-child(3) .icon:before {
-  background-color: #D9E8FF;
+  background-color: #F8DDFF;
 }
 .contact-info-area .icon-card-wrapper .icon-card.style-4:nth-child(4) .icon:before {
   background-color: #F8DDFF;
@@ -11726,6 +11735,7 @@ ul.children {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 40px;
 }
 @media (max-width: 1199px) {
   .subscribe-area .content-wrapper {
@@ -11817,10 +11827,8 @@ ul.children {
   margin: 0;
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .subscribe-form-wrapper {
-    flex-shrink: 0;
-  }
+.subscribe-form-wrapper {
+  flex-shrink: 0;
 }
 
 .subscribe-form-widget {

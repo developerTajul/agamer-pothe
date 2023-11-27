@@ -160,7 +160,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      animation: MoveTopRight 4s infinite;
+      animation: MoveTopRight 4s infinite ease-in-out;
     }
     .sketch{
       position: absolute;
