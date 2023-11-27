@@ -2413,10 +2413,6 @@ table td#today a {
   display: block;
 }
 
-.size-thumbnail {
-  margin-bottom: 20px;
-}
-
 img.emoji {
   width: 15px;
   height: 15px;
@@ -9117,6 +9113,8 @@ button.testimonial-arrow-btn:hover:before {
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 12px;
+  width: 104px;
+  height: 104px;
 }
 .widget_latest_post ul li .latest-post-thumb img {
   border-radius: 12px;
