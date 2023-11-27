@@ -59,6 +59,20 @@
             }
           }
         }
+        &:nth-child(5){
+          .icon{
+            &:before{
+              background-color: #D0FFEC;
+            }
+          }
+        }
+        &:nth-child(6){
+          .icon{
+            &:before{
+              background-color: #FFE8DF;
+            }
+          }
+        }
       }
     }
   }

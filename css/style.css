@@ -8775,7 +8775,8 @@ button.testimonial-arrow-btn:hover:before {
   width: 100%;
   color: #5e6f92;
   font-size: 15px;
-  border-color: transparent !important;
+  border-radius: 8px;
+  border: 1px solid #E4E4E7;
 }
 .widget .wp-block-search .wp-block-search__inside-wrapper,
 .widget .search-form .wp-block-search__inside-wrapper {
@@ -8800,7 +8801,7 @@ button.testimonial-arrow-btn:hover:before {
   line-height: 0;
   margin-left: 0 !important;
   border: 1px solid transparent;
-  border-radius: 0 8px 8px 0;
+  border-radius: 8px;
 }
 .widget .wp-block-search button i,
 .widget .search-form button i {
@@ -13198,6 +13199,12 @@ ul.children {
 }
 .service-area .icon-card.style-2:nth-child(4) .icon:before {
   background-color: #F8DDFF;
+}
+.service-area .icon-card.style-2:nth-child(5) .icon:before {
+  background-color: #D0FFEC;
+}
+.service-area .icon-card.style-2:nth-child(6) .icon:before {
+  background-color: #FFE8DF;
 }
 
 .service-area.style-2 {

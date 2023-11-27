@@ -292,7 +292,9 @@
       width: 100%;
       color: $text-color;
       font-size: 15px;
-      border-color: transparent !important;
+      // border-color: transparent !important;
+      border-radius: 8px;
+      border: 1px solid #E4E4E7;
     }
     .wp-block-search__inside-wrapper {
       display: flex;
@@ -314,7 +316,7 @@
       line-height: 0;
       margin-left: 0 !important;
       border: 1px solid transparent;
-      border-radius: 0 8px 8px 0;
+      border-radius: 8px;
       i{
         font-size: 24px;
         color: $white;
