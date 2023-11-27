@@ -302,13 +302,16 @@
       }
       .shape{
         position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(-50%, -50%);
+        top: 13%;
+        left: 65px;
+        // transform: translate(-50%, -50%);
         @include rmaxwd(991){
             display: none;
         }
         @include lg{
+            display: none;
+        }
+        @include xl{
             display: none;
         }
     }

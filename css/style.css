@@ -5631,7 +5631,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .inner-wrapper .shape-one {
   position: absolute;
-  top: 0;
+  top: -16px;
   left: 0;
   animation: bounce 5s linear infinite;
 }
@@ -5642,7 +5642,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .inner-wrapper .shape-two {
   position: absolute;
-  top: 100px;
+  top: 74px;
   right: 0;
   animation: rubberBand 5s linear infinite;
 }
@@ -7416,7 +7416,6 @@ button.testimonial-arrow-btn:hover:before {
   justify-content: center;
   border-radius: 50px;
   background-color: #ffffff;
-  border: 1px solid #D6D6D6;
   color: #141F39;
 }
 .price-card-wrapper .price-card .price-btn .theme-btn:hover {
@@ -10420,9 +10419,8 @@ ul.children {
 }
 .pricing-area.style-1 .shape {
   position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
+  top: 13%;
+  left: 65px;
 }
 @media (max-width: 991px) {
   .pricing-area.style-1 .shape {
@@ -10430,6 +10428,11 @@ ul.children {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .pricing-area.style-1 .shape {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .pricing-area.style-1 .shape {
     display: none;
   }
