@@ -4100,11 +4100,6 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   z-index: 99;
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .slider-area .single-slider .slider-content-wrapper {
-    padding: 12px;
-  }
-}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .single-slider .slider-content-wrapper {
     padding: 0;
@@ -4330,7 +4325,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .slider-btn-wrapper .slider-btn {
-    padding: 8px 16px;
+    padding: 8px 20px;
     font-size: 14px;
   }
 }
@@ -7160,6 +7155,7 @@ button.testimonial-arrow-btn:hover:before {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .post-card.style-2 .content {
     gap: 12px;
+    padding: 32px 24px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -10852,6 +10848,7 @@ ul.children {
   gap: 16px;
   padding: 38px;
   display: flex !important;
+  transition: all 0.5s ease-out;
 }
 @media (max-width: 991px) {
   .testimonial-area .icon-card.style-2 {
@@ -10863,6 +10860,14 @@ ul.children {
 }
 .testimonial-area .icon-card.style-2 .meta-user {
   margin-top: 16px;
+}
+.testimonial-area .icon-card.slick-active {
+  border: 1px solid #D6D6D6;
+  box-shadow: none;
+}
+.testimonial-area .icon-card.slick-center {
+  border-color: transparent;
+  box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.2);
 }
 
 @media (max-width: 991px) {
@@ -11888,8 +11893,7 @@ ul.children {
   margin: 8px;
 }
 .subscribe-form-widget .submit-btn:hover {
-  color: #141F39;
-  background-color: #ffffff;
+  background-color: #6E65E5;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .subscribe-form-widget .submit-btn {

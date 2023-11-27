@@ -51,6 +51,7 @@
         padding: 0 !important;
         
       }
+
     }
     .icon-card{
       &.style-2{
@@ -58,6 +59,7 @@
         gap: 16px;
         padding: 38px;
         display: flex !important;
+        @include transition;
         @include rmaxwd(991){
           &:first-child{
             margin-top: 0;
@@ -68,6 +70,14 @@
           .meta-user{
             margin-top: 16px;
           }
+      }
+      &.slick-active{
+        border: 1px solid $border;
+        box-shadow: none;
+      }
+      &.slick-center{
+        border-color: transparent;
+        box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20);
       }
     }
 }
