@@ -9088,6 +9088,7 @@ button.testimonial-arrow-btn:hover:before {
 
 .widget_latest_post ul li {
   display: flex;
+  align-items: center;
   gap: 16px;
   margin-bottom: 0px;
   padding: 40px 0;
@@ -9126,17 +9127,16 @@ button.testimonial-arrow-btn:hover:before {
 .widget_latest_post ul li .latest-post-desc .latest-post-title {
   margin-bottom: 8px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 34px;
   color: #FF7F63;
   font-family: "Urbanist", sans-serif;
   margin-bottom: 0;
-  margin-top: 8px;
 }
 .widget_latest_post ul li .latest-post-desc .latest-post-title a {
   font-family: "Urbanist", sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 34px;
   color: #141F39;
   position: relative;
