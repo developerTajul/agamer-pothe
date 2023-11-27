@@ -257,6 +257,25 @@
 // Team-area Style-1
 .team-area{
   &.style-1{
+    position: relative;
+    .shape-one{
+      position: absolute;
+      top: 74px;
+      left: 0;
+      animation: rubberBand 5s linear infinite;
+      @include rmaxwd(991){
+          display: none;
+      }
+  }
+  .shape-two{
+    position: absolute;
+    top: -16px;
+    right: 0;
+    animation: bounce 5s linear infinite;
+    @include rmaxwd(991){
+        display: none;
+    }
+  }
     .section-title{
       .title{
         br{

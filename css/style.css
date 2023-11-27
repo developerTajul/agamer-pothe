@@ -5043,6 +5043,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-image-card.style-2 {
   background-size: cover;
   position: relative;
+  padding-right: 44px;
 }
 .about-image-card.style-2 .dot {
   width: 16px;
@@ -10386,6 +10387,31 @@ ul.children {
   gap: 40px;
 }
 
+.team-area.style-1 {
+  position: relative;
+}
+.team-area.style-1 .shape-one {
+  position: absolute;
+  top: 74px;
+  left: 0;
+  animation: rubberBand 5s linear infinite;
+}
+@media (max-width: 991px) {
+  .team-area.style-1 .shape-one {
+    display: none;
+  }
+}
+.team-area.style-1 .shape-two {
+  position: absolute;
+  top: -16px;
+  right: 0;
+  animation: bounce 5s linear infinite;
+}
+@media (max-width: 991px) {
+  .team-area.style-1 .shape-two {
+    display: none;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-area.style-1 .section-title .title br {
     display: none;
