@@ -3349,7 +3349,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 
 .main-menu ul {
   margin: 0;
-  padding: 80px;
+  padding-left: 80px;
   position: relative;
 }
 .main-menu ul li {
