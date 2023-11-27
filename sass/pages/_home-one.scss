@@ -74,9 +74,8 @@
     position: relative;
     .shape{
       position: absolute;
-      bottom: 0;
-      right: 0;
-      transform: translate(-100%, 100%);
+      bottom: -40%;
+      right: 30%;
       animation: rubberBand 5s linear infinite;
       @include rmaxwd(1440){
         display: none;

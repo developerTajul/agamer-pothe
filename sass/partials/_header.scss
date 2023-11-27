@@ -244,6 +244,7 @@
       display: inline-block;
       padding: 0;
       position: relative;
+      color: $black;
       &:last-child{
         a{
           padding-right: 0;
@@ -252,7 +253,7 @@
       &.active {
         position: relative;
         > a {
-          color: $black-2;
+          color: $primary-color;
 
           &:after {
             // visibility: visible;

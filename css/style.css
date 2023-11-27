@@ -134,7 +134,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  color: #5e6f92;
+  color: #141F39;
   vertical-align: baseline;
   line-height: 30px;
   font-smoothing: antialiased;
@@ -399,7 +399,7 @@ input.theme-btn {
   padding: 16px 32px;
   background-color: #FF7F63;
   text-align: center;
-  font-family: "Urbanist", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 31px;
@@ -3350,6 +3350,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: inline-block;
   padding: 0;
   position: relative;
+  color: #141F39;
 }
 .main-menu ul li:last-child a {
   padding-right: 0;
@@ -3358,7 +3359,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
 }
 .main-menu ul li.active > a {
-  color: #525256;
+  color: #6E65E5;
 }
 .main-menu ul li.dropdown > a {
   padding-right: 32px;
@@ -4130,7 +4131,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   color: #FF7F63;
   display: inline-block;
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   position: relative;
   text-transform: uppercase;
   z-index: 99;
@@ -7569,7 +7570,7 @@ button.testimonial-arrow-btn:hover:before {
 
 .section-title {
   display: flex;
-  gap: 16px;
+  gap: 8px;
   flex-direction: column;
   z-index: 2;
   position: relative;
@@ -7639,6 +7640,7 @@ button.testimonial-arrow-btn:hover:before {
   color: #525256;
   margin-bottom: 0;
   line-height: 32px;
+  margin-top: 8px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .section-title .desc {
@@ -10234,9 +10236,8 @@ ul.children {
 }
 .service-area .section-title .shape {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(-100%, 100%);
+  bottom: -40%;
+  right: 30%;
   animation: rubberBand 5s linear infinite;
 }
 @media (max-width: 1440px) {
