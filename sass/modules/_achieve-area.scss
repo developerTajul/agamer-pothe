@@ -4,6 +4,8 @@
         position: absolute;
         top: 0;
         right: 0;
+        width: auto !important;
+        transform: translate(0%, -32%);
     }
     .inner-wrapper{
         display: flex;

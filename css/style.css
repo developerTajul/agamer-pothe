@@ -13757,6 +13757,8 @@ ul.children {
   position: absolute;
   top: 0;
   right: 0;
+  width: auto !important;
+  transform: translate(0%, -32%);
 }
 .achieve-area .inner-wrapper {
   display: flex;
