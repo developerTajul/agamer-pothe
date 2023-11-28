@@ -25,31 +25,33 @@
         @include xl{
             gap: 48px;
         }
-        >.content{
-            padding-right: 75px;
-            border-right: 1px solid rgba(255, 255, 255, 0.15);
-            width: 50%;
-
-            @include md{
-                text-align: center;
-            }
-            .title{
-                margin-bottom: 8px;
-                color: $white;
-            }
-            .desc{
-                margin-bottom: 0;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 27px;
-                color: $white;
-                br{
-                    @include xl{
-                            display: none;
-                        }
-                        @include sm{
-                            display: none;   
-                        }
+        .content{
+            &.style-3{
+                padding-right: 75px;
+                border-right: 1px solid rgba(255, 255, 255, 0.15);
+                width: 50%;
+    
+                @include md{
+                    text-align: center;
+                }
+                .title{
+                    margin-bottom: 8px;
+                    color: $white;
+                }
+                .desc{
+                    margin-bottom: 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    color: $white;
+                    br{
+                        @include xl{
+                                display: none;
+                            }
+                            @include sm{
+                                display: none;   
+                            }
+                    }
                 }
             }
             // .divider{
