@@ -10476,6 +10476,16 @@ ul.children {
 .team-area.style-1 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap {
   padding: 0 16px !important;
 }
+.team-area.style-1 .elementor-container .shape-two {
+  width: auto !important;
+  right: 4%;
+  top: 62px;
+}
+.team-area.style-1 .elementor-container .shape-one {
+  width: auto !important;
+  left: -7%;
+  top: 100px;
+}
 
 .pricing-area.style-1 {
   background-position: center;
