@@ -7267,6 +7267,7 @@ button.testimonial-arrow-btn:hover:before {
 .price-card-wrapper {
   position: relative;
   z-index: 2;
+  border-radius: 20px;
 }
 .price-card-wrapper .bg-shape {
   width: 100%;
@@ -10496,6 +10497,11 @@ ul.children {
   .pricing-area.style-1 .shape {
     display: none;
   }
+}
+.pricing-area.style-1 .elementor-container .shape {
+  top: 2%;
+  left: -17%;
+  width: auto !important;
 }
 
 .faq-area.style-1 {
