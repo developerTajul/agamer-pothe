@@ -10398,6 +10398,12 @@ ul.children {
     margin-bottom: 0;
   }
 }
+.process-step-area.style-1 .elementor-container .inner-wrapper .shape-one {
+  width: auto !important;
+}
+.process-step-area.style-1 .elementor-container .inner-wrapper .shape-two {
+  width: auto !important;
+}
 
 .latest-post-area.style-1 .post-card-wrapper {
   margin-top: 56px;
