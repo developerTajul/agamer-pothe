@@ -13760,7 +13760,6 @@ ul.children {
 }
 .achieve-area .inner-wrapper {
   display: flex;
-  gap: 152px;
   justify-content: space-between;
   align-items: center;
 }
@@ -13787,16 +13786,21 @@ ul.children {
     gap: 48px;
   }
 }
+.achieve-area .inner-wrapper > .content {
+  padding-right: 75px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  width: 50%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .achieve-area .inner-wrapper .content {
+  .achieve-area .inner-wrapper > .content {
     text-align: center;
   }
 }
-.achieve-area .inner-wrapper .content .title {
+.achieve-area .inner-wrapper > .content .title {
   margin-bottom: 8px;
   color: #ffffff;
 }
-.achieve-area .inner-wrapper .content .desc {
+.achieve-area .inner-wrapper > .content .desc {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: 400;
@@ -13804,30 +13808,20 @@ ul.children {
   color: #ffffff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .achieve-area .inner-wrapper .content .desc br {
+  .achieve-area .inner-wrapper > .content .desc br {
     display: none;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .achieve-area .inner-wrapper .content .desc br {
+  .achieve-area .inner-wrapper > .content .desc br {
     display: none;
-  }
-}
-.achieve-area .inner-wrapper .divider {
-  width: 1px;
-  height: 136px;
-  background-color: rgba(255, 255, 255, 0.15);
-}
-@media (max-width: 991px) {
-  .achieve-area .inner-wrapper .divider {
-    width: 100%;
-    height: 1px;
   }
 }
 .achieve-area .inner-wrapper .achieve-item-wrapper {
   display: flex;
   align-items: center;
   gap: 64px;
+  padding-left: 75px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .achieve-area .inner-wrapper .achieve-item-wrapper {
