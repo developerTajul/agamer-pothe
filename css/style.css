@@ -10466,6 +10466,9 @@ ul.children {
     margin-top: 32px;
   }
 }
+.team-area.style-1 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap {
+  padding: 0 16px !important;
+}
 
 .pricing-area.style-1 {
   background-position: center;
