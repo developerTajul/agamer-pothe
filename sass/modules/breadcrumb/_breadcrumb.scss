@@ -11,6 +11,11 @@
     left: 0;
     top: 50%;
     transform: translate(100%, -50%);
+    width: 158px;
+    height: 93px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     @include rmaxwd (1199){
       display: none;
     }
@@ -19,6 +24,11 @@
     position: absolute;
     right: 0;
     bottom: 0;  
+    width: 417px;
+    height: 410px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     @include rmaxwd (1199){
       display: none;
     }

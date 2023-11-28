@@ -7714,6 +7714,11 @@ button.testimonial-arrow-btn:hover:before {
   left: 0;
   top: 50%;
   transform: translate(100%, -50%);
+  width: 158px;
+  height: 93px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 @media (max-width: 1199px) {
   .page-breadcrumb-area .shape {
@@ -7724,6 +7729,11 @@ button.testimonial-arrow-btn:hover:before {
   position: absolute;
   right: 0;
   bottom: 0;
+  width: 417px;
+  height: 410px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media (max-width: 1199px) {
   .page-breadcrumb-area .shape-two {
