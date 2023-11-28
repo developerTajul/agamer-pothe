@@ -11404,6 +11404,11 @@ ul.children {
   top: 0;
   left: 0;
   animation: MoveTopRight 4s infinite;
+  width: 233px;
+  height: 577px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer .footer-sec .shape-one {
@@ -11414,6 +11419,11 @@ ul.children {
   position: absolute;
   top: 0;
   right: 0;
+  width: 286px;
+  height: 238px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer .footer-sec .shape-two {

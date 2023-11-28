@@ -20,6 +20,11 @@
       top: 0;
       left: 0;
       animation: MoveTopRight 4s infinite;
+      width: 233px;
+      height: 577px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       @include sm{
         display: none;
       }
@@ -28,6 +33,11 @@
       position: absolute;
       top:  0;
       right: 0;
+      width: 286px;
+      height: 238px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       @include sm{
         display: none;
       }
