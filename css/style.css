@@ -3841,14 +3841,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   background-repeat: no-repeat;
 }
 .slider-area .shape-one {
-  width: 40px;
-  height: 40px;
   position: absolute;
   bottom: 48px;
-  right: 50%;
-  transform: rotate(180deg);
+  right: 55%;
   animation: Rotating-reverse 9s linear infinite;
-  transform-origin: top left;
 }
 @media (max-width: 1339px) {
   .slider-area .shape-one {
@@ -5187,7 +5183,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 .about-info-card .icon-card-wrapper {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   gap: 40px;
   margin-top: 48px;

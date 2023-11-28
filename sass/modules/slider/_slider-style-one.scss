@@ -17,14 +17,10 @@
   background-position: center;
   background-repeat: no-repeat;
   .shape-one {
-    width: 40px;
-    height: 40px;
     position: absolute;
     bottom: 48px;
-    right: 50%;
-    transform: rotate(180deg);
+    right: 55%;
     animation: Rotating-reverse 9s linear infinite;
-    transform-origin: top left;
     @include rmaxwd(1339) {
       display: none;
     }
