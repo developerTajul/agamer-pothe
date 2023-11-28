@@ -5538,11 +5538,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     right: -32%;
   }
 }
-.process-step .arrow.two {
+.process-step .arrow.style-two {
   top: 84px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .process-step .arrow.two {
+  .process-step .arrow.style-two {
     top: 60px;
   }
 }
