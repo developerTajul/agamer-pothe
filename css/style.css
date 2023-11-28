@@ -5538,14 +5538,6 @@ body.admin-bar .header-menu-area.sticky_menu {
     right: -32%;
   }
 }
-.process-step .arrow.style-two {
-  top: 84px;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .process-step .arrow.style-two {
-    top: 60px;
-  }
-}
 .process-step .icon-wrapper {
   position: relative;
 }
@@ -5609,6 +5601,14 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .process-step .content .title a {
   margin-bottom: 0;
+}
+.process-step.style-2 .arrow {
+  top: 84px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .process-step.style-2 .arrow {
+    top: 60px;
+  }
 }
 
 .inner-wrapper {
