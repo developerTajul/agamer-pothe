@@ -5651,6 +5651,15 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+.process-step-wrapper .elementor-container .elementor-column:nth-child(2) .process-step .arrow {
+  top: 84px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .process-step-wrapper .elementor-container .elementor-column:nth-child(2) .process-step .arrow {
+    top: 60px;
+  }
+}
+
 .testimonial-card {
   padding: 0 60px;
   display: flex !important;

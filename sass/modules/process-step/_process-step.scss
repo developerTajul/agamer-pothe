@@ -147,3 +147,19 @@
     }
 
 }
+.process-step-wrapper{
+    .elementor-container{
+        .elementor-column{
+            &:nth-child(2){
+                .process-step{
+                    .arrow{
+                        top: 84px;
+                        @include lg{
+                            top: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
