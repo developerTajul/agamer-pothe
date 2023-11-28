@@ -12340,6 +12340,7 @@ ul.children {
 }
 .about-us-area.style-2 .about-image-card {
   position: relative;
+  margin-right: 116px;
 }
 .about-us-area.style-2 .about-image-card .shape {
   position: absolute;
@@ -13758,7 +13759,7 @@ ul.children {
   top: 0;
   right: 0;
   width: auto !important;
-  transform: translate(0%, -33%);
+  transform: translate(109%, -33%);
 }
 .achieve-area .inner-wrapper {
   display: flex;
