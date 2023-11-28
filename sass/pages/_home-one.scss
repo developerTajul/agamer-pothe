@@ -7,6 +7,7 @@
       overflow: unset;
     }
     .about-image-card{
+      padding-right: 144px;
       .main-img{
         margin-left: 48px;
         @include sm{
@@ -283,6 +284,7 @@
     }
   }
     .section-title{
+      margin-top: -10px;
       .title{
         br{
           @include md{

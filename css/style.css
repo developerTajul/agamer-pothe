@@ -10165,6 +10165,9 @@ ul.children {
     overflow: unset;
   }
 }
+.about-us-area.style-1 .about-image-card {
+  padding-right: 150px;
+}
 .about-us-area.style-1 .about-image-card .main-img {
   margin-left: 48px;
 }
@@ -10423,6 +10426,9 @@ ul.children {
   .team-area.style-1 .shape-two {
     right: 7%;
   }
+}
+.team-area.style-1 .section-title {
+  margin-top: -10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .team-area.style-1 .section-title .title br {
