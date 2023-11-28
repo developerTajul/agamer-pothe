@@ -5186,7 +5186,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   display: flex !important;
   flex-direction: column;
   gap: 40px;
-  margin-top: 48px;
+  margin-top: 8px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-info-card .icon-card-wrapper {
@@ -5194,6 +5194,9 @@ body.admin-bar .header-menu-area.sticky_menu {
     padding-right: 0;
     text-align: center;
   }
+}
+.about-info-card .icon-card-wrapper .icon-card {
+  margin-top: 40px;
 }
 
 .about-info-card.style-2 .section-title {
@@ -7414,6 +7417,7 @@ button.testimonial-arrow-btn:hover:before {
   justify-content: center;
   border-radius: 50px;
   background-color: #ffffff;
+  border: 1px solid #D6D6D6;
   color: #141F39;
 }
 .price-card-wrapper .price-card .price-btn .theme-btn:hover {

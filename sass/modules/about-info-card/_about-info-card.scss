@@ -11,11 +11,14 @@
       display: flex !important;
       flex-direction: column;
       gap: 40px;
-      margin-top: 48px;
+      margin-top: 8px;
       @include sm{
         gap: 30px;
         padding-right: 0;
         text-align: center;
+      }
+      .icon-card{
+        margin-top: 40px;
       }
       // @media only screen and (min-width: 0px) and (max-width: 500px){
       //   flex-wrap: wrap;
