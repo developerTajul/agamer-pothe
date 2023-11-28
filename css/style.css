@@ -13782,8 +13782,6 @@ ul.children {
   position: absolute;
   top: 0;
   right: 0;
-  width: auto !important;
-  transform: translate(109%, -33%);
 }
 .achieve-area .inner-wrapper {
   display: flex;
@@ -13894,6 +13892,10 @@ ul.children {
   .achieve-area.style-2 .inner-wrapper .content .desc br {
     display: none;
   }
+}
+.achieve-area .elementor-column .star {
+  width: auto !important;
+  transform: translate(0%, -33%);
 }
 
 .post-card.style-3 {

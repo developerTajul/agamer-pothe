@@ -4,8 +4,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        width: auto !important;
-        transform: translate(109%, -33%); 
+        
     }
     .inner-wrapper{
         display: flex;
@@ -125,6 +124,12 @@
                     }
                 }
             }
+        }
+    }
+    .elementor-column{
+        .star{
+        width: auto !important;
+        transform: translate(0%, -33%);
         }
     }
 }
