@@ -53,7 +53,8 @@
             }
         }
     }
-    &.style-3{
+    &.style-3,
+    &.style-4{
         .section-title{
             .title{
                 @include sm{

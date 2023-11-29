@@ -13187,11 +13187,11 @@ ul.children {
   overflow: hidden;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .why-choose-area.style-3 .section-title .title {
+  .why-choose-area.style-3 .section-title .title, .why-choose-area.style-4 .section-title .title {
     font-size: 37px;
   }
 }
-.why-choose-area.style-3 .about-image-card .main-img img {
+.why-choose-area.style-3 .about-image-card .main-img img, .why-choose-area.style-4 .about-image-card .main-img img {
   border-radius: 16px;
   overflow: hidden;
 }
