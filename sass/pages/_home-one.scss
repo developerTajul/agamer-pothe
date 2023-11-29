@@ -267,7 +267,8 @@
 }
 // Team-area Style-1
 .team-area{
-  &.style-1{
+  &.style-1,
+  &.style-3{
     position: relative;
     .shape-one{
       position: absolute;
