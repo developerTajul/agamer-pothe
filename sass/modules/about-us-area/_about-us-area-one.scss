@@ -62,6 +62,7 @@
                 border-radius: 24px;
                 overflow: hidden;
                 img{
+                  border-radius: 24px;
                   @include md{
                     width: 100%;
                   }
