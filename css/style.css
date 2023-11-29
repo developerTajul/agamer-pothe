@@ -10786,10 +10786,10 @@ ul.children {
   }
 }
 
-.team-area.style-2 {
+.latest-project-area.style-2 {
   position: relative;
 }
-.team-area.style-2:before {
+.latest-project-area.style-2:before {
   content: "";
   width: 1293px;
   height: 1px;
@@ -10800,7 +10800,7 @@ ul.children {
   top: 0;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .team-area.style-2 .section-title-wrapper {
+  .latest-project-area.style-2 .section-title-wrapper {
     margin-bottom: 24px;
   }
 }
