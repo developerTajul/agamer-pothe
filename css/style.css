@@ -7433,6 +7433,7 @@ button.testimonial-arrow-btn:hover:before {
 .price-card-wrapper .price-card .price-btn .theme-btn:hover {
   background-color: #141F39;
   color: #ffffff;
+  border-color: transparent;
 }
 .price-card-wrapper.active .price-card {
   background-color: #5F54D3;
