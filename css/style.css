@@ -13319,7 +13319,8 @@ ul.children {
     display: none;
   }
 }
-.service-area.style-2 .service-card-wrapper {
+.service-area.style-2 .service-card-wrapper,
+.service-area.style-2 .icon-card-wrapper {
   margin-top: 56px;
   padding-bottom: 56px;
   background-size: contain;
@@ -13330,39 +13331,46 @@ ul.children {
   gap: 40px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-area.style-2 .service-card-wrapper {
+  .service-area.style-2 .service-card-wrapper,
+  .service-area.style-2 .icon-card-wrapper {
     background-image: unset !important;
     padding-bottom: 0;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .service-area.style-2 .service-card-wrapper {
+  .service-area.style-2 .service-card-wrapper,
+  .service-area.style-2 .icon-card-wrapper {
     padding-bottom: 16px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .service-area.style-2 .service-card-wrapper {
+  .service-area.style-2 .service-card-wrapper,
+  .service-area.style-2 .icon-card-wrapper {
     padding-bottom: 35px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .service-area.style-2 .service-card-wrapper .icon-card {
+  .service-area.style-2 .service-card-wrapper .icon-card,
+  .service-area.style-2 .icon-card-wrapper .icon-card {
     padding: 32px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .service-area.style-2 .service-card-wrapper .icon-card {
+  .service-area.style-2 .service-card-wrapper .icon-card,
+  .service-area.style-2 .icon-card-wrapper .icon-card {
     padding: 40px 24px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .service-area.style-2 .service-card-wrapper .icon-card .desc {
+  .service-area.style-2 .service-card-wrapper .icon-card .desc,
+  .service-area.style-2 .icon-card-wrapper .icon-card .desc {
     font-size: 16px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .service-area.style-2 .service-card-wrapper .icon-card .desc {
+  .service-area.style-2 .service-card-wrapper .icon-card .desc,
+  .service-area.style-2 .icon-card-wrapper .icon-card .desc {
     font-size: 16px;
   }
 }
