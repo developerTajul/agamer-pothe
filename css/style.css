@@ -10886,6 +10886,20 @@ ul.children {
   }
 }
 
+.why-choose-area.style-3 {
+  position: relative;
+}
+.why-choose-area.style-3:before {
+  content: "";
+  width: 1293px;
+  height: 1px;
+  background-color: #E4E4E7;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+}
+
 .faq-area.style-3 {
   background: var(--gradient, linear-gradient(76deg, #ECEAFF 0%, #FFF 140.02%));
 }
