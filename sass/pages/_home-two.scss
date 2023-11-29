@@ -245,6 +245,17 @@
 // Team Member Area
 .team-area {
   &.style-2 {
+    position: relative;
+    &:before{
+      content: "";
+      width: 1293px;
+      height: 1px;
+      background-color: #E4E4E7;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      top: 0;
+    }
     .section-title-wrapper{
       @include sm{
         margin-bottom: 24px;
