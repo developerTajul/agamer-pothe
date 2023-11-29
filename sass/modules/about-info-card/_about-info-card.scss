@@ -10,7 +10,7 @@
     .icon-card-wrapper{
       display: flex !important;
       flex-direction: column;
-      gap: 40px;
+      // gap: 40px;
       margin-top: 8px;
       @include sm{
         gap: 30px;

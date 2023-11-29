@@ -5185,7 +5185,6 @@ body.admin-bar .header-menu-area.sticky_menu {
 .about-info-card .icon-card-wrapper {
   display: flex !important;
   flex-direction: column;
-  gap: 40px;
   margin-top: 8px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
