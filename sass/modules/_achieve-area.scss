@@ -6,135 +6,108 @@
         right: 0;
         
     }
-    .inner-wrapper{
-        display: flex;
-        // gap: 152px;
-        justify-content: space-between;
-        align-items: center;
-        @include sm{
-            flex-direction: column;
-            align-items: start;
-            gap: 50px;
+    .content{
+        &.style-3{
+            padding-right: 75px;
+            border-right: 1px solid rgba(255, 255, 255, 0.15);
+            // width: 50%;
+
+            @include md{
+                text-align: center;
+            }
+            .title{
+                margin-bottom: 8px;
+                color: $white;
+            }
+            .desc{
+                margin-bottom: 0;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 27px;
+                color: $white;
+                br{
+                    @include xl{
+                            display: none;
+                        }
+                        @include sm{
+                            display: none;   
+                        }
+                }
+            }
         }
-        @include md{
-            flex-direction: column;
-            gap: 50px;
+     
+    }
+    
+    .achieve-item-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        padding-left: 75px;
+
+        @include sm{
+            // flex-direction: column;
+            align-items: start;
+            flex-wrap: wrap;
+            gap: 28px;
         }
         @include lg{
-            gap: 20px;
+            gap: 28px;
         }
-        @include xl{
-            gap: 48px;
-        }
-        .content{
-            &.style-3{
-                padding-right: 75px;
-                border-right: 1px solid rgba(255, 255, 255, 0.15);
-                // width: 50%;
-    
-                @include md{
-                    text-align: center;
-                }
-                .title{
-                    margin-bottom: 8px;
+        .single-item{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            .content{
+                h2{
                     color: $white;
-                }
-                .desc{
                     margin-bottom: 0;
+                }
+                p{
+                    margin-bottom: 0;
+                    margin-top: 2px;
+                    color: $white;
                     font-size: 16px;
                     font-weight: 400;
-                    line-height: 27px;
-                    color: $white;
-                    br{
-                        @include xl{
-                                display: none;
-                            }
-                            @include sm{
-                                display: none;   
-                            }
-                    }
+                    line-height: 27px; 
                 }
             }
-         
-        }
-        
-        .achieve-item-wrapper{
-            display: flex;
-            align-items: center;
-            gap: 64px;
-            padding-left: 75px;
-
-            @include sm{
-                // flex-direction: column;
-                align-items: start;
-                flex-wrap: wrap;
-                gap: 28px;
-            }
-            @include lg{
-                gap: 28px;
-            }
-            .single-item{
+            .stars{
                 display: flex;
-                flex-direction: column;
-                gap: 24px;
-                .content{
-                    h2{
-                        color: $white;
-                        margin-bottom: 0;
-                    }
-                    p{
-                        margin-bottom: 0;
-                        margin-top: 2px;
-                        color: $white;
-                        font-size: 16px;
-                        font-weight: 400;
-                        line-height: 27px; 
-                    }
-                }
-                .stars{
-                    display: flex;
-                    gap: 10px;
-                }
+                gap: 10px;
             }
         }
     }
     &.style-2{
-        .inner-wrapper{
-            flex-direction: row-reverse;
-            @include rmaxwd(991){
-                flex-direction: column;
-            }
-            .content{
-                .desc{
-                    br{
-                        @include sm{
-                            display: none;
-                        }
+        .content{
+            .desc{
+                br{
+                    @include sm{
+                        display: none;
                     }
                 }
-                &.style-3{
-                    padding-right: 0;
-                    padding-left: 150px;
-                    border-right: transparent;
-                    border-left: 1px solid rgba(255, 255, 255, 0.15);
-                }
             }
-            .divider{
-                width: 1px;
-                height: 136px;
-                background-color: rgba(255, 255, 255, 0.15);
-                position: absolute;
-                right: 0;
-                top: 0;
-                @include rmaxwd(991){
-                    width: 100%;
-                    height: 1px;
-                }
+            &.style-3{
+                padding-right: 0;
+                padding-left: 150px;
+                border-right: transparent;
+                border-left: 1px solid rgba(255, 255, 255, 0.15);
             }
-            .achieve-item-wrapper{
-                padding-left: 0;
-                padding-right: 75px;
+        }
+        .divider{
+            width: 1px;
+            height: 136px;
+            background-color: rgba(255, 255, 255, 0.15);
+            position: absolute;
+            right: 0;
+            top: 0;
+            @include rmaxwd(991){
+                width: 100%;
+                height: 1px;
             }
+        }
+        .achieve-item-wrapper{
+            padding-left: 0;
+            padding-right: 75px;
         }
     }
     .elementor-column{
