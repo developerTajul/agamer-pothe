@@ -242,6 +242,12 @@
         e.preventDefault();
         $('.next-btn').trigger('click');
     });
+    
+    // Header notification
+    $('.header-top-btn').on('click', function (e) {
+        e.preventDefault();
+        $('.header-top').css("display", "none");
+    });
 
 
     // Isotop
