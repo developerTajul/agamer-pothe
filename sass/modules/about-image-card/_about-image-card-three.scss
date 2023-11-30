@@ -5,45 +5,17 @@
       left: 25px;
       bottom: -58px;
       animation: MoveLeftRight 2s linear infinite alternate;
-      // transform: translate(-50%, 0%);
-      // @keyframes VisitorMove {
-      //   0% { transform: translate(-52%, 0%); }
-      //   100% { transform: translate(-52%, -10%); }
-      // }
-      // animation: VisitorMove 2s linear infinite alternate;
-      
       @include rmaxwd(1199){
         display: none;
       }
-      // @include md{
-      //   transform: translate(0);
-      //   bottom: 24px;
-      // }
-      // @include lg{
-      //   transform: translate(0);
-      //   bottom: 0;
-      // }
     }
-    // .visitor{
-    //   position: absolute;
-    //   right: 0;
-    //   top: 0;
-    //   transform: translate(50%, 50%);
-    //   @keyframes StatusMove {
-    //     0% { transform: translate(50%, 30%); }
-    //     100% { transform: translate(50%, 50%); }
-    //   }
-    //   animation: StatusMove 3s linear infinite alternate;
-    //   @include rmaxwd(1199){
-    //     display: none;
-      // }
-      // @include md{
-      //   transform: translate(-50%, 50%);
-      // }
-      // @include lg{
-      //   transform: translate(0);
-      // }
-    // }
+    .feather{
+      position: absolute;
+      left: unset;
+      right: 0;
+      top: 0;
+      transform: translate(100%, -100%);
+    }
   }
   &.style-4{
     .collaboration{

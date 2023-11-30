@@ -4836,9 +4836,9 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 .about-image-card .feather {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
-  transform: translate(100%, -100%);
+  transform: translate(-100%, -100%);
 }
 .about-image-card .main-img {
   position: relative;
@@ -5106,6 +5106,13 @@ body.admin-bar .header-menu-area.sticky_menu {
   .about-image-card.style-3 .status {
     display: none;
   }
+}
+.about-image-card.style-3 .feather {
+  position: absolute;
+  left: unset;
+  right: 0;
+  top: 0;
+  transform: translate(100%, -100%);
 }
 .about-image-card.style-4 .collaboration.style-2 {
   position: absolute;
