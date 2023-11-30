@@ -76,7 +76,9 @@
 .why-choose-area{
   &.style-2{
     position: relative;
-    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     .section-title{
       br{
         @include lg{
