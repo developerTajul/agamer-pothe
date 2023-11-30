@@ -4834,6 +4834,12 @@ body.admin-bar .header-menu-area.sticky_menu {
     display: none;
   }
 }
+.about-image-card .feather {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(100%, -100%);
+}
 .about-image-card .main-img {
   position: relative;
 }
