@@ -6699,6 +6699,9 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .content-header .post-meta-right {
   margin-left: auto;
 }
+.single-post-item .content-header .tag-wrapper {
+  margin-left: auto;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .single-post-item .content-header .tag-wrapper {
     margin-left: 0;
@@ -8025,8 +8028,8 @@ button.testimonial-arrow-btn:hover:before {
 .page-links .post-page-numbers.next,
 .wp-block-query-pagination-numbers .page-numbers.next,
 .wp-block-query-pagination-numbers .post-page-numbers.next {
-  background: #6E65E5;
-  color: #ffffff;
+  background: #F9F9F9;
+  color: #141F39;
 }
 
 .nav-tab {
