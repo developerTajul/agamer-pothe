@@ -13202,6 +13202,10 @@ ul.children {
   border-radius: 24px;
   overflow: hidden;
 }
+.why-choose-area.style-2 .elementor-container .shape {
+  top: -83%;
+  width: auto !important;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .why-choose-area.style-3 .section-title .title, .why-choose-area.style-4 .section-title .title {
     font-size: 37px;
