@@ -13956,7 +13956,7 @@ ul.children {
 }
 .achieve-area.style-2 .content.style-3 {
   padding-right: 0;
-  padding-left: 150px;
+  padding-left: 105px;
   border-right: transparent;
   border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
@@ -13977,6 +13977,9 @@ ul.children {
 .achieve-area.style-2 .achieve-item-wrapper {
   padding-left: 0;
   padding-right: 75px;
+}
+.achieve-area.style-2 .elementor-container .content.style-3 {
+  padding-left: 130px;
 }
 .achieve-area .elementor-column .star {
   width: auto !important;
