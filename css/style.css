@@ -6226,7 +6226,7 @@ button.testimonial-arrow-btn:hover:before {
 .blog-details-wrapper .single-post-item .wp-block-post-featured-image {
   border-radius: 12px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
   position: relative;
   padding: 0;
 }
