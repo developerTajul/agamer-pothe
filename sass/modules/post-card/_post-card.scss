@@ -320,7 +320,16 @@
   &.format-quote{
     border-color: transparent;
   }
-
+  &.post-24{
+    .wp-block-button{
+      a{
+        color: $white;
+      }
+      &.is-style-outline{
+        color: $black;
+      }
+    }
+  }
   .post-title {
     font-size: 36px;
     font-weight: 700;

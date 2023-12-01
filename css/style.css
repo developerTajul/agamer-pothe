@@ -6446,6 +6446,12 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item.format-quote {
   border-color: transparent;
 }
+.single-post-item.post-24 .wp-block-button a {
+  color: #ffffff;
+}
+.single-post-item.post-24 .wp-block-button.is-style-outline {
+  color: #141F39;
+}
 .single-post-item .post-title {
   font-size: 36px;
   font-weight: 700;
