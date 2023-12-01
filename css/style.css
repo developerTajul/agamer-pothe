@@ -14175,6 +14175,7 @@ ul.children {
   .achieve-area.style-2 .achieve-item-wrapper {
     padding-right: 0;
     margin-bottom: 50px;
+    margin-top: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
