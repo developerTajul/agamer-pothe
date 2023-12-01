@@ -1,6 +1,9 @@
 // about-us-area
 .about-us-area{
   &.style-3{
+    @include sm{
+      padding-bottom: 54px;
+    }
     .about-info-card{
       @include xl{
         padding-left: 40px;
@@ -56,6 +59,7 @@
         margin-bottom: 40px;
       }
     }
+    
   }
 }
 .team-area {

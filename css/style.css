@@ -11014,6 +11014,11 @@ ul.children {
   margin-bottom: 32px;
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-3 {
+    padding-bottom: 54px;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .about-us-area.style-3 .about-info-card {
     padding-left: 40px;
