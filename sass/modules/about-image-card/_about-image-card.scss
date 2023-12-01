@@ -18,6 +18,9 @@
     left: 0;
     top: 0;
     transform: translate(-100%, -100%);
+    @include sm{
+      display: none;
+    }
   }
   .main-img{
     position: relative;

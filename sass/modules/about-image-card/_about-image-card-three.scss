@@ -16,8 +16,9 @@
       top: 0;
       transform: translate(100%, -100%);
       @include sm{
-        transform: translate(50%, -50%);
+        display: none;
       }
+
     }
   }
   &.style-4{

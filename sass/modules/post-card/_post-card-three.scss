@@ -68,6 +68,9 @@
             font-size: 36px;
             font-weight: 700;
             line-height: 47px;
+            @include sm{
+                font-size: 31px;
+            }
         }
         .desc{
             margin-top: 8px;

@@ -4866,6 +4866,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: 0;
   transform: translate(-100%, -100%);
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-image-card .feather {
+    display: none;
+  }
+}
 .about-image-card .main-img {
   position: relative;
 }
@@ -5147,7 +5152,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-image-card.style-3 .feather {
-    transform: translate(50%, -50%);
+    display: none;
   }
 }
 .about-image-card.style-4 .collaboration.style-2 {
@@ -13130,6 +13135,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .testimonial-slider-area.style-1 .icon-card-wrapper .icon-card.style-2 {
     margin-top: 28px;
+    padding: 20px;
   }
 }
 .testimonial-slider-area.style-1 .icon-card-wrapper .icon-card.style-2 .icon {
@@ -14265,6 +14271,11 @@ ul.children {
   font-size: 36px;
   font-weight: 700;
   line-height: 47px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .post-card.style-4 .title {
+    font-size: 31px;
+  }
 }
 .post-card.style-4 .desc {
   margin-top: 8px;
