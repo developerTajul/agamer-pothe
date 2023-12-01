@@ -7906,7 +7906,7 @@ button.testimonial-arrow-btn:hover:before {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #5e6f92;
+  color: #141F39;
   background-color: #ffffff;
   border-radius: 6px;
   height: 53px;
@@ -7945,9 +7945,9 @@ button.testimonial-arrow-btn:hover:before {
 .comment-navigation .wp-block-query-pagination-next:hover,
 .comment-navigation .nav-next a:hover,
 .comment-navigation .nav-previous a:hover {
-  background: #EB936D !important;
+  background: #6E65E5 !important;
   color: #ffffff;
-  border-color: #EB936D;
+  border-color: #6E65E5;
   transition: all 0.5s ease-out;
 }
 
