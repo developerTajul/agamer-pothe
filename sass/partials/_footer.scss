@@ -432,9 +432,11 @@
 
   @include md {
     padding: 40px;
+    padding-bottom: 72px;
+    padding-top: 60px;
   }
   @include sm {
-    padding: 40px 20px;
+    padding: 60px 20px;
   }
   .shape{
     position: absolute;

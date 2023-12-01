@@ -5955,6 +5955,11 @@ button.testimonial-arrow-btn:hover:before {
   padding: 32px;
   padding-bottom: 32px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .accordion .accordion-item .accordion-button {
+    padding: 24px;
+  }
+}
 .accordion .accordion-item .accordion-button:not(.collapsed) {
   padding-bottom: 0;
 }
@@ -5991,6 +5996,11 @@ button.testimonial-arrow-btn:hover:before {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .accordion .accordion-item .accordion-body {
     padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .accordion .accordion-item .accordion-body {
+    padding: 24px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
@@ -11539,6 +11549,29 @@ ul.children {
     --bs-gutter-y: 16px;
   }
 }
+.why-choose-area.style-4 {
+  position: relative;
+}
+@media (max-width: 919px) {
+  .why-choose-area.style-4 .about-info-card.style-2 {
+    margin-top: 48px;
+  }
+}
+.why-choose-area.style-4 .about-info-card.style-2 .section-title {
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .why-choose-area.style-4 .about-info-card.style-2 .section-title {
+    text-align: start;
+    align-items: start;
+  }
+}
+@media (max-width: 991px) {
+  .why-choose-area.style-4 .about-info-card {
+    margin-bottom: 40px;
+  }
+}
+
 .team-page-area {
   padding-top: 59px;
   padding-bottom: 181px;
@@ -12004,11 +12037,13 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .subscribe-area {
     padding: 40px;
+    padding-bottom: 72px;
+    padding-top: 60px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .subscribe-area {
-    padding: 40px 20px;
+    padding: 60px 20px;
   }
 }
 .subscribe-area .shape {

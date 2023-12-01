@@ -33,6 +33,9 @@
       color: $black;
       padding: 32px;
       padding-bottom: 32px;
+      @include lg{
+        padding: 24px;
+      }
       &:not(.collapsed){
         padding-bottom: 0;
        &:after{
@@ -68,6 +71,9 @@
       }
       @include sm{
         padding-right: 15px;
+      }
+      @include lg{
+        padding: 24px;
       }
       @include xl{
         padding-right: 45px;
