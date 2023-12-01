@@ -330,6 +330,13 @@
       }
     }
   }
+  &.post-1786{
+    blockquote{
+      &:first-child{
+        margin-top: 16px;
+      }
+    }
+  }
   .post-title {
     font-size: 36px;
     font-weight: 700;
