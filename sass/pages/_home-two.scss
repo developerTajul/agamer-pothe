@@ -37,6 +37,16 @@
     }
   }
 }
+// About
+.about-us-area{
+  &.style-2{
+    .about-info-card{
+      @include xl{
+        padding-left: 48px;
+      }
+    }
+  }
+}
 // Counter Area Two
 .counter-up-area {
   &.style-2 {

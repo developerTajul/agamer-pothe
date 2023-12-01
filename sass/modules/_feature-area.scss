@@ -46,6 +46,9 @@
             border: 1px solid #D6D6D6;
             // display: inline-flex;
             @include transition;
+            @include lg{
+                padding: 36px;
+            }
             &:hover{
                 box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20);
                 border-color: transparent;

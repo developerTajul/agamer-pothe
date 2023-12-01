@@ -10705,6 +10705,12 @@ ul.children {
   margin: 0;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .about-us-area.style-2 .about-info-card {
+    padding-left: 48px;
+  }
+}
+
 .counter-up-area.style-2 {
   position: relative;
   padding-bottom: 120px;
@@ -14136,6 +14142,11 @@ ul.children {
     border-top: 1px solid #D6D6D6;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .achieve-area.style-2 .content.style-3 {
+    padding-left: 24px;
+  }
+}
 .achieve-area.style-2 .divider {
   width: 1px;
   height: 136px;
@@ -14161,6 +14172,11 @@ ul.children {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .achieve-area.style-2 .achieve-item-wrapper {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .achieve-area.style-2 .achieve-item-wrapper {
     padding-right: 0;
   }
@@ -14309,6 +14325,11 @@ ul.children {
   box-shadow: unset;
   border: 1px solid #D6D6D6;
   transition: all 0.5s ease-out;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area .icon-card-wrapper .icon-card {
+    padding: 36px;
+  }
 }
 .feature-area .icon-card-wrapper .icon-card:hover {
   box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.2);
