@@ -2603,8 +2603,7 @@ blockquote footer {
   padding-left: 0 !important;
 }
 
-.wp-block-cover p.wp-block-cover-text,
-.wp-block-cover.is-light .wp-block-cover__inner-container {
+.wp-block-cover .wp-block-cover__inner-container p {
   color: #fff !important;
 }
 
