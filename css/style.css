@@ -4942,7 +4942,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-image-card .main-img .second {
-    right: 100px;
+    right: 24px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1900px) {
@@ -13977,6 +13977,18 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .achieve-area .content.style-3 {
     text-align: center;
+    padding: 0 78px 50px 78px;
+    border-color: transparent;
+    border-bottom: 1px solid #D6D6D6;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .achieve-area .content.style-3 {
+    margin: 0 24px;
+    padding-right: 0;
+    border-right: transparent;
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 24px;
   }
 }
 .achieve-area .content.style-3 .title {
@@ -14018,11 +14030,20 @@ ul.children {
     gap: 12px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .achieve-area .achieve-item-wrapper {
+    padding-left: 0;
+    margin-top: 50px;
+    justify-content: center;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .achieve-area .achieve-item-wrapper {
     align-items: start;
     flex-wrap: wrap;
     gap: 28px;
+    padding-left: 0;
+    margin: 24px;
   }
 }
 .achieve-area .achieve-item-wrapper .single-item {
@@ -14122,6 +14143,7 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .post-card.style-3 .content .title {
     padding-bottom: 8px;
+    padding-right: 12px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
