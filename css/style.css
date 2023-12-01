@@ -10278,6 +10278,11 @@ ul.children {
     padding: 48px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-1 .about-image-card {
+    padding-right: 24px;
+  }
+}
 .about-us-area.style-1 .about-image-card .main-img {
   margin-left: 48px;
 }

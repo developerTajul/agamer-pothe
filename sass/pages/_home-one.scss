@@ -11,6 +11,9 @@
       @include xl{
         padding: 48px;
       }
+      @include sm{
+        padding-right: 24px;
+      }
       .main-img{
         margin-left: 48px;
         @include sm{
