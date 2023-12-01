@@ -11834,6 +11834,12 @@ ul.children {
   padding-left: 0;
   flex-wrap: wrap;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .footer-bottom-menu ul {
+    gap: 0 20px;
+    justify-content: center;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-bottom-menu ul {
     gap: 0 20px;
