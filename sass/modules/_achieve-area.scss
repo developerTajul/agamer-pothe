@@ -124,6 +124,10 @@
                 padding-left: 105px;
                 border-right: transparent;
                 border-left: 1px solid rgba(255, 255, 255, 0.15);
+                @include sm{
+                    padding-left: 0;
+                    border: none;
+                }
             }
         }
         .divider{
@@ -141,6 +145,12 @@
         .achieve-item-wrapper{
             padding-left: 0;
             padding-right: 75px;
+            @include sm{
+                padding-right: 0;
+            }
+            @include md{
+                padding-right: 0;
+            }
         }
         .elementor-container{
             .content{

@@ -5145,6 +5145,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   top: 0;
   transform: translate(100%, -100%);
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-image-card.style-3 .feather {
+    transform: translate(50%, -50%);
+  }
+}
 .about-image-card.style-4 .collaboration.style-2 {
   position: absolute;
   right: 0;
@@ -10268,6 +10273,7 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-area.style-1 {
     overflow: unset;
+    padding-top: 100px;
   }
 }
 .about-us-area.style-1 .about-image-card {
@@ -14087,6 +14093,12 @@ ul.children {
   border-right: transparent;
   border-left: 1px solid rgba(255, 255, 255, 0.15);
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .achieve-area.style-2 .content.style-3 {
+    padding-left: 0;
+    border: none;
+  }
+}
 .achieve-area.style-2 .divider {
   width: 1px;
   height: 136px;
@@ -14104,6 +14116,16 @@ ul.children {
 .achieve-area.style-2 .achieve-item-wrapper {
   padding-left: 0;
   padding-right: 75px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .achieve-area.style-2 .achieve-item-wrapper {
+    padding-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .achieve-area.style-2 .achieve-item-wrapper {
+    padding-right: 0;
+  }
 }
 .achieve-area.style-2 .elementor-container .content.style-3 {
   padding-left: 130px;

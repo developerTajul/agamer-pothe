@@ -3,8 +3,9 @@
   &.style-1 {
     overflow: hidden;
 
-    @include sm() {
+    @include sm {
       overflow: unset;
+      padding-top: 100px;
     }
     .about-image-card{
       padding-right: 144px;
