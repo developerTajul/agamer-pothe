@@ -395,7 +395,9 @@
         a{
           &:hover{
             background-color: $primary-color;
-            color: $white;
+            i{
+              color: $white;
+            }
             @include transition;
           }
         }
