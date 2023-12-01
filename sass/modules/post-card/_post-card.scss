@@ -331,9 +331,9 @@
     }
   }
   &.post-1786{
-    blockquote{
-      &:first-child{
-        margin-top: 16px;
+    .post-content-wrapper{
+      .post-title{
+        margin-bottom: 16px;
       }
     }
   }
