@@ -1716,8 +1716,19 @@
   }
 }
 
+// Margin
+.my-55{
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
 .mt-sm-32{
   @include sm{
     margin-top: 32px;
+  }
+}
+.my-sm-32{
+  @include sm{
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }
