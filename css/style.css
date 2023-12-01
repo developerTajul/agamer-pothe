@@ -11637,7 +11637,7 @@ ul.children {
     margin-bottom: 50px;
   }
 }
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 991px) {
   .footer-widget:last-child {
     margin-bottom: 0;
   }
