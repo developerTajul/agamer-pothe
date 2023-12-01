@@ -66,6 +66,9 @@
     font-size: 30px;
     letter-spacing: unset;
   }
+  @include lg{
+    font-size: 34px;
+  }
 }
 .footer-main{
   display: flex;

@@ -7,10 +7,16 @@
       overflow: unset;
       padding-top: 100px;
     }
+    @include md{
+      padding-top: 100px;
+    }
     .about-image-card{
       padding-right: 144px;
       @include xl{
         padding: 48px;
+      }
+      @include lg{
+        padding-right: 48px;
       }
       @include sm{
         padding-right: 24px;
@@ -19,6 +25,9 @@
         margin-left: 48px;
         @include sm{
           margin-left: 24px;
+        }
+        @include lg{
+          margin-left: 0;
         }
         @include xl{
           margin-left: 0;
