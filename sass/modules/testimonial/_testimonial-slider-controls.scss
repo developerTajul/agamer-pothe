@@ -25,6 +25,7 @@ button.testimonial-arrow-btn {
     @include transition;
     border-color: $orange-color;
     background-color: $primary-color;
+    color: $white;
     &:before {
       width: 100%;
       @include transition;

@@ -78,33 +78,6 @@
         }
 }
 
-// Why-choose-area 
-.why-choose-area{
-    &.style-3{
-      .about-info-card{
-        &.style-2{
-          .section-title{
-            margin-bottom: 0;
-            @include rmaxwd (991){
-                text-align: start;
-                align-items: start;
-            }
-          }
-        }
-        @include rmaxwd(991){
-          margin-bottom: 40px;
-        }
-      }
-    //   .about-info-card{
-    //     margin-left: 85px;
-    //     @include rmaxwd(1399){
-    //         margin-left: 0;
-    //     }
-    //   }
-    }
-  }
-
-
 // Service-details
 .service-details-wrapper{
     .image-wrapper{

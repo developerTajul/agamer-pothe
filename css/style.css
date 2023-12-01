@@ -5867,6 +5867,7 @@ button.testimonial-arrow-btn:hover {
   transition: all 0.5s ease-out;
   border-color: #EB936D;
   background-color: #6E65E5;
+  color: #ffffff;
 }
 button.testimonial-arrow-btn:hover:before {
   width: 100%;
@@ -11027,6 +11028,25 @@ ul.children {
   transform: translate(-50%, 0);
   top: 0;
 }
+@media (max-width: 919px) {
+  .why-choose-area.style-3 .about-info-card.style-2 {
+    margin-top: 48px;
+  }
+}
+.why-choose-area.style-3 .about-info-card.style-2 .section-title {
+  margin-bottom: 0;
+}
+@media (max-width: 991px) {
+  .why-choose-area.style-3 .about-info-card.style-2 .section-title {
+    text-align: start;
+    align-items: start;
+  }
+}
+@media (max-width: 991px) {
+  .why-choose-area.style-3 .about-info-card {
+    margin-bottom: 40px;
+  }
+}
 
 .team-area.style-3 {
   position: relative;
@@ -11075,6 +11095,21 @@ ul.children {
 }
 .testimonial-area .testimonial-slider-two .slick-list {
   padding: 0 !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-area .testimonial-slider-two .slick-list {
+    height: 504px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area .testimonial-slider-two .slick-list {
+    height: 504px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-area .testimonial-slider-two .slick-list {
+    height: 504px;
+  }
 }
 .testimonial-area .icon-card.style-2 {
   margin: 56px 12px;
@@ -11424,21 +11459,6 @@ ul.children {
 }
 .our-mission-area .about-image-card .main-img img {
   border-radius: 12px;
-}
-
-.why-choose-area.style-3 .about-info-card.style-2 .section-title {
-  margin-bottom: 0;
-}
-@media (max-width: 991px) {
-  .why-choose-area.style-3 .about-info-card.style-2 .section-title {
-    text-align: start;
-    align-items: start;
-  }
-}
-@media (max-width: 991px) {
-  .why-choose-area.style-3 .about-info-card {
-    margin-bottom: 40px;
-  }
 }
 
 .service-details-wrapper .image-wrapper {
@@ -14421,6 +14441,11 @@ ul.children {
 }
 .feature-area.style-2 .icon-card-wrapper .icon-card.style-3 {
   margin: 0;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area.style-2 .icon-card-wrapper .icon-card.style-3 {
+    padding: 30px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .feature-area.style-2 .section-title .title br {
