@@ -8706,6 +8706,7 @@ button.testimonial-arrow-btn:hover:before {
   margin-bottom: 40px;
 }
 .widget.widget_augmit_contact_info_widget {
+  padding: 32px 40px;
   text-align: center;
 }
 .widget.widget_augmit_contact_info_widget .wp-block-heading {
