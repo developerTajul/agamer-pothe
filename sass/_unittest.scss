@@ -754,15 +754,15 @@ body {
 // not found 
 .no-results{
   .sidebar-form{
-    .wp-block-search__input{
+    input{
       background-color: #ffffff;
-    padding: 0 25px;
-    height: 60px;
-    width: 100%;
-    color: #5e6f92;
-    font-size: 15px;
-    border: 1px solid #dfe2e9 !important;
-    border-radius: 8px 0 0 8px;
+      padding: 0 25px;
+      height: 60px;
+      width: 100%;
+      color: #5e6f92;
+      font-size: 15px;
+      border: 1px solid #dfe2e9 !important;
+      border-radius: 8px 0 0 8px;
     }
     button{
       color: #ffffff;
