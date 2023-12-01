@@ -383,6 +383,15 @@
     padding-top: 32px;
     border-top: 1px solid $black-3;
     flex-wrap: wrap;
+    &.default{
+      flex-wrap: nowrap;
+      .blog-post-tag,
+      .social-share{
+        >span{
+          display: none;
+        }
+      }
+    }
   }
   // Social Share
   .social-share {

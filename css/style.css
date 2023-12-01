@@ -6501,6 +6501,13 @@ button.testimonial-arrow-btn:hover:before {
   border-top: 1px solid #E7E7E7;
   flex-wrap: wrap;
 }
+.single-post-item .single-post-meta.default {
+  flex-wrap: nowrap;
+}
+.single-post-item .single-post-meta.default .blog-post-tag > span,
+.single-post-item .single-post-meta.default .social-share > span {
+  display: none;
+}
 .single-post-item .social-share {
   display: flex;
   gap: 16px;
