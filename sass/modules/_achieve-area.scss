@@ -127,6 +127,9 @@
                 @include sm{
                     padding-left: 0;
                     border: none;
+                    padding-bottom: 0;
+                    padding-top: 50px;
+                    border-top: 1px solid $border;
                 }
             }
         }
@@ -147,6 +150,7 @@
             padding-right: 75px;
             @include sm{
                 padding-right: 0;
+                margin-bottom: 50px;
             }
             @include md{
                 padding-right: 0;
