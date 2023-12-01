@@ -8582,6 +8582,9 @@ button.testimonial-arrow-btn:hover:before {
 .widget:last-child {
   margin-bottom: 40px;
 }
+.widget.widget_augmit_contact_info_widget .wp-block-heading {
+  margin-top: -8px;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .widget {
     padding: 30px;
