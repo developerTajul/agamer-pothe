@@ -5,6 +5,7 @@
   z-index: 2;
   position: relative;
   justify-content: center;
+  margin-top: -8px;
   @include rmaxwd (991){
     align-items: center;
     text-align: center;

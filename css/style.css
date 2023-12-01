@@ -7618,6 +7618,7 @@ button.testimonial-arrow-btn:hover:before {
   z-index: 2;
   position: relative;
   justify-content: center;
+  margin-top: -8px;
 }
 @media (max-width: 991px) {
   .section-title {
