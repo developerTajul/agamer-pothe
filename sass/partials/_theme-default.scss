@@ -288,10 +288,10 @@ input.theme-btn {
       justify-content: center;
       content: "\f105";
       font-family: $font-awesome;
-      width: 44px;
-      height: 44px;
+      width: auto;
+      height: auto;
       border-radius: 6px;
-      background-color: $primary-color;
+      background-color: transparent;
       color: #fff;
       font-size: 16px;
     }
