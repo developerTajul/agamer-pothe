@@ -286,6 +286,12 @@ blockquote {
   border-radius: 12px;
   color: $black;
   border-left: 6px solid #DCD9FC;
+  p{
+    font-family: $body-font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+  }
   .desc{
     color: $black !important;
     font-family: $body-font;
