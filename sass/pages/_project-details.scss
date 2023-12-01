@@ -172,6 +172,7 @@
 // More project area
 .more-project-area{
       .section-title-wrapper{
+        margin-top: -8px;
         @include sm{
             flex-direction: column;
             gap: 24px;

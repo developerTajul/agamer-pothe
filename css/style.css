@@ -8540,6 +8540,9 @@ button.testimonial-arrow-btn:hover:before {
   }
 }
 
+.more-project-area .section-title-wrapper {
+  margin-top: -8px;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .more-project-area .section-title-wrapper {
     flex-direction: column;
