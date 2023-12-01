@@ -3,6 +3,9 @@
     background-size: cover;
     position: relative;
     padding-right: 44px;
+    @include rmaxwd(1399){
+      padding-right: 0;
+    }
     .dot{
       width: 16px;
       height: 16px;

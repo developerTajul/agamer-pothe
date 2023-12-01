@@ -8,10 +8,16 @@
     }
     .about-image-card{
       padding-right: 144px;
+      @include xl{
+        padding: 48px;
+      }
       .main-img{
         margin-left: 48px;
         @include sm{
           margin-left: 24px;
+        }
+        @include xl{
+          margin-left: 0;
         }
         img{
           width: 100%;

@@ -396,7 +396,7 @@ code {
 input.theme-btn {
   display: inline-flex;
   color: #ffffff;
-  padding: 16px 32px;
+  padding: 16px 40px;
   background-color: #FF7F63;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -5069,6 +5069,11 @@ body.admin-bar .header-menu-area.sticky_menu {
   position: relative;
   padding-right: 44px;
 }
+@media (max-width: 1399px) {
+  .about-image-card.style-2 {
+    padding-right: 0;
+  }
+}
 .about-image-card.style-2 .dot {
   width: 16px;
   height: 16px;
@@ -7232,6 +7237,11 @@ button.testimonial-arrow-btn:hover:before {
   .post-card.style-2 .content {
     gap: 12px;
     padding: 32px 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .post-card.style-2 .content {
+    padding: 32px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -10263,12 +10273,22 @@ ul.children {
 .about-us-area.style-1 .about-image-card {
   padding-right: 144px;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .about-us-area.style-1 .about-image-card {
+    padding: 48px;
+  }
+}
 .about-us-area.style-1 .about-image-card .main-img {
   margin-left: 48px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-area.style-1 .about-image-card .main-img {
     margin-left: 24px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .about-us-area.style-1 .about-image-card .main-img {
+    margin-left: 0;
   }
 }
 .about-us-area.style-1 .about-image-card .main-img img {
@@ -13933,10 +13953,26 @@ ul.children {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: unset;
+}
+@media (max-width: 991px) {
+  .achieve-area .star {
+    display: none;
+  }
 }
 .achieve-area .content.style-3 {
   padding-right: 75px;
   border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .achieve-area .content.style-3 {
+    padding-right: 24px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .achieve-area .content.style-3 {
+    padding-right: 24px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .achieve-area .content.style-3 {
@@ -13968,7 +14004,19 @@ ul.children {
   display: flex;
   align-items: center;
   gap: 64px;
-  padding-left: 75px;
+  padding-left: 90px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .achieve-area .achieve-item-wrapper {
+    padding-left: 70px;
+    gap: 24px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .achieve-area .achieve-item-wrapper {
+    padding-left: 24px;
+    gap: 12px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .achieve-area .achieve-item-wrapper {
@@ -13977,15 +14025,12 @@ ul.children {
     gap: 28px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .achieve-area .achieve-item-wrapper {
-    gap: 28px;
-  }
-}
 .achieve-area .achieve-item-wrapper .single-item {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  position: relative;
+  z-index: 1;
 }
 .achieve-area .achieve-item-wrapper .single-item .content h2 {
   color: #ffffff;
