@@ -6615,9 +6615,7 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .post-video img,
 .single-post-item .post-gallery img,
 .single-post-item .post-audio img {
-  width: 100%;
   transform: scale(1);
-  height: 364px;
   object-fit: cover;
   transition: all 0.5s ease-out;
 }

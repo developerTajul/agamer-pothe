@@ -495,10 +495,10 @@
     }
 
     img {
-      width: 100%;
+      // width: 100%;
       transform: scale(1);
       // border-radius: 16px;
-      height: 364px;
+      // height: 364px;
       object-fit: cover;
       @include transition;
     }
