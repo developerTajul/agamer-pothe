@@ -6508,6 +6508,11 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .single-post-meta.default .social-share > span {
   display: none;
 }
+.single-post-item .single-post-meta.default .social-share a:hover {
+  background-color: #6E65E5;
+  color: #ffffff;
+  transition: all 0.5s ease-out;
+}
 .single-post-item .social-share {
   display: flex;
   gap: 16px;
