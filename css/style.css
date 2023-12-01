@@ -6551,7 +6551,7 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 16px;
   font-weight: 700;
   font-family: "Urbanist", sans-serif;
-  color: #FF7F63;
+  color: #6E65E5;
   margin-bottom: 0;
   margin-right: 30px;
   text-transform: uppercase;
@@ -6571,15 +6571,12 @@ button.testimonial-arrow-btn:hover:before {
 .single-post-item .blog-post-tag .post-cat-list a,
 .single-post-item .blog-post-cat .post-tag-list a,
 .single-post-item .blog-post-cat .post-cat-list a {
-  color: #141F39;
-  font-family: "Urbanist", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 28px;
-  background-color: #FF7F63;
-  padding: 4px 12px;
-  background: #FFF0D8;
-  border-radius: 8px;
+  background-color: #F9F9F9;
+  padding: 4px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  border-radius: 50px;
 }
 .single-post-item .blog-post-tag .post-tag-list a.secondary,
 .single-post-item .blog-post-tag .post-cat-list a.secondary,
@@ -6993,7 +6990,7 @@ button.testimonial-arrow-btn:hover:before {
   text-transform: uppercase;
   font-weight: 700;
   display: block;
-  color: #ff5b5b;
+  color: #6E65E5;
 }
 .blog-post-nav .post-navigation .text h4 {
   font-size: 21px;
