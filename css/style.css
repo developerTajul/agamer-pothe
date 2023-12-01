@@ -2530,6 +2530,10 @@ blockquote footer {
   align-items: end;
 }
 
+.wp-block-quote.is-style-large cite {
+  margin-bottom: 16px;
+}
+
 .wp-block-pullquote {
   border-top: 5px solid #6E65E5 !important;
   border-bottom: 5px solid #6E65E5 !important;
