@@ -11594,7 +11594,7 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer-widget-title {
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: unset;
   }
 }
@@ -11837,6 +11837,7 @@ ul.children {
 @media (max-width: 991px) {
   .footer-bottom-menu ul {
     justify-content: flex-start;
+    gap: 0 20px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11869,6 +11870,7 @@ ul.children {
 @media (max-width: 767px) {
   .footer-bottom-area .copyright-text {
     margin-bottom: 20px;
+    text-align: center;
   }
 }
 .footer-bottom-area .copyright-text p {
