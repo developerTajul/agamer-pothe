@@ -104,6 +104,9 @@
             margin-top: 24px;
             margin-left: 0;
         }
+        @include lg{
+            margin-left: 0;
+        }
         textarea{
             margin-bottom: 0;
         }
@@ -121,7 +124,7 @@
           top: 0;
           right: -28%;
           z-index: 0;
-          @include rmaxwd(1199){
+          @include rmaxwd(1399){
             display: none;
           }
     }

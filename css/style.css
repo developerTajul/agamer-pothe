@@ -4841,6 +4841,11 @@ body.admin-bar .header-menu-area.sticky_menu {
 .icon-card.style-4 .content {
   padding: 0 66px;
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .icon-card.style-4 .content {
+    padding: 0 24px;
+  }
+}
 
 .about-image-card {
   position: relative;
@@ -11272,6 +11277,11 @@ ul.children {
     margin-left: 0;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .contact-form-area .comment-respond {
+    margin-left: 0;
+  }
+}
 .contact-form-area .comment-respond textarea {
   margin-bottom: 0;
 }
@@ -11291,7 +11301,7 @@ ul.children {
   right: -28%;
   z-index: 0;
 }
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
   .contact-form-area .shape {
     display: none;
   }
