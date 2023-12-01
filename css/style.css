@@ -10881,7 +10881,7 @@ ul.children {
 }
 .latest-project-area.style-2:before {
   content: "";
-  width: 1293px;
+  width: 87%;
   height: 1px;
   background-color: #E4E4E7;
   position: absolute;
@@ -10981,7 +10981,7 @@ ul.children {
 }
 .why-choose-area.style-3:before {
   content: "";
-  width: 1293px;
+  width: 87%;
   height: 1px;
   background-color: #E4E4E7;
   position: absolute;
@@ -10995,7 +10995,7 @@ ul.children {
 }
 .team-area.style-3:before {
   content: "";
-  width: 1293px;
+  width: 87%;
   height: 1px;
   background-color: #E4E4E7;
   position: absolute;
@@ -13963,6 +13963,8 @@ ul.children {
 .achieve-area .content.style-3 {
   padding-right: 75px;
   border-right: 1px solid rgba(255, 255, 255, 0.15);
+  position: relative;
+  z-index: 1;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .achieve-area .content.style-3 {
