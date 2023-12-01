@@ -6503,6 +6503,7 @@ button.testimonial-arrow-btn:hover:before {
 }
 .single-post-item .single-post-meta.default {
   flex-wrap: nowrap;
+  margin-bottom: 0;
 }
 .single-post-item .single-post-meta.default .blog-post-tag > span,
 .single-post-item .single-post-meta.default .social-share > span {
@@ -6551,7 +6552,7 @@ button.testimonial-arrow-btn:hover:before {
   font-size: 16px;
   font-weight: 700;
   font-family: "Urbanist", sans-serif;
-  color: #6E65E5;
+  color: #141F39;
   margin-bottom: 0;
   margin-right: 30px;
   text-transform: uppercase;
