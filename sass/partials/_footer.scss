@@ -336,10 +336,13 @@
     margin-bottom: 0;
     padding-left: 0;
     flex-wrap: wrap;
-
+    
     @include rmaxwd(991) {
       justify-content: flex-start;
       gap: 0 20px;
+    }
+    @include md{
+      justify-content: center;
     }
     @include lg{
       gap: 0 16px;
@@ -373,6 +376,9 @@
   .copyright-text {
     @include rmaxwd(767) {
       margin-bottom: 20px;
+      text-align: center;
+    }
+    @include md{
       text-align: center;
     }
     p {
