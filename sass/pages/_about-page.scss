@@ -2,13 +2,24 @@
 .about-us-area{
   &.style-3{
     .about-info-card{
+      @include xl{
+        padding-left: 40px;
+      }
       @include sm{
         margin-top: 32px;
+      }
+      .section-title{
+        .title{
+          @include xl{
+            font-size: 50px;
+          }
+        }
       }
       .icon-card-wrapper{
         @include sm{
           margin-top: 30px;
         }
+
       }
     }
   }
@@ -105,6 +116,9 @@
           height: 504px;
         }        
         @include lg{
+          height: 504px;
+        }        
+        @include xl{
           height: 504px;
         }        
       }

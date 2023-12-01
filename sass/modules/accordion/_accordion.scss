@@ -69,6 +69,9 @@
       @include sm{
         padding-right: 15px;
       }
+      @include xl{
+        padding-right: 45px;
+      }
     }
     .accordion-button:not(.collapsed){
       background-color: $white;

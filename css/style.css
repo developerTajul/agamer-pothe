@@ -5993,6 +5993,11 @@ button.testimonial-arrow-btn:hover:before {
     padding-right: 15px;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .accordion .accordion-item .accordion-body {
+    padding-right: 45px;
+  }
+}
 .accordion .accordion-item .accordion-button:not(.collapsed) {
   background-color: #ffffff;
   box-shadow: none;
@@ -7719,6 +7724,11 @@ button.testimonial-arrow-btn:hover:before {
   .section-title .title {
     font-size: 38px;
     line-height: 48px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .section-title .title {
+    font-size: 50px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -11004,9 +11014,19 @@ ul.children {
   margin-bottom: 32px;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .about-us-area.style-3 .about-info-card {
+    padding-left: 40px;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .about-us-area.style-3 .about-info-card {
     margin-top: 32px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .about-us-area.style-3 .about-info-card .section-title .title {
+    font-size: 50px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -11107,6 +11127,11 @@ ul.children {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-area .testimonial-slider-two .slick-list {
+    height: 504px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .testimonial-area .testimonial-slider-two .slick-list {
     height: 504px;
   }
