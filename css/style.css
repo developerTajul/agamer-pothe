@@ -6254,6 +6254,10 @@ button.testimonial-arrow-btn:hover:before {
 .blog-area ul li {
   padding-top: 7px;
 }
+.blog-area ol li a,
+.blog-area ul li a {
+  color: #141F39;
+}
 
 .post-meta {
   display: flex;
@@ -6385,9 +6389,6 @@ button.testimonial-arrow-btn:hover:before {
 }
 .blog-details-wrapper .single-post-item .post-content .wp-block-group {
   margin: 15px 0;
-}
-.blog-details-wrapper .single-post-item .post-content .wp-block-group p {
-  margin-bottom: 0;
 }
 .blog-details-wrapper .single-post-item .post-content p {
   margin-bottom: 20px;
@@ -7087,6 +7088,9 @@ button.testimonial-arrow-btn:hover:before {
   margin: 0;
   line-height: 30px;
   text-transform: capitalize;
+}
+.blog-post-nav .post-navigation .text h4 a:hover {
+  color: #6E65E5;
 }
 
 .post-card {
