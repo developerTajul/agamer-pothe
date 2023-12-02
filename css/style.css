@@ -2644,6 +2644,7 @@ blockquote footer {
   line-height: 27px;
   border-radius: 50px;
   color: #141F39;
+  margin-top: 8px;
 }
 .wp-block-tag-cloud a:hover {
   color: #ffffff;
