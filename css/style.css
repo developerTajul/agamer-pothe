@@ -2538,7 +2538,7 @@ blockquote footer {
 .wp-block-pullquote {
   border-top: 5px solid #6E65E5 !important;
   border-bottom: 5px solid #6E65E5 !important;
-  background-color: #eef5f8;
+  background-color: transparent;
 }
 
 .wp-block-quote__citation, .wp-block-quote cite, .wp-block-quote footer {
