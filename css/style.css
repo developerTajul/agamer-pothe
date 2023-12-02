@@ -2636,6 +2636,22 @@ blockquote footer {
   width: 100%;
 }
 
+.wp-block-tag-cloud a {
+  background-color: #F9F9F9;
+  padding: 4px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  border-radius: 50px;
+  color: #141F39;
+}
+.wp-block-tag-cloud a:hover {
+  color: #ffffff;
+  background: #6E65E5;
+  border-color: #6E65E5;
+  transition: all 0.5s ease-out;
+}
+
 nav.wp-calendar-nav {
   justify-content: space-between;
   display: flex;
