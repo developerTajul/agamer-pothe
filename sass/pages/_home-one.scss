@@ -84,39 +84,6 @@
         margin-top: 80px;
       }
     }
-    // Theme-responsive
-    >.elementor-container{
-      @include xl{
-        padding: 0 55px;
-      }
-      @include lg{
-        padding: 0 55px;
-      }
-      @include md{
-        padding: 36px;
-      }
-      @include sm{
-        padding: 12px;
-      }
-      .elementor-col-50{
-        &:first-child{
-          @include md{
-            width: 100%;
-          }
-        }
-        &:last-child{
-          @include md{
-            width: 100%;
-          }
-          .section-title{
-            @include md{
-              width: 80%;
-              margin:  0 auto;
-            }
-          }
-        }
-      }
-    }
   }
 }
 // service-area
@@ -142,16 +109,6 @@
       &.style-2{
         @include xl{
           padding: 40px 38px;
-        }
-      }
-    }
-  }
-
-  .elementor-container{
-    .section-title-wrap{
-      .btn-wrapper{
-        @include sm{
-          text-align: center;
         }
       }
     }

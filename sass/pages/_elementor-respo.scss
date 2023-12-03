@@ -1,3 +1,46 @@
+// About-us-area style-1
+.elementor-section{
+    &.about-us-area {
+        &.style-1 {
+            padding: 100px 0 !important;
+          // Theme-responsive
+          >.elementor-container{
+            @include xl{
+              padding: 0 55px;
+            }
+            @include lg{
+              padding: 0 55px;
+            }
+            @include md{
+              padding: 36px;
+            }
+            @include sm{
+              padding: 12px;
+            }
+            .elementor-col-50{
+              &:first-child{
+                @include md{
+                  width: 100%;
+                }
+              }
+              &:last-child{
+                @include md{
+                  width: 100%;
+                }
+                .section-title{
+                  @include md{
+                    width: 80%;
+                    margin:  0 auto;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+}
+
 // Latest-post-area
 .elementor-section{
     &.latest-post-area{
@@ -30,6 +73,31 @@
                 @include rmaxwd(991){
                   text-align: center;
                 }
+              }
+            }
+          }
+        }
+    }
+}
+
+// service-area
+.elementor-section{
+    &.service-area {
+        overflow: hidden;
+        @include sm{
+            padding: 60px 0 !important;
+        }
+        @include md{
+            padding: 80px 0 !important;
+        }
+        @include lg{
+            padding: 100px 0 !important;
+        }
+        .elementor-container{
+          .section-title-wrap{
+            .btn-wrapper{
+              @include sm{
+                text-align: center;
               }
             }
           }
@@ -100,11 +168,42 @@
         }
       }
 }
+// Pricing-area 
+.elementor-section{
+    &.pricing-area{
+        &.style-1{
+            @include sm{
+                padding: 60px 0 !important;
+            }
+            @include md{
+                padding: 80px 0 !important;
+            }
+            @include lg{
+                padding: 100px 0 !important;
+            }
+          .elementor-container{
+            .shape{
+              top: 2%;
+              left: -17%;
+              width: auto !important;    
+            }
+          }
+        }
+      }
+}
 // latest-project-area
-
 .elementor-section{
     &.latest-project-area{
         &.style-1{
+            @include sm{
+                padding: 60px 0 !important;
+            }
+            @include md{
+                padding: 80px 0 !important;
+            }
+            @include lg{
+                padding: 100px 0 !important;
+            }
           .elementor-container{
             @include md{
               text-align: center;

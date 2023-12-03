@@ -82,22 +82,34 @@
 
 
 // Theme-Responsive
-.why-choose-area{
-    &.style-1{
-        >.elementor-container{
-            @include xl{
-                padding: 0 80px;
+.elementor-section{
+    &.why-choose-area{
+        &.style-1{
+            @include sm{
+                padding: 60px 0 !important;
+            }
+            @include md{
+                padding: 80px 0 !important;
             }
             @include lg{
-                padding: 0 40px;
+                padding: 100px 0 !important;
             }
-            .about-info-card{
-                margin: 0;
-                .list-item-wrapper{
-                    text-align: start;
+            >.elementor-container{
+                @include xl{
+                    padding: 0 80px;
                 }
+                @include lg{
+                    padding: 0 40px;
+                }
+                .about-info-card{
+                    margin: 0;
+                    .list-item-wrapper{
+                        text-align: start;
+                    }
+                }
+    
             }
-
         }
     }
+
 }
