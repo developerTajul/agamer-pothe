@@ -10665,6 +10665,12 @@ ul.children {
   flex-direction: column;
   gap: 40px;
 }
+.latest-post-area.style-1 .elementor-container .section-title-wrapper {
+  padding: 0 40px;
+}
+.latest-post-area.style-1 .elementor-container .section-title-wrapper .section-title {
+  width: 100%;
+}
 
 .team-area.style-1, .team-area.style-3 {
   position: relative;
@@ -10754,6 +10760,9 @@ ul.children {
   .team-area.style-1 .elementor-container .shape-one, .team-area.style-3 .elementor-container .shape-one {
     left: 5%;
   }
+}
+.team-area.style-1 .elementor-container .section-title, .team-area.style-3 .elementor-container .section-title {
+  padding: 0 40px;
 }
 
 .pricing-area.style-1 {
@@ -13572,6 +13581,9 @@ ul.children {
   .why-choose-area.style-1 > .elementor-container {
     padding: 0 40px;
   }
+}
+.why-choose-area.style-1 > .elementor-container .about-info-card {
+  margin: 0;
 }
 
 @font-face {

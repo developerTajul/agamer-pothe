@@ -272,6 +272,14 @@
       flex-direction: column;
       gap: 40px;
     }
+    .elementor-container{
+      .section-title-wrapper{
+        padding: 0 40px;
+        .section-title{
+          width: 100%;
+        }
+      }
+    }
   }
 }
 // Team-area Style-1
@@ -359,6 +367,9 @@
           @include xl{
             left: 5%;
           }
+        }
+        .section-title{
+          padding: 0 40px;
         }
       }
   }
