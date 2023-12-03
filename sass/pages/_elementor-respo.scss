@@ -1,0 +1,102 @@
+// Latest-post-area
+.elementor-section{
+    &.latest-post-area{
+        &.style-1{
+            @include sm{
+                padding: 60px 0 !important;
+            }
+            @include md{
+                padding: 80px 0 !important;
+            }
+            @include lg{
+                padding: 100px 0 !important;
+            }
+          .elementor-container{
+            .section-title-wrapper{
+              padding: 0 40px;
+              @include sm{
+                padding: 0 12px;
+              }
+              .section-title{
+                width: 100%;
+              }
+              .elementor-col-50{
+                @include md{
+                  width: 60%;
+                  margin: 0 auto;
+                }
+              }
+              .btn-wrapper{
+                @include rmaxwd(991){
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+    }
+}
+
+// Team-area Style-1
+.elementor-section{
+    .team-area{
+        &.style-1,
+        &.style-3{
+            @include sm{
+                padding: 60px 0 !important;
+            }
+            @include md{
+                padding: 80px 0 !important;
+            }
+            @include lg{
+                padding: 100px 0 !important;
+            }
+          position: relative;
+            .team-member-wrapper{
+              .elementor-container{
+                .elementor-column{
+                  .elementor-widget-wrap{
+                    padding: 0 16px !important;
+                  }
+                }
+              }
+            }
+            .elementor-container{
+              .shape-two{
+                width: auto !important;
+                right: 4%;
+                top: 62px;
+                @include rmaxwd(1199){
+                  display: none;
+              }
+              @include xl{
+                right: 7%;
+              }
+              }
+              .shape-one{
+                width: auto !important;
+                left: -7%;
+                top: 100px;
+                @include xl{
+                  left: 5%;
+                }
+              }
+              .section-title{
+                @include lg{
+                  padding: 0 40px;
+                  width: 80%;
+                  margin: 0 auto;
+                }
+                @include md{
+                  padding: 0 36px;
+                  width: 80%;
+                  margin: 0 auto;
+                }
+                @include sm{
+                  padding: 0 12px;
+                }
+              }
+            }
+        }
+      }
+}
