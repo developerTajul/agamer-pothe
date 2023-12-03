@@ -5783,7 +5783,7 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
-.process-step-area.style-1 .elementor-container {
+.process-step-area.style-1 > .elementor-container {
   padding: 0 80px;
 }
 
@@ -10487,6 +10487,9 @@ ul.children {
     margin-top: 80px;
   }
 }
+.about-us-area.style-1 > .elementor-container {
+  padding: 0 55px;
+}
 
 .service-area {
   overflow: hidden;
@@ -13540,7 +13543,7 @@ ul.children {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .why-choose-area.style-1 .elementor-container {
+  .why-choose-area.style-1 > .elementor-container {
     padding: 0 80px;
   }
 }
@@ -13659,7 +13662,7 @@ ul.children {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .service-area.style-1 .elementor-container {
+  .service-area.style-1 > .elementor-container {
     padding: 0 80px;
   }
 }

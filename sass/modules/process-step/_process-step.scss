@@ -168,7 +168,7 @@
 // Theme-responsive
 .process-step-area{
     &.style-1{
-        .elementor-container{
+        >.elementor-container{
             padding: 0 80px;
         }
     }

@@ -84,7 +84,10 @@
         margin-top: 80px;
       }
     }
-
+    // Theme-responsive
+    >.elementor-container{
+      padding: 0 55px;
+    }
   }
 }
 // service-area
