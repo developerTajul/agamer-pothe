@@ -210,7 +210,9 @@
                 }
                 .achieve-item-wrapper{
                     .elementor-col-33{
-                        margin-top: 12px;
+                        @include sm{
+                            margin-top: 12px;
+                        }
                         &:first-child{
                             margin-top: 0;
                         }

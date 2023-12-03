@@ -14562,8 +14562,10 @@ ul.children {
     width: 100%;
   }
 }
-.achieve-area .elementor-column .inner-wrapper .elementor-container .achieve-item-wrapper .elementor-col-33 {
-  margin-top: 12px;
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .achieve-area .elementor-column .inner-wrapper .elementor-container .achieve-item-wrapper .elementor-col-33 {
+    margin-top: 12px;
+  }
 }
 .achieve-area .elementor-column .inner-wrapper .elementor-container .achieve-item-wrapper .elementor-col-33:first-child {
   margin-top: 0;
@@ -14826,56 +14828,56 @@ ul.children {
   }
 }
 
-.elementor-section.about-us-area.style-1 {
+.elementor-section.about-us-area.style-1, .elementor-section.about-us-area.style-2 {
   padding-top: 100px !important;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.about-us-area.style-1 {
+  .elementor-section.about-us-area.style-1, .elementor-section.about-us-area.style-2 {
     padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.about-us-area.style-1 {
+  .elementor-section.about-us-area.style-1, .elementor-section.about-us-area.style-2 {
     padding-bottom: 80px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.about-us-area.style-1 {
+  .elementor-section.about-us-area.style-1, .elementor-section.about-us-area.style-2 {
     padding-bottom: 60px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .elementor-section.about-us-area.style-1 > .elementor-container {
+  .elementor-section.about-us-area.style-1 > .elementor-container, .elementor-section.about-us-area.style-2 > .elementor-container {
     padding: 0 55px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.about-us-area.style-1 > .elementor-container {
+  .elementor-section.about-us-area.style-1 > .elementor-container, .elementor-section.about-us-area.style-2 > .elementor-container {
     padding: 0 55px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.about-us-area.style-1 > .elementor-container {
+  .elementor-section.about-us-area.style-1 > .elementor-container, .elementor-section.about-us-area.style-2 > .elementor-container {
     padding: 36px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.about-us-area.style-1 > .elementor-container {
+  .elementor-section.about-us-area.style-1 > .elementor-container, .elementor-section.about-us-area.style-2 > .elementor-container {
     padding: 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.about-us-area.style-1 > .elementor-container .elementor-col-50:first-child {
+  .elementor-section.about-us-area.style-1 > .elementor-container .elementor-col-50:first-child, .elementor-section.about-us-area.style-2 > .elementor-container .elementor-col-50:first-child {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.about-us-area.style-1 > .elementor-container .elementor-col-50:last-child {
+  .elementor-section.about-us-area.style-1 > .elementor-container .elementor-col-50:last-child, .elementor-section.about-us-area.style-2 > .elementor-container .elementor-col-50:last-child {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.about-us-area.style-1 > .elementor-container .elementor-col-50:last-child .section-title {
+  .elementor-section.about-us-area.style-1 > .elementor-container .elementor-col-50:last-child .section-title, .elementor-section.about-us-area.style-2 > .elementor-container .elementor-col-50:last-child .section-title {
     width: 80%;
     margin: 0 auto;
   }
@@ -15031,43 +15033,43 @@ ul.children {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.latest-project-area.style-1 {
+  .elementor-section.latest-project-area.style-1, .elementor-section.latest-project-area.style-2 {
     padding: 60px 0 !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.latest-project-area.style-1 {
+  .elementor-section.latest-project-area.style-1, .elementor-section.latest-project-area.style-2 {
     padding: 80px 0 !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.latest-project-area.style-1 {
+  .elementor-section.latest-project-area.style-1, .elementor-section.latest-project-area.style-2 {
     padding: 100px 0 !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.latest-project-area.style-1 .elementor-container {
+  .elementor-section.latest-project-area.style-1 .elementor-container, .elementor-section.latest-project-area.style-2 .elementor-container {
     text-align: center;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper, .elementor-section.latest-project-area.style-2 .elementor-container .section-title-wrapper {
     padding: 0 40px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .section-title {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .section-title, .elementor-section.latest-project-area.style-2 .elementor-container .section-title-wrapper .section-title {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50, .elementor-section.latest-project-area.style-2 .elementor-container .section-title-wrapper .elementor-col-50 {
     width: 60%;
     margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
-  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 .btn-wrapper {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 .btn-wrapper, .elementor-section.latest-project-area.style-2 .elementor-container .section-title-wrapper .elementor-col-50 .btn-wrapper {
     text-align: center;
   }
 }
