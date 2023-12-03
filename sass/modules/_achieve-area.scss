@@ -175,6 +175,15 @@
         .star{
         width: auto !important;
         transform: translate(109%, -33%);
+        @include rmaxwd(991){
+            display: none;
+        }
+        @include xl{
+            transform: translate(0, -33%);
+        }
+        }
+        .inner-wrapper{
+            padding: 0 ;
         }
     }
 }

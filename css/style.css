@@ -14368,6 +14368,19 @@ ul.children {
   width: auto !important;
   transform: translate(109%, -33%);
 }
+@media (max-width: 991px) {
+  .achieve-area .elementor-column .star {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .achieve-area .elementor-column .star {
+    transform: translate(0, -33%);
+  }
+}
+.achieve-area .elementor-column .inner-wrapper {
+  padding: 0;
+}
 
 .post-card.style-3 {
   margin-top: 0;
