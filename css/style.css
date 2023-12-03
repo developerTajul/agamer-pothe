@@ -5809,6 +5809,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     justify-content: center;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .process-step-area.style-1 > .elementor-container .process-step-wrapper > .elementor-container .section-title {
+    padding: 0 12px;
+  }
+}
 
 .testimonial-card {
   padding: 0 60px;
@@ -10528,6 +10533,11 @@ ul.children {
     padding: 36px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .about-us-area.style-1 > .elementor-container {
+    padding: 12px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-us-area.style-1 > .elementor-container .elementor-col-50:first-child {
     width: 100%;
@@ -14579,6 +14589,12 @@ ul.children {
 }
 .achieve-area.style-2 .elementor-container .content.style-3 {
   padding-left: 130px;
+}
+.achieve-area.style-2 .elementor-container .achieve-item-wrapper .elementor-col-33 {
+  margin-top: 12px;
+}
+.achieve-area.style-2 .elementor-container .achieve-item-wrapper .elementor-col-33:first-child {
+  margin-top: 0;
 }
 .achieve-area .elementor-column .star {
   width: auto !important;

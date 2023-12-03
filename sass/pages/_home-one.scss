@@ -95,6 +95,9 @@
       @include md{
         padding: 36px;
       }
+      @include sm{
+        padding: 12px;
+      }
       .elementor-col-50{
         &:first-child{
           @include md{

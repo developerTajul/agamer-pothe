@@ -189,6 +189,11 @@
                     @include md{
                         justify-content: center;
                     }
+                    .section-title{
+                        @include sm{
+                            padding: 0 12px;
+                        }
+                    }
                 }
             }
         }
