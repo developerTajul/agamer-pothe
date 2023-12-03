@@ -242,3 +242,46 @@
         }
       }
 }
+
+// Why-choose-area 
+.why-choose-area{
+    &.style-1{
+      >.elementor-container{
+        @include sm{
+          padding: 0 12px;
+        }
+        .about-image-card{
+            .feather{
+                display: none;
+            }
+        }
+        .elementor-col-50{
+          &:first-child{
+            @include md{
+              width: 100%;
+            }
+          }
+          &:last-child{
+            @include md{
+              width: 70%;
+              margin: 0 auto !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+//  Hero area
+.elementor-section{
+    &.hero-area{
+        &.style-2{
+           .video-popup-card{
+            .shape{
+                display: none;
+            }
+           } 
+        }
+    }
+}
+  
