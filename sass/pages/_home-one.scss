@@ -298,6 +298,17 @@
         .section-title{
           width: 100%;
         }
+        .elementor-col-50{
+          @include md{
+            width: 60%;
+            margin: 0 auto;
+          }
+        }
+        .btn-wrapper{
+          @include md{
+            text-align: center;
+          }
+        }
       }
     }
   }
