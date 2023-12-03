@@ -252,7 +252,9 @@
         }
         .about-image-card{
             .feather{
-                display: none;
+                @include rmaxwd(1399){
+                    display: none;
+                }
             }
         }
         .elementor-col-50{
@@ -278,7 +280,9 @@
         &.style-2{
            .video-popup-card{
             .shape{
-                display: none;
+                @include rmaxwd(1399){
+                    display: none;
+                }
             }
            } 
         }
