@@ -10761,8 +10761,12 @@ ul.children {
     left: 5%;
   }
 }
-.team-area.style-1 .elementor-container .section-title, .team-area.style-3 .elementor-container .section-title {
-  padding: 0 40px;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .team-area.style-1 .elementor-container .section-title, .team-area.style-3 .elementor-container .section-title {
+    padding: 0 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 .pricing-area.style-1 {
@@ -10841,7 +10845,7 @@ ul.children {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .latest-project-area.style-1 .elementor-container .section-title-wrapper .section-title {
-    width: 65%;
+    width: 100%;
   }
 }
 
@@ -13703,6 +13707,12 @@ ul.children {
   .service-area.style-1 > .elementor-container {
     padding: 0 80px;
   }
+}
+.service-area.style-1 > .elementor-container .elementor-col-50:first-child {
+  width: 80%;
+}
+.service-area.style-1 > .elementor-container .elementor-col-50:last-child {
+  width: 100%;
 }
 
 .service-area.style-2 {

@@ -74,6 +74,14 @@
         @include xl{
           padding: 0 80px;
         }
+        .elementor-col-50{
+          &:first-child{
+            width: 80%;
+          }
+          &:last-child{
+            width: 100%;
+          }
+        }
       }
     }
   }
