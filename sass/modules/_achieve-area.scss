@@ -169,14 +169,6 @@
                     padding-left: 130px;
                 }
             }
-            .achieve-item-wrapper{
-                .elementor-col-33{
-                    margin-top: 12px;
-                    &:first-child{
-                        margin-top: 0;
-                    }
-                }
-            }
         }
     }
     .elementor-column{
@@ -213,6 +205,14 @@
                     &:last-child{
                         @include md{
                             width: 100%;
+                        }
+                    }
+                }
+                .achieve-item-wrapper{
+                    .elementor-col-33{
+                        margin-top: 12px;
+                        &:first-child{
+                            margin-top: 0;
                         }
                     }
                 }

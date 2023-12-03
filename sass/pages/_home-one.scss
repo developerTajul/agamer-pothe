@@ -246,7 +246,7 @@
         &:last-child{
           @include md{
             width: 70%;
-            margin: 0 auto;
+            margin: 0 auto !important;
           }
         }
       }

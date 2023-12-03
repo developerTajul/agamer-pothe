@@ -2,7 +2,16 @@
 .elementor-section{
     &.about-us-area {
         &.style-1 {
-            padding: 100px 0 !important;
+            padding-top: 100px !important;
+            @include lg{
+                padding-bottom: 100px;
+              }
+              @include md{
+                padding-bottom: 80px;
+              }
+              @include sm{
+                padding-bottom: 60px;
+              }
           // Theme-responsive
           >.elementor-container{
             @include xl{
