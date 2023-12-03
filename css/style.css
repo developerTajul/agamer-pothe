@@ -13740,6 +13740,16 @@ ul.children {
     padding: 0 36px;
   }
 }
+@media (max-width: 991px) {
+  .service-area.style-1 > .elementor-container .shape {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .service-area.style-1 > .elementor-container .elementor-col-50 .btn-wrapper {
+    text-align: center;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .service-area.style-1 > .elementor-container .elementor-col-50:first-child {
     width: 80%;
@@ -13748,6 +13758,7 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .service-area.style-1 > .elementor-container .elementor-col-50:first-child {
     width: 80%;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

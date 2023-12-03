@@ -80,13 +80,24 @@
         @include md{
           padding: 0 36px;
         }
+        .shape{
+          @include rmaxwd(991){
+            display: none;
+          }
+        }
         .elementor-col-50{
+          .btn-wrapper{
+            @include md{
+              text-align: center;
+            }
+          }
           &:first-child{
             @include lg{
               width: 80%;
             }
             @include md{
               width: 80%;
+              margin: 0 auto;
             }
           }
           &:last-child{
