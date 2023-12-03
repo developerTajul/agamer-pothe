@@ -93,8 +93,11 @@
             }
             .about-info-card{
                 margin: 0;
+                .list-item-wrapper{
+                    text-align: start;
+                }
             }
-            
+
         }
     }
 }
