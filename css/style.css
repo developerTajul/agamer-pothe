@@ -5804,6 +5804,11 @@ body.admin-bar .header-menu-area.sticky_menu {
     width: 50%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .process-step-area.style-1 > .elementor-container .process-step-wrapper > .elementor-container {
+    justify-content: center;
+  }
+}
 
 .testimonial-card {
   padding: 0 60px;
@@ -10565,6 +10570,11 @@ ul.children {
     padding: 40px 38px;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .service-area .elementor-container .section-title-wrap .btn-wrapper {
+    text-align: center;
+  }
+}
 
 .portfolio-slider-area.style-1 {
   padding: 121px 0;
@@ -10677,6 +10687,11 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .why-choose-area.style-1 .section-title .desc br {
     display: none;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .why-choose-area.style-1 .elementor-container {
+    padding: 0 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

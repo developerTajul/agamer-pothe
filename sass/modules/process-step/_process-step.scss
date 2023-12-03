@@ -184,6 +184,13 @@
                     width: 50%;
                 }
             }
+            .process-step-wrapper{
+                >.elementor-container{
+                    @include md{
+                        justify-content: center;
+                    }
+                }
+            }
         }
     }
 }
