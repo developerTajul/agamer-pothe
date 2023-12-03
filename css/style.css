@@ -10533,6 +10533,12 @@ ul.children {
     width: 100%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-us-area.style-1 > .elementor-container .elementor-col-50:last-child .section-title {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 
 .service-area {
   overflow: hidden;
@@ -10671,6 +10677,17 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .why-choose-area.style-1 .section-title .desc br {
     display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why-choose-area.style-1 .elementor-container .elementor-col-50:first-child {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .why-choose-area.style-1 .elementor-container .elementor-col-50:last-child {
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
@@ -10905,7 +10922,7 @@ ul.children {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50:first-child {
+  .latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 {
     width: 60%;
     margin: 0 auto;
   }

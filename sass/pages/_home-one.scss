@@ -105,6 +105,12 @@
           @include md{
             width: 100%;
           }
+          .section-title{
+            @include md{
+              width: 80%;
+              margin:  0 auto;
+            }
+          }
         }
       }
     }
@@ -253,6 +259,21 @@
         br{
           @include xl{
             display: none;
+          }
+        }
+      }
+    }
+    .elementor-container{
+      .elementor-col-50{
+        &:first-child{
+          @include md{
+            width: 100%;
+          }
+        }
+        &:last-child{
+          @include md{
+            width: 70%;
+            margin: 0 auto;
           }
         }
       }
@@ -514,12 +535,10 @@
           }
         }
         .elementor-col-50{
-          &:first-child{
             @include md{
               width: 60%;
               margin: 0 auto;
             }
-          }
           .btn-wrapper{
             @include md{
               text-align: center;
