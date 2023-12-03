@@ -48,7 +48,18 @@
           }
         }
       }
-
+}
+// About-us-area style-2
+.elementor-section{
+    &.about-us-area{
+        &.style-2{
+            .about-info-card{
+                @include xl{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
 }
 
 // Latest-post-area
@@ -65,6 +76,9 @@
                 padding: 100px 0 !important;
             }
           .elementor-container{
+            @include lg{
+                padding: 0 80px;
+            }
             .section-title-wrapper{
               padding: 0 40px;
               @include sm{
@@ -246,36 +260,80 @@
 }
 
 // Why-choose-area 
-.why-choose-area{
-    &.style-1,
-    &.style-2{
-      >.elementor-container{
-        @include sm{
-          padding: 0 12px;
-        }
-        .about-image-card{
-            .feather{
-                @include rmaxwd(1399){
-                    display: none;
+.elementor-section{
+    &.why-choose-area{
+        &.style-1,
+        &.style-2{
+          >.elementor-container{
+            @include sm{
+              padding: 0 12px;
+            }
+            .about-image-card{
+                .feather{
+                    @include rmaxwd(1399){
+                        display: none;
+                    }
                 }
             }
-        }
-        .elementor-col-50{
-          &:first-child{
-            @include md{
-              width: 100%;
-            }
-          }
-          &:last-child{
-            @include md{
-              width: 70%;
-              margin: 0 auto !important;
+            .elementor-col-50{
+              &:first-child{
+                @include md{
+                  width: 100%;
+                }
+              }
+              &:last-child{
+                @include md{
+                  width: 70%;
+                  margin: 0 auto !important;
+                }
+              }
             }
           }
         }
       }
-    }
-  }
+}
+
+ // Why-choose-area Style-2
+ .elementor-section{
+     &.why-choose-area{
+         &.style-2{
+             @include sm{
+                 padding: 60px 0 !important;
+             }
+             @include md{
+                 padding: 80px 0 !important;
+             }
+             @include lg{
+                 padding: 100px 0 !important;
+             }
+           >.elementor-container{
+             @include sm{
+               padding: 0 12px;
+             }
+             .about-image-card{
+                 .feather{
+                     @include rmaxwd(1399){
+                         display: none;
+                     }
+                 }
+             }
+             .elementor-col-50{
+               &:first-child{
+                 @include md{
+                   width: 100%;
+                 }
+               }
+               &:last-child{
+                 @include md{
+                   width: 70%;
+                   margin: 0 auto !important;
+                 }
+               }
+             }
+           }
+         }
+       }
+ }
 
 //  Hero area
 .elementor-section{

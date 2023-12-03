@@ -14883,6 +14883,12 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .elementor-section.about-us-area.style-2 .about-info-card {
+    padding-left: 0;
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.latest-post-area.style-1 {
     padding: 60px 0 !important;
@@ -14896,6 +14902,11 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.latest-post-area.style-1 {
     padding: 100px 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.latest-post-area.style-1 .elementor-container {
+    padding: 0 80px;
   }
 }
 .elementor-section.latest-post-area.style-1 .elementor-container .section-title-wrapper {
@@ -15075,22 +15086,59 @@ ul.children {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .why-choose-area.style-1 > .elementor-container, .why-choose-area.style-2 > .elementor-container {
+  .elementor-section.why-choose-area.style-1 > .elementor-container, .elementor-section.why-choose-area.style-2 > .elementor-container {
     padding: 0 12px;
   }
 }
 @media (max-width: 1399px) {
-  .why-choose-area.style-1 > .elementor-container .about-image-card .feather, .why-choose-area.style-2 > .elementor-container .about-image-card .feather {
+  .elementor-section.why-choose-area.style-1 > .elementor-container .about-image-card .feather, .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card .feather {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .why-choose-area.style-1 > .elementor-container .elementor-col-50:first-child, .why-choose-area.style-2 > .elementor-container .elementor-col-50:first-child {
+  .elementor-section.why-choose-area.style-1 > .elementor-container .elementor-col-50:first-child, .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:first-child {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .why-choose-area.style-1 > .elementor-container .elementor-col-50:last-child, .why-choose-area.style-2 > .elementor-container .elementor-col-50:last-child {
+  .elementor-section.why-choose-area.style-1 > .elementor-container .elementor-col-50:last-child, .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:last-child {
+    width: 70%;
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.why-choose-area.style-2 {
+    padding: 60px 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 {
+    padding: 80px 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.why-choose-area.style-2 {
+    padding: 100px 0 !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container {
+    padding: 0 12px;
+  }
+}
+@media (max-width: 1399px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card .feather {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:first-child {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:last-child {
     width: 70%;
     margin: 0 auto !important;
   }
