@@ -192,6 +192,23 @@
             @include lg{
                 padding: 0 40px;
             }
+            @include md{
+                padding: 0 36px;
+            }
+            .elementor-container{
+                .elementor-col-50{
+                    &:first-child{
+                        @include md{
+                            width: 100%;
+                        }
+                    }
+                    &:last-child{
+                        @include md{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
         }
     }
 }

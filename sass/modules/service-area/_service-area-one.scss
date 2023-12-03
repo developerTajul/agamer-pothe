@@ -74,12 +74,28 @@
         @include xl{
           padding: 0 80px;
         }
+        @include lg{
+          padding: 0 40px;
+        }
+        @include md{
+          padding: 0 36px;
+        }
         .elementor-col-50{
           &:first-child{
-            width: 80%;
+            @include lg{
+              width: 80%;
+            }
+            @include md{
+              width: 80%;
+            }
           }
           &:last-child{
-            width: 100%;
+            @include lg{
+              width: 100%;
+            }
+            @include md{
+              width: 100%;
+            }
           }
         }
       }

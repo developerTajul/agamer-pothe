@@ -86,7 +86,27 @@
     }
     // Theme-responsive
     >.elementor-container{
-      padding: 0 55px;
+      @include xl{
+        padding: 0 55px;
+      }
+      @include lg{
+        padding: 0 55px;
+      }
+      @include md{
+        padding: 36px;
+      }
+      .elementor-col-50{
+        &:first-child{
+          @include md{
+            width: 100%;
+          }
+        }
+        &:last-child{
+          @include md{
+            width: 100%;
+          }
+        }
+      }
     }
   }
 }
