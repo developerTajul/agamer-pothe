@@ -68,6 +68,9 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 27px;
+        a{
+          color: $black;
+        }
         &.second{
           background: #FFCEC2;
         }

@@ -446,3 +446,20 @@
     // }
   }
 }
+
+.latest-project-area{
+  &.style-1{
+    .elementor-container{
+      .section-title-wrapper {
+        @include lg{
+          padding: 0 40px;
+        }
+        .section-title {
+          @include lg{
+            width: 65%;
+          }
+        }
+    }
+    }
+  }
+}

@@ -88,6 +88,9 @@
             @include xl{
                 padding: 0 80px;
             }
+            @include lg{
+                padding: 0 40px;
+            }
         }
     }
 }

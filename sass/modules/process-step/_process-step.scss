@@ -169,7 +169,12 @@
 .process-step-area{
     &.style-1{
         >.elementor-container{
-            padding: 0 80px;
+            @include xl{
+                padding: 0 80px;
+            }
+            @include lg{
+                padding: 0 24px;
+            }
         }
     }
 }
