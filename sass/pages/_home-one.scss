@@ -394,6 +394,11 @@
             width: 80%;
             margin: 0 auto;
           }
+          @include md{
+            padding: 0 36px;
+            width: 80%;
+            margin: 0 auto;
+          }
         }
       }
   }
@@ -485,6 +490,9 @@
 .latest-project-area{
   &.style-1{
     .elementor-container{
+      @include md{
+        text-align: center;
+      }
       .section-title-wrapper {
         @include lg{
           padding: 0 40px;
@@ -492,6 +500,19 @@
         .section-title {
           @include lg{
             width: 100%;
+          }
+        }
+        .elementor-col-50{
+          &:first-child{
+            @include md{
+              width: 60%;
+              margin: 0 auto;
+            }
+          }
+          .btn-wrapper{
+            @include md{
+              text-align: center;
+            }
           }
         }
     }

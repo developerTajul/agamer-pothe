@@ -175,6 +175,15 @@
             @include lg{
                 padding: 0 24px;
             }
+            @include md{
+                padding: 0 36px;
+                justify-content: center;
+            }
+            .elementor-col-33{
+                @include md{
+                    width: 50%;
+                }
+            }
         }
     }
 }
