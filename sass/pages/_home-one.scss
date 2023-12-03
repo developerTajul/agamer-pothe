@@ -495,34 +495,3 @@
     // }
   }
 }
-
-.latest-project-area{
-  &.style-1{
-    .elementor-container{
-      @include md{
-        text-align: center;
-      }
-      .section-title-wrapper {
-        @include lg{
-          padding: 0 40px;
-        }
-        .section-title {
-          @include lg{
-            width: 100%;
-          }
-        }
-        .elementor-col-50{
-            @include md{
-              width: 60%;
-              margin: 0 auto;
-            }
-          .btn-wrapper{
-            @include rmaxwd(991){
-              text-align: center;
-            }
-          }
-        }
-    }
-    }
-  }
-}

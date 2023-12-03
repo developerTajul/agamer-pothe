@@ -5784,48 +5784,48 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section .process-step-area.style-1 {
+  .elementor-section.process-step-area.style-1 {
     padding: 60px 0 !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section .process-step-area.style-1 {
+  .elementor-section.process-step-area.style-1 {
     padding: 80px 0 !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section .process-step-area.style-1 {
+  .elementor-section.process-step-area.style-1 {
     padding: 100px 0 !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .elementor-section .process-step-area.style-1 > .elementor-container {
+  .elementor-section.process-step-area.style-1 > .elementor-container {
     padding: 0 80px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section .process-step-area.style-1 > .elementor-container {
+  .elementor-section.process-step-area.style-1 > .elementor-container {
     padding: 0 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section .process-step-area.style-1 > .elementor-container {
+  .elementor-section.process-step-area.style-1 > .elementor-container {
     padding: 0 36px;
     justify-content: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section .process-step-area.style-1 > .elementor-container .elementor-col-33 {
+  .elementor-section.process-step-area.style-1 > .elementor-container .elementor-col-33 {
     width: 50%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section .process-step-area.style-1 > .elementor-container .process-step-wrapper > .elementor-container {
+  .elementor-section.process-step-area.style-1 > .elementor-container .process-step-wrapper > .elementor-container {
     justify-content: center;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section .process-step-area.style-1 > .elementor-container .process-step-wrapper > .elementor-container .section-title {
+  .elementor-section.process-step-area.style-1 > .elementor-container .process-step-wrapper > .elementor-container .section-title {
     padding: 0 12px;
   }
 }
@@ -10909,33 +10909,6 @@ ul.children {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .latest-project-area.style-1 .elementor-container {
-    text-align: center;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .latest-project-area.style-1 .elementor-container .section-title-wrapper {
-    padding: 0 40px;
-  }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .latest-project-area.style-1 .elementor-container .section-title-wrapper .section-title {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 991px) {
-  .latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 .btn-wrapper {
-    text-align: center;
-  }
-}
-
 .client-logo-area.style-1.style-2 {
   padding: 119px 0;
 }
@@ -14914,68 +14887,95 @@ ul.children {
   }
 }
 
-.elementor-section .team-area.style-1, .elementor-section .team-area.style-3 {
+.elementor-section.team-area.style-1, .elementor-section.team-area.style-3 {
   position: relative;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section .team-area.style-1, .elementor-section .team-area.style-3 {
+  .elementor-section.team-area.style-1, .elementor-section.team-area.style-3 {
     padding: 60px 0 !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section .team-area.style-1, .elementor-section .team-area.style-3 {
+  .elementor-section.team-area.style-1, .elementor-section.team-area.style-3 {
     padding: 80px 0 !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section .team-area.style-1, .elementor-section .team-area.style-3 {
+  .elementor-section.team-area.style-1, .elementor-section.team-area.style-3 {
     padding: 100px 0 !important;
   }
 }
-.elementor-section .team-area.style-1 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap, .elementor-section .team-area.style-3 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap {
+.elementor-section.team-area.style-1 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap, .elementor-section.team-area.style-3 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap {
   padding: 0 16px !important;
 }
-.elementor-section .team-area.style-1 .elementor-container .shape-two, .elementor-section .team-area.style-3 .elementor-container .shape-two {
+.elementor-section.team-area.style-1 .elementor-container .shape-two, .elementor-section.team-area.style-3 .elementor-container .shape-two {
   width: auto !important;
   right: 4%;
   top: 62px;
 }
 @media (max-width: 1199px) {
-  .elementor-section .team-area.style-1 .elementor-container .shape-two, .elementor-section .team-area.style-3 .elementor-container .shape-two {
+  .elementor-section.team-area.style-1 .elementor-container .shape-two, .elementor-section.team-area.style-3 .elementor-container .shape-two {
     display: none;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .elementor-section .team-area.style-1 .elementor-container .shape-two, .elementor-section .team-area.style-3 .elementor-container .shape-two {
+  .elementor-section.team-area.style-1 .elementor-container .shape-two, .elementor-section.team-area.style-3 .elementor-container .shape-two {
     right: 7%;
   }
 }
-.elementor-section .team-area.style-1 .elementor-container .shape-one, .elementor-section .team-area.style-3 .elementor-container .shape-one {
+.elementor-section.team-area.style-1 .elementor-container .shape-one, .elementor-section.team-area.style-3 .elementor-container .shape-one {
   width: auto !important;
   left: -7%;
   top: 100px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .elementor-section .team-area.style-1 .elementor-container .shape-one, .elementor-section .team-area.style-3 .elementor-container .shape-one {
+  .elementor-section.team-area.style-1 .elementor-container .shape-one, .elementor-section.team-area.style-3 .elementor-container .shape-one {
     left: 5%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section .team-area.style-1 .elementor-container .section-title, .elementor-section .team-area.style-3 .elementor-container .section-title {
+  .elementor-section.team-area.style-1 .elementor-container .section-title, .elementor-section.team-area.style-3 .elementor-container .section-title {
     padding: 0 40px;
     width: 80%;
     margin: 0 auto;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section .team-area.style-1 .elementor-container .section-title, .elementor-section .team-area.style-3 .elementor-container .section-title {
+  .elementor-section.team-area.style-1 .elementor-container .section-title, .elementor-section.team-area.style-3 .elementor-container .section-title {
     padding: 0 36px;
     width: 80%;
     margin: 0 auto;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section .team-area.style-1 .elementor-container .section-title, .elementor-section .team-area.style-3 .elementor-container .section-title {
+  .elementor-section.team-area.style-1 .elementor-container .section-title, .elementor-section.team-area.style-3 .elementor-container .section-title {
     padding: 0 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.latest-project-area.style-1 .elementor-container {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper {
+    padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .section-title {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 991px) {
+  .elementor-section.latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 .btn-wrapper {
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */

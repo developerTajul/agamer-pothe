@@ -167,7 +167,7 @@
 
 // Theme-responsive
 .elementor-section{
-    .process-step-area{
+    &.process-step-area{
         &.style-1{
             @include sm{
                 padding: 60px 0 !important;
