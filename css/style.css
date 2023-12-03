@@ -10752,7 +10752,7 @@ ul.children {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .latest-post-area.style-1 .elementor-container .section-title-wrapper .btn-wrapper {
     text-align: center;
   }
@@ -10861,6 +10861,11 @@ ul.children {
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .team-area.style-1 .elementor-container .section-title, .team-area.style-3 .elementor-container .section-title {
+    padding: 0 12px;
+  }
+}
 
 .pricing-area.style-1 {
   background-position: center;
@@ -10952,7 +10957,7 @@ ul.children {
     margin: 0 auto;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .latest-project-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 .btn-wrapper {
     text-align: center;
   }
