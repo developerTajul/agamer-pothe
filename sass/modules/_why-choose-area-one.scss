@@ -79,3 +79,15 @@
         } 
     }
 }
+
+
+// Theme-Responsive
+.why-choose-area{
+    &.style-1{
+        .elementor-container{
+            @include xl{
+                padding: 0 80px;
+            }
+        }
+    }
+}

@@ -5783,6 +5783,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   }
 }
 
+.process-step-area.style-1 .elementor-container {
+  padding: 0 80px;
+}
+
 .testimonial-card {
   padding: 0 60px;
   display: flex !important;
@@ -10718,10 +10722,25 @@ ul.children {
   right: 4%;
   top: 62px;
 }
+@media (max-width: 1199px) {
+  .team-area.style-1 .elementor-container .shape-two, .team-area.style-3 .elementor-container .shape-two {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .team-area.style-1 .elementor-container .shape-two, .team-area.style-3 .elementor-container .shape-two {
+    right: 7%;
+  }
+}
 .team-area.style-1 .elementor-container .shape-one, .team-area.style-3 .elementor-container .shape-one {
   width: auto !important;
   left: -7%;
   top: 100px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .team-area.style-1 .elementor-container .shape-one, .team-area.style-3 .elementor-container .shape-one {
+    left: 5%;
+  }
 }
 
 .pricing-area.style-1 {
@@ -13520,6 +13539,12 @@ ul.children {
   overflow: hidden;
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .why-choose-area.style-1 .elementor-container {
+    padding: 0 80px;
+  }
+}
+
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.eot?ie6nk4");
@@ -13631,6 +13656,12 @@ ul.children {
 }
 .service-area .icon-card.style-2:nth-child(6) .icon:before {
   background-color: #FFE8DF;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .service-area.style-1 .elementor-container {
+    padding: 0 80px;
+  }
 }
 
 .service-area.style-2 {
@@ -14378,8 +14409,15 @@ ul.children {
     transform: translate(0, -33%);
   }
 }
-.achieve-area .elementor-column .inner-wrapper {
-  padding: 0;
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .achieve-area .elementor-column .star {
+    transform: translate(0, -33%);
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .achieve-area .elementor-column .inner-wrapper {
+    padding: 0 80px;
+  }
 }
 
 .post-card.style-3 {

@@ -1,16 +1,5 @@
 // Service-area style-1
 .service-area{
-  // padding: 120px 0;
-  //   @include sm{
-  //     padding:  72px 0;
-  //   }
-  //   @include md{
-  //     padding: 100px 0;
-  //   }
-  //   @media only screen and (min-width: 992px) and (max-width: 1900px){
-  //     padding-top: 120px;
-  //     padding-bottom: 120px;
-  //   }
     .icon-card-wrapper{
       display: grid;
       grid-template-columns: repeat(2, 2fr);
@@ -72,6 +61,18 @@
               background-color: #FFE8DF;
             }
           }
+        }
+      }
+    }
+  }
+
+
+  // Theme-Responsive
+  .service-area{
+    &.style-1{
+      .elementor-container{
+        @include xl{
+          padding: 0 80px;
         }
       }
     }

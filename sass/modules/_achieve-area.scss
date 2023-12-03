@@ -181,9 +181,14 @@
         @include xl{
             transform: translate(0, -33%);
         }
+        @include lg{
+            transform: translate(0, -33%);
+        }
         }
         .inner-wrapper{
-            padding: 0 ;
+            @include xl{
+                padding: 0 80px;
+            }
         }
     }
 }
