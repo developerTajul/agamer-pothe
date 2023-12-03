@@ -15073,22 +15073,22 @@ ul.children {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .why-choose-area.style-1 > .elementor-container {
+  .why-choose-area.style-1 > .elementor-container, .why-choose-area.style-2 > .elementor-container {
     padding: 0 12px;
   }
 }
 @media (max-width: 1399px) {
-  .why-choose-area.style-1 > .elementor-container .about-image-card .feather {
+  .why-choose-area.style-1 > .elementor-container .about-image-card .feather, .why-choose-area.style-2 > .elementor-container .about-image-card .feather {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .why-choose-area.style-1 > .elementor-container .elementor-col-50:first-child {
+  .why-choose-area.style-1 > .elementor-container .elementor-col-50:first-child, .why-choose-area.style-2 > .elementor-container .elementor-col-50:first-child {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .why-choose-area.style-1 > .elementor-container .elementor-col-50:last-child {
+  .why-choose-area.style-1 > .elementor-container .elementor-col-50:last-child, .why-choose-area.style-2 > .elementor-container .elementor-col-50:last-child {
     width: 70%;
     margin: 0 auto !important;
   }
