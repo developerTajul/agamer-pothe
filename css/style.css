@@ -15586,4 +15586,30 @@ ul.children {
   .elementor-section.our-mission-area > .elementor-container {
     padding: 0 12px;
   }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.our-mission-area > .elementor-container .about-image-card {
+    padding-left: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.our-mission-area > .elementor-container .elementor-col-50 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.our-mission-area > .elementor-container .elementor-col-50:first-child {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.our-mission-area > .elementor-container .elementor-col-50 .section-title {
+    text-align: start;
+    align-items: start;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.our-mission-area > .elementor-container .elementor-col-50 .section-title .title {
+    text-align: start;
+  }
 }/*# sourceMappingURL=style.css.map */

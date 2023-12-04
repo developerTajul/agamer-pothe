@@ -800,6 +800,33 @@
       @include sm{
         padding: 0 12px;
       }
+      .about-image-card{
+        @include lg{
+          padding-left: 40px;
+        }
+      }
+      .elementor-col-50{
+        @include md{
+          width: 100%;
+        }
+        &:first-child{
+          @include md{
+            width: 80%;
+          }
+          // margin: 0 auto;
+        }
+        .section-title{
+          @include md{
+            text-align: start;
+            align-items: start;
+          }
+          .title{
+            @include md{
+              text-align: start;
+            }
+          }
+        }
+      }
     }
   }
 }
