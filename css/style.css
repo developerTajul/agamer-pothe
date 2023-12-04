@@ -14861,6 +14861,21 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.about-us-area.style-2 {
+    padding: 60px 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.about-us-area.style-2 {
+    padding: 80px 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.about-us-area.style-2 {
+    padding: 100px 0 !important;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .elementor-section.about-us-area.style-2 .about-info-card {
     padding-left: 0;
@@ -15055,6 +15070,21 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.pricing-area.style-1 {
     padding: 100px 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.pricing-area.style-1 .elementor-container .elementor-col-50 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.pricing-area.style-1 .elementor-container .elementor-col-50 .section-title {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.pricing-area.style-1 .elementor-container .elementor-col-50 .btn-wrapper {
+    text-align: center;
   }
 }
 .elementor-section.pricing-area.style-1 .elementor-container .shape {

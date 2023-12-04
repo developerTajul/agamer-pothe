@@ -53,6 +53,15 @@
 .elementor-section{
     &.about-us-area{
         &.style-2{
+          @include sm{
+            padding: 60px 0 !important;
+          }
+          @include md{
+              padding: 80px 0 !important;
+          }
+          @include lg{
+              padding: 100px 0 !important;
+          }
             .about-info-card{
                 @include xl{
                     padding-left: 0;
@@ -269,6 +278,21 @@
                 padding: 100px 0 !important;
             }
           .elementor-container{
+            .elementor-col-50{
+              @include md{
+                width: 100%;
+              }
+              .section-title{
+                @include md{
+                  margin-bottom: 0;
+                }
+              }
+              .btn-wrapper{
+                @include md{
+                  text-align: center;
+                }
+              }
+            }
             .shape{
               top: 2%;
               left: -17%;
