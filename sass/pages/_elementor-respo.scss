@@ -52,7 +52,8 @@
 // About-us-area style-2
 .elementor-section{
     &.about-us-area{
-        &.style-2{
+        &.style-2,
+        &.style-3{
           @include sm{
             padding: 60px 0 !important;
           }
@@ -394,7 +395,8 @@
  .elementor-section{
      &.why-choose-area{
       overflow: hidden;
-         &.style-2{
+         &.style-2,
+         &.style-3{
              @include sm{
                  padding: 60px 0 !important;
              }
@@ -527,7 +529,8 @@
 //  Faq area
 .elementor-section{
     &.faq-area{
-        &.style-2{
+        &.style-2,
+        &.style-3{
           @include sm{
             padding: 60px 0 !important;
           }
@@ -599,5 +602,25 @@
   }
 }
 
-// Footer
+// Testimonial-area style-1
+.elementor-section{
+  .testimonial-area{
+    &.style-1{
+      .section-title{
+        @include xl{
+          padding: 0 80px;
+        }
+        @include lg{
+          padding: 0 40px;
+        }
+        @include md{
+          padding: 0 36px;
+        }
+        @include sm{
+          padding: 0 12px;
+        }
+      }
+    }
+  }
+}
 
