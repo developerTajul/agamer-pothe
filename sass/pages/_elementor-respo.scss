@@ -509,6 +509,11 @@
                   text-align: center;
                 }
               }
+              .accordion{
+                @include md{
+                  margin-top: 32px;
+                }
+              }
             }
           }
         }
@@ -538,3 +543,6 @@
     }
   }
 }
+
+// Footer
+

@@ -12177,7 +12177,7 @@ ul.children {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .subscribe-area {
-    padding: 40px;
+    padding: 0;
     padding-bottom: 72px;
     padding-top: 60px;
   }
@@ -15291,6 +15291,11 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.faq-area.style-2 > .elementor-container .elementor-col-50 .btn-wrapper {
     text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.faq-area.style-2 > .elementor-container .elementor-col-50 .accordion {
+    margin-top: 32px;
   }
 }
 
