@@ -350,6 +350,18 @@
     &.hero-area{
         &.style-2{
            .video-popup-card{
+            @include xl{
+              padding: 0 80px;
+            }
+            @include lg{
+              padding: 0 40px;
+            }
+            @include md{
+              padding: 0 36px;
+            }
+            @include sm{
+              padding: 0 12px;
+            }
             .shape{
                 @include rmaxwd(1399){
                     display: none;

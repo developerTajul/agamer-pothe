@@ -15162,6 +15162,26 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .elementor-section.hero-area.style-2 .video-popup-card {
+    padding: 0 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.hero-area.style-2 .video-popup-card {
+    padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.hero-area.style-2 .video-popup-card {
+    padding: 0 36px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.hero-area.style-2 .video-popup-card {
+    padding: 0 12px;
+  }
+}
 @media (max-width: 1399px) {
   .elementor-section.hero-area.style-2 .video-popup-card .shape {
     display: none;
