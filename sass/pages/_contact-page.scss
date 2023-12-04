@@ -28,6 +28,13 @@
                     padding: 0 40px;
                 }
             }
+            &:hover{
+                .icon{
+                    &:before{
+                        animation: ZoomInOut 1s;
+                    }
+                }
+            }
         }
     }
     .icon-card-wrapper{
@@ -48,13 +55,6 @@
                     }
                     @include lg{
                         padding: 0 24px;
-                    }
-                }
-                &:hover{
-                    .icon{
-                        &:before{
-                            animation: ZoomInOut 1s;
-                        }
                     }
                 }
                 &:nth-child(2){

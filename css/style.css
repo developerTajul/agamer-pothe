@@ -11343,6 +11343,9 @@ ul.children {
     padding: 0 40px;
   }
 }
+.contact-info-area .icon-card.style-4:hover .icon:before {
+  animation: ZoomInOut 1s;
+}
 .contact-info-area .icon-card-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -11367,9 +11370,6 @@ ul.children {
   .contact-info-area .icon-card-wrapper .icon-card.style-4 .content {
     padding: 0 24px;
   }
-}
-.contact-info-area .icon-card-wrapper .icon-card.style-4:hover .icon:before {
-  animation: ZoomInOut 1s;
 }
 .contact-info-area .icon-card-wrapper .icon-card.style-4:nth-child(2) .icon:before {
   background-color: #FFF2D0;
