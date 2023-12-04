@@ -721,6 +721,9 @@
           @include lg{
             padding: 0 24px;
           }
+          @include md{
+            padding: 0 24px;
+          }
         }
       }
     }
@@ -742,7 +745,7 @@
         }
       }
       .btn-wrapper{
-        @include md{
+        @include rmaxwd(991){
           text-align: center;
         }
       }
