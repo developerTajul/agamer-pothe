@@ -2,7 +2,8 @@
 .elementor-section{
     &.about-us-area {
         &.style-1,
-        &.style-2 {
+        &.style-2,
+        &.style-3 {
             padding-top: 100px !important;
             @include lg{
                 padding-bottom: 100px;
@@ -604,7 +605,7 @@
 
 // Testimonial-area style-1
 .elementor-section{
-  .testimonial-area{
+  &.testimonial-area{
     &.style-1{
       .section-title{
         @include xl{
