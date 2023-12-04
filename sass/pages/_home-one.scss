@@ -286,28 +286,6 @@
       flex-direction: column;
       gap: 40px;
     }
-    .elementor-container{
-      .section-title-wrapper{
-        padding: 0 40px;
-        @include sm{
-          padding: 0 12px;
-        }
-        .section-title{
-          width: 100%;
-        }
-        .elementor-col-50{
-          @include md{
-            width: 60%;
-            margin: 0 auto;
-          }
-        }
-        .btn-wrapper{
-          @include rmaxwd(991){
-            text-align: center;
-          }
-        }
-      }
-    }
   }
 }
 // Team-area Style-1

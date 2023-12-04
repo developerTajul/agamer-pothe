@@ -61,6 +61,13 @@
                   margin-top: 40px;
                 }
             }
+            .about-image-card{
+              .shape{
+                @include rmaxwd(1199){
+                  display: none;
+                }
+              }
+            }
             .elementor-col-50{
               &:first-child{
                 @include lg{
@@ -75,6 +82,23 @@
             }
         }
     }
+}
+
+// Feature-area
+.feature-area{
+  &.style-1{
+    .elementor-container{
+      .section-title{
+        .title{
+          br{
+            @include lg{
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // Latest-post-area
@@ -95,7 +119,9 @@
                 padding: 0 80px;
             }
             .section-title-wrapper{
-              padding: 0 40px;
+              @include xl{
+                padding: 0 40px;
+              }
               @include sm{
                 padding: 0 12px;
               }
@@ -103,6 +129,16 @@
                 width: 100%;
               }
               .elementor-col-50{
+                &:first-child{
+                  @include lg{
+                    width: 60%;
+                  }
+                }
+                &:last-child{
+                  @include lg{
+                    width: 40%;
+                  }
+                }
                 @include md{
                   width: 60%;
                   margin: 0 auto;
@@ -376,6 +412,15 @@
 .elementor-section{
     &.hero-area{
         &.style-2{
+          .section-title{
+            .desc{
+              br{
+                @include lg{
+                  display: block;
+                }
+              }
+            }
+          }
            .video-popup-card{
             @include xl{
               padding: 0 80px;

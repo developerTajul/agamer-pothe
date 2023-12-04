@@ -10714,28 +10714,6 @@ ul.children {
   flex-direction: column;
   gap: 40px;
 }
-.latest-post-area.style-1 .elementor-container .section-title-wrapper {
-  padding: 0 40px;
-}
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  .latest-post-area.style-1 .elementor-container .section-title-wrapper {
-    padding: 0 12px;
-  }
-}
-.latest-post-area.style-1 .elementor-container .section-title-wrapper .section-title {
-  width: 100%;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .latest-post-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 {
-    width: 60%;
-    margin: 0 auto;
-  }
-}
-@media (max-width: 991px) {
-  .latest-post-area.style-1 .elementor-container .section-title-wrapper .btn-wrapper {
-    text-align: center;
-  }
-}
 
 .team-area.style-1, .team-area.style-3 {
   position: relative;
@@ -14893,6 +14871,11 @@ ul.children {
     margin-top: 40px;
   }
 }
+@media (max-width: 1199px) {
+  .elementor-section.about-us-area.style-2 .about-image-card .shape {
+    display: none;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.about-us-area.style-2 .elementor-col-50:first-child {
     width: 80%;
@@ -14901,6 +14884,12 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.about-us-area.style-2 .elementor-col-50:last-child {
     width: 80%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .feature-area.style-1 .elementor-container .section-title .title br {
+    display: block;
   }
 }
 
@@ -14924,8 +14913,10 @@ ul.children {
     padding: 0 80px;
   }
 }
-.elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper {
-  padding: 0 40px;
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper {
+    padding: 0 40px;
+  }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper {
@@ -14934,6 +14925,16 @@ ul.children {
 }
 .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper .section-title {
   width: 100%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper .elementor-col-50:first-child {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper .elementor-col-50:last-child {
+    width: 40%;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper .elementor-col-50 {
@@ -15181,6 +15182,11 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.hero-area.style-2 .section-title .desc br {
+    display: block;
+  }
+}
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .elementor-section.hero-area.style-2 .video-popup-card {
     padding: 0 80px;
