@@ -15072,21 +15072,6 @@ ul.children {
     padding: 100px 0 !important;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.pricing-area.style-1 .elementor-container .elementor-col-50 {
-    width: 100%;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.pricing-area.style-1 .elementor-container .elementor-col-50 .section-title {
-    margin-bottom: 0;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.pricing-area.style-1 .elementor-container .elementor-col-50 .btn-wrapper {
-    text-align: center;
-  }
-}
 .elementor-section.pricing-area.style-1 .elementor-container .shape {
   top: 2%;
   left: -17%;
@@ -15291,6 +15276,21 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.faq-area.style-2 > .elementor-container {
     padding: 0 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.faq-area.style-2 > .elementor-container .elementor-col-50 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.faq-area.style-2 > .elementor-container .elementor-col-50 .section-title {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.faq-area.style-2 > .elementor-container .elementor-col-50 .btn-wrapper {
+    text-align: center;
   }
 }
 
