@@ -108,6 +108,9 @@
       }
       .elementor-container{
         .section-title{
+          @include sm{
+            padding: 0 12px;
+          }
           .title{
             br{
               @include lg{
@@ -206,6 +209,9 @@
         .elementor-container{
           .section-title{
             margin: 0 auto;
+            @include sm{
+              padding: 0 12px;
+            }
           }
         }
       }
@@ -317,6 +323,9 @@
               text-align: center;
             }
             .section-title-wrapper {
+              @include sm{
+                margin-bottom: 0;
+              }
               @include lg{
                 padding: 0 40px;
               }
