@@ -497,6 +497,11 @@
               }
             }
           }
+          .video-popup-wrapper{
+            @include lg{
+              padding: 0 24px;
+            }
+          }
            .video-popup-card{
             @include xl{
               padding: 0 80px;
