@@ -62,7 +62,7 @@
                 }
             }
             .about-image-card{
-              .shape{
+              .feather{
                 @include rmaxwd(1199){
                   display: none;
                 }
@@ -495,9 +495,18 @@
 .achieve-area{
   &.style-2{
     .elementor-container{
+      .achieve-item-wrapper{
+        margin: 0;
+      }
       .content{
         &.style-3{
           padding-left: 24px;
+          @include md{
+            padding: 78px 40px 0 40px;
+            border-color: transparent;
+            border-top: 1px solid $border;
+            margin-top: 32px;
+          }
         }
       }
     }

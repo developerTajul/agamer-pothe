@@ -14872,7 +14872,7 @@ ul.children {
   }
 }
 @media (max-width: 1199px) {
-  .elementor-section.about-us-area.style-2 .about-image-card .shape {
+  .elementor-section.about-us-area.style-2 .about-image-card .feather {
     display: none;
   }
 }
@@ -15264,6 +15264,17 @@ ul.children {
   }
 }
 
+.achieve-area.style-2 .elementor-container .achieve-item-wrapper {
+  margin: 0;
+}
 .achieve-area.style-2 .elementor-container .content.style-3 {
   padding-left: 24px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .achieve-area.style-2 .elementor-container .content.style-3 {
+    padding: 78px 40px 0 40px;
+    border-color: transparent;
+    border-top: 1px solid #D6D6D6;
+    margin-top: 32px;
+  }
 }/*# sourceMappingURL=style.css.map */
