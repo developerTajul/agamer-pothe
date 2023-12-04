@@ -14841,12 +14841,12 @@ ul.children {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.about-us-area.style-1 > .elementor-container, .elementor-section.about-us-area.style-2 > .elementor-container {
-    padding: 36px;
+    padding: 0 36px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.about-us-area.style-1 > .elementor-container, .elementor-section.about-us-area.style-2 > .elementor-container {
-    padding: 12px;
+    padding: 0 12px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -14907,8 +14907,23 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.feature-area.style-1 {
+    padding-bottom: 60px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.feature-area.style-1 {
+    padding-bottom: 80px !important;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .feature-area.style-1 .elementor-container .section-title .title br {
+  .elementor-section.feature-area.style-1 {
+    padding-bottom: 100px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.feature-area.style-1 .elementor-container .section-title .title br {
     display: block;
   }
 }
@@ -15217,6 +15232,21 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.hero-area.style-2 {
+    padding-bottom: 60px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.hero-area.style-2 {
+    padding-bottom: 80px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.hero-area.style-2 {
+    padding-bottom: 100px !important;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.hero-area.style-2 .section-title .desc br {
     display: block;

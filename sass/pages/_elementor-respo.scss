@@ -22,10 +22,10 @@
               padding: 0 55px;
             }
             @include md{
-              padding: 36px;
+              padding: 0 36px;
             }
             @include sm{
-              padding: 12px;
+              padding: 0 12px;
             }
             .elementor-col-50{
               &:first-child{
@@ -94,14 +94,25 @@
 }
 
 // Feature-area
-.feature-area{
-  &.style-1{
-    .elementor-container{
-      .section-title{
-        .title{
-          br{
-            @include lg{
-              display: block;
+.elementor-section{
+  &.feature-area{
+    &.style-1{
+      @include sm{
+        padding-bottom: 60px !important;
+      }
+      @include md{
+        padding-bottom: 80px !important;
+      }
+      @include lg{
+        padding-bottom: 100px !important;
+      }
+      .elementor-container{
+        .section-title{
+          .title{
+            br{
+              @include lg{
+                display: block;
+              }
             }
           }
         }
@@ -438,6 +449,15 @@
 .elementor-section{
     &.hero-area{
         &.style-2{
+          @include sm{
+            padding-bottom: 60px !important;
+          }
+          @include md{
+            padding-bottom: 80px !important;
+          }
+          @include lg{
+            padding-bottom: 100px !important;
+          }
           .section-title{
             .desc{
               br{
