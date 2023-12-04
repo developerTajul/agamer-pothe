@@ -12202,6 +12202,11 @@ ul.children {
     display: none;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .subscribe-area .subscribe-title br {
+    display: none;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .subscribe-area .subscribe-inner-area .section-title .title {
     font-size: 31px;
