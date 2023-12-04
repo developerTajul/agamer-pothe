@@ -194,16 +194,17 @@
                         width: 50%;
                     }
                 }
+                .section-title{
+                    @include sm{
+                        padding: 0 12px;
+                    }
+                }
                 .process-step-wrapper{
                     >.elementor-container{
                         @include md{
                             justify-content: center;
                         }
-                        .section-title{
-                            @include sm{
-                                padding: 0 12px;
-                            }
-                        }
+                        
                     }
                 }
             }
