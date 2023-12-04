@@ -14905,29 +14905,29 @@ ul.children {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.latest-post-area.style-1 .elementor-container {
+  .elementor-section.latest-post-area.style-1 > .elementor-container {
     padding: 0 80px;
   }
 }
-.elementor-section.latest-post-area.style-1 .elementor-container .section-title-wrapper {
+.elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper {
   padding: 0 40px;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.latest-post-area.style-1 .elementor-container .section-title-wrapper {
+  .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper {
     padding: 0 12px;
   }
 }
-.elementor-section.latest-post-area.style-1 .elementor-container .section-title-wrapper .section-title {
+.elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper .section-title {
   width: 100%;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.latest-post-area.style-1 .elementor-container .section-title-wrapper .elementor-col-50 {
+  .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper .elementor-col-50 {
     width: 60%;
     margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
-  .elementor-section.latest-post-area.style-1 .elementor-container .section-title-wrapper .btn-wrapper {
+  .elementor-section.latest-post-area.style-1 > .elementor-container .section-title-wrapper .btn-wrapper {
     text-align: center;
   }
 }
@@ -15107,6 +15107,9 @@ ul.children {
   }
 }
 
+.elementor-section.why-choose-area {
+  overflow: hidden;
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.why-choose-area.style-2 {
     padding: 60px 0 !important;
@@ -15120,6 +15123,21 @@ ul.children {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.why-choose-area.style-2 {
     padding: 100px 0 !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container {
+    padding: 0 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container {
+    padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container {
+    padding: 0 36px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

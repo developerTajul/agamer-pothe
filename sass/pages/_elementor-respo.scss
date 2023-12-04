@@ -75,7 +75,7 @@
             @include lg{
                 padding: 100px 0 !important;
             }
-          .elementor-container{
+          >.elementor-container{
             @include lg{
                 padding: 0 80px;
             }
@@ -296,6 +296,7 @@
  // Why-choose-area Style-2
  .elementor-section{
      &.why-choose-area{
+      overflow: hidden;
          &.style-2{
              @include sm{
                  padding: 60px 0 !important;
@@ -307,6 +308,15 @@
                  padding: 100px 0 !important;
              }
            >.elementor-container{
+             @include xl{
+               padding: 0 80px;
+             }
+             @include lg{
+               padding: 0 40px;
+             }
+             @include md{
+               padding: 0 36px;
+             }
              @include sm{
                padding: 0 12px;
              }
