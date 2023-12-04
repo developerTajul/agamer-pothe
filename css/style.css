@@ -14933,6 +14933,17 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.feature-area.style-2 .elementor-container .section-title .title br {
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.feature-area.style-2 .elementor-container .section-title .desc br {
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.latest-post-area.style-1 {
     padding: 60px 0 !important;

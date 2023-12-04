@@ -126,6 +126,32 @@
   }
 }
 
+// Feature-area Style-2
+.elementor-section{
+  &.feature-area{
+    &.style-2{
+      .elementor-container{
+        .section-title{
+          .title{
+            br{
+              @include lg{
+                display: block;
+              }
+            }
+          }
+          .desc{
+            br{
+              @include lg{
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // Latest-post-area
 .elementor-section{
     &.latest-post-area{
