@@ -404,11 +404,15 @@
                padding: 0 12px;
              }
              .list-item-wrapper{
+              @include sm{
+                text-align: start;
+              }
               ul{
                 li{
                   @include md{
                     justify-content: center;
                   }
+
                 }
               }
              }
@@ -418,6 +422,10 @@
               }
              }
              .about-image-card{
+
+              @include sm{
+                margin-top: 24px;
+              }
               @include md{
                 margin-top: 48px;
               }
@@ -525,12 +533,12 @@
                 }
               }
               .btn-wrapper{
-                @include md{
+                @include rmaxwd(991){
                   text-align: center;
                 }
               }
               .accordion{
-                @include md{
+                @include rmaxwd(991){
                   margin-top: 32px;
                 }
               }
