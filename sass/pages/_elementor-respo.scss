@@ -359,4 +359,34 @@
         }
     }
 }
+//  Faq area
+.elementor-section{
+    &.faq-area{
+        &.style-2{
+          @include sm{
+            padding: 60px 0 !important;
+          }
+          @include md{
+              padding: 80px 0 !important;
+          }
+          @include lg{
+              padding: 100px 0 !important;
+          }
+          >.elementor-container{
+            @include xl{
+              padding: 0 80px;
+            }
+            @include lg{
+              padding: 0 40px;
+            }
+            @include md{
+              padding: 0 36px;
+            }
+            @include sm{
+              padding: 0 12px;
+            }
+          }
+        }
+    }
+}
   
