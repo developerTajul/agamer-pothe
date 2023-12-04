@@ -15450,4 +15450,20 @@ ul.children {
   .elementor-section.testimonial-area.style-1 .section-title {
     padding: 0 12px;
   }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.project-card-wrapper {
+    padding: 60px 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.project-card-wrapper {
+    padding: 80px 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.project-card-wrapper {
+    padding: 100px 0 !important;
+  }
 }/*# sourceMappingURL=style.css.map */
