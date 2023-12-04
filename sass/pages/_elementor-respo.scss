@@ -496,7 +496,9 @@
   &.style-2{
     .elementor-container{
       .achieve-item-wrapper{
-        margin: 0;
+        @include md{
+          margin: 0;
+        }
       }
       .content{
         &.style-3{

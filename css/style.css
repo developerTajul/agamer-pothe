@@ -15264,8 +15264,10 @@ ul.children {
   }
 }
 
-.achieve-area.style-2 .elementor-container .achieve-item-wrapper {
-  margin: 0;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .achieve-area.style-2 .elementor-container .achieve-item-wrapper {
+    margin: 0;
+  }
 }
 .achieve-area.style-2 .elementor-container .content.style-3 {
   padding-left: 24px;
