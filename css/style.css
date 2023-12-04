@@ -14888,6 +14888,21 @@ ul.children {
     padding-left: 0;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.about-us-area.style-2 .about-info-card {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.about-us-area.style-2 .elementor-col-50:first-child {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.about-us-area.style-2 .elementor-col-50:last-child {
+    width: 80%;
+  }
+}
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.latest-post-area.style-1 {
@@ -14954,6 +14969,10 @@ ul.children {
   .elementor-section.service-area .elementor-container .section-title-wrap .btn-wrapper {
     text-align: center;
   }
+}
+
+.elementor-section.service-area.style-2 .elementor-container .section-title {
+  margin: 0 auto;
 }
 
 .elementor-section.team-area.style-1, .elementor-section.team-area.style-3 {
@@ -15222,4 +15241,8 @@ ul.children {
   .elementor-section.faq-area.style-2 > .elementor-container {
     padding: 0 12px;
   }
+}
+
+.achieve-area.style-2 .elementor-container .content.style-3 {
+  padding-left: 24px;
 }/*# sourceMappingURL=style.css.map */

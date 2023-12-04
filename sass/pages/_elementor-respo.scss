@@ -57,6 +57,21 @@
                 @include xl{
                     padding-left: 0;
                 }
+                @include lg{
+                  margin-top: 40px;
+                }
+            }
+            .elementor-col-50{
+              &:first-child{
+                @include lg{
+                  width: 80%;
+                }
+              }
+              &:last-child{
+                @include lg{
+                  width: 80%;
+                }
+              }
             }
         }
     }
@@ -126,6 +141,18 @@
             }
           }
         }
+    }
+}
+// Service-area style-2
+.elementor-section{
+    &.service-area {
+      &.style-2{
+        .elementor-container{
+          .section-title{
+            margin: 0 auto;
+          }
+        }
+      }
     }
 }
 
@@ -401,4 +428,16 @@
         }
     }
 }
-  
+
+// Achieve area style-2
+.achieve-area{
+  &.style-2{
+    .elementor-container{
+      .content{
+        &.style-3{
+          padding-left: 24px;
+        }
+      }
+    }
+  }
+}
