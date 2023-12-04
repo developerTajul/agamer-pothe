@@ -14933,6 +14933,26 @@ ul.children {
   }
 }
 
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.feature-area.style-2 {
+    padding: 60px 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.feature-area.style-2 {
+    padding: 80px 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.feature-area.style-2 {
+    padding: 100px 0 !important;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.feature-area.style-2 .elementor-container .section-title {
+    padding: 0 12px;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.feature-area.style-2 .elementor-container .section-title .title br {
     display: block;
@@ -15282,7 +15302,6 @@ ul.children {
     margin: 0 auto !important;
   }
 }
-
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.hero-area.style-2 {
     padding-bottom: 60px !important;
@@ -15387,6 +15406,11 @@ ul.children {
 @media (max-width: 991px) {
   .elementor-section.faq-area.style-2 > .elementor-container .elementor-col-50 .accordion, .elementor-section.faq-area.style-3 > .elementor-container .elementor-col-50 .accordion {
     margin-top: 32px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.faq-area.style-3 .section-title {
+    margin-bottom: 0;
   }
 }
 
