@@ -15533,4 +15533,20 @@ ul.children {
   .elementor-section.contact-form-area .elementor-col-50 .btn-wrapper {
     text-align: center;
   }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .project-detail-area .elementor-section .list-item-wrapper {
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .project-detail-area .elementor-section > .elementor-container {
+    gap: 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .project-detail-area .elementor-section .elementor-col-33 {
+    width: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */

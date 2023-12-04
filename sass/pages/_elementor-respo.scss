@@ -752,3 +752,27 @@
     }
   }
 }
+
+// Project-details page
+.project-detail-area{
+  .elementor-section{
+    .list-item-wrapper{
+      @include lg{
+        text-align: start;
+      }
+      @include md{
+        // margin-right: ;
+      }
+    }
+    >.elementor-container {
+      @include md{
+        gap: 12px;
+      }
+    }
+    .elementor-col-33{
+      @include md{
+        width: 50%;
+      }
+    }
+  }
+}
