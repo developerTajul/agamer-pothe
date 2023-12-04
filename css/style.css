@@ -15165,6 +15165,21 @@ ul.children {
     padding: 0 12px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .list-item-wrapper ul li {
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .btn-wrapper {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card {
+    margin-top: 48px;
+  }
+}
 @media (max-width: 1399px) {
   .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card .feather {
     display: none;

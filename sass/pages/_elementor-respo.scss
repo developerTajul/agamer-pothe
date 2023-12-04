@@ -383,7 +383,24 @@
              @include sm{
                padding: 0 12px;
              }
+             .list-item-wrapper{
+              ul{
+                li{
+                  @include md{
+                    justify-content: center;
+                  }
+                }
+              }
+             }
+             .btn-wrapper{
+              @include md{
+                text-align: center;
+              }
+             }
              .about-image-card{
+              @include md{
+                margin-top: 48px;
+              }
                  .feather{
                      @include rmaxwd(1399){
                          display: none;
