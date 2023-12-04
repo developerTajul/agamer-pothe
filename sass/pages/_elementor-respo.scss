@@ -688,20 +688,7 @@
 }
 // contact-info-area Contact-page
 .elementor-section{
-  &.contact-info-area{
-    @include sm{
-      padding: 60px 0 !important;
-    }
-    @include md{
-        padding: 80px 0 !important;
-    }
-    @include lg{
-        padding: 100px 0 !important;
-    }
-  }
-}
-// contact-form-area
-.elementor-section{
+  &.contact-info-area,
   &.contact-form-area{
     @include sm{
       padding: 60px 0 !important;
@@ -711,6 +698,20 @@
     }
     @include lg{
         padding: 100px 0 !important;
+    }
+    >.elementor-container{
+      @include xl{
+        padding: 0 80px;
+      }
+      @include lg{
+        padding: 0 40px;
+      }
+      @include md{
+        padding: 0 36px;
+      }
+      @include sm{
+        padding: 0 12px;
+      }
     }
   }
 }
