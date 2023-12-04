@@ -714,4 +714,38 @@
       }
     }
   }
+  &.contact-info-area{
+    .icon-card{
+      &.style-4{
+        .content{
+          @include lg{
+            padding: 0 24px;
+          }
+        }
+      }
+    }
+    .elementor-col-33{
+      @include md{
+        width: 50%;
+      }
+    }
+  }
+  &.contact-form-area{
+    .elementor-col-50{
+      @include md{
+        width: 100%;
+      }
+      &:first-child{
+        @include md{
+          width: 75%;
+          margin: 0 auto;
+        }
+      }
+      .btn-wrapper{
+        @include md{
+          text-align: center;
+        }
+      }
+    }
+  }
 }

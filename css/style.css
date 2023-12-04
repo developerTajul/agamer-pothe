@@ -15502,4 +15502,30 @@ ul.children {
   .elementor-section.contact-info-area > .elementor-container, .elementor-section.contact-form-area > .elementor-container {
     padding: 0 12px;
   }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.contact-info-area .icon-card.style-4 .content {
+    padding: 0 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.contact-info-area .elementor-col-33 {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.contact-form-area .elementor-col-50 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.contact-form-area .elementor-col-50:first-child {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.contact-form-area .elementor-col-50 .btn-wrapper {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
