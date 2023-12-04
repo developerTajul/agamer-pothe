@@ -15302,6 +15302,7 @@ ul.children {
     margin: 0 auto !important;
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.hero-area.style-2 {
     padding-bottom: 60px !important;
@@ -15548,5 +15549,41 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .project-detail-area .elementor-section .elementor-col-33 {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.our-mission-area {
+    padding: 60px 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.our-mission-area {
+    padding: 80px 0 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.our-mission-area {
+    padding: 100px 0 !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .elementor-section.our-mission-area > .elementor-container {
+    padding: 0 80px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.our-mission-area > .elementor-container {
+    padding: 0 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.our-mission-area > .elementor-container {
+    padding: 0 36px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.our-mission-area > .elementor-container {
+    padding: 0 12px;
   }
 }/*# sourceMappingURL=style.css.map */
