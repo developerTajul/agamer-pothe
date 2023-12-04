@@ -209,6 +209,11 @@
         .elementor-container{
           .section-title{
             margin: 0 auto;
+            br{
+              @include lg{
+                display: block;
+              }
+            }
             @include sm{
               padding: 0 12px;
             }
@@ -411,6 +416,14 @@
              }
              @include sm{
                padding: 0 12px;
+             }
+             .shape{
+              @include xl{
+                left: -7%;
+              }
+              @include lg{
+                left: -7%;
+              }
              }
              .list-item-wrapper{
               @include sm{

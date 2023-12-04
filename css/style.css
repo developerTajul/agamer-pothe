@@ -15015,6 +15015,11 @@ ul.children {
 .elementor-section.service-area.style-2 .elementor-container .section-title {
   margin: 0 auto;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.service-area.style-2 .elementor-container .section-title br {
+    display: block;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.service-area.style-2 .elementor-container .section-title {
     padding: 0 12px;
@@ -15213,6 +15218,16 @@ ul.children {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.why-choose-area.style-2 > .elementor-container {
     padding: 0 12px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .shape {
+    left: -7%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .shape {
+    left: -7%;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
