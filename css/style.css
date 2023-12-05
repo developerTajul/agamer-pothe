@@ -15643,6 +15643,11 @@ ul.children {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.our-mission-area > .elementor-container .about-image-card .elementor-widget-container {
+    text-align: start;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.our-mission-area > .elementor-container .elementor-col-50 {
     width: 100%;
   }

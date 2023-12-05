@@ -812,7 +812,7 @@
   }
 }
 
-// project-card-wrapper project-details
+// Service-page
 .elementor-section{
   &.our-mission-area{
     @include sm{
@@ -840,6 +840,11 @@
       .about-image-card{
         @include lg{
           padding-left: 40px;
+        }
+        .elementor-widget-container{
+          @include md{
+            text-align: start;
+          }
         }
       }
       .elementor-col-50{
