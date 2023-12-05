@@ -784,12 +784,20 @@
 .project-detail-area{
   .elementor-section{
     .list-item-wrapper{
-      @include lg{
+      @include rmaxwd(1199){
         text-align: start;
       }
-      @include md{
-        // margin-right: ;
+      ul{
+        li{
+          align-items: start;
+          &:before{
+            margin-top: 8px;
+          }
+        }
       }
+    }
+    .project-details-image{
+      overflow: hidden;
     }
     >.elementor-container {
       @include md{
@@ -798,7 +806,7 @@
     }
     .elementor-col-33{
       @include md{
-        width: 50%;
+        width: 48%;
       }
     }
   }
