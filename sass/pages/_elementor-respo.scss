@@ -534,6 +534,33 @@
                  }
              }
              .elementor-col-50{
+               &:last-child{
+                 @include md{
+                   width: 100%;
+                 }
+               }
+               &:first-child{
+                 @include md{
+                   width: 70%;
+                   margin: 0 auto !important;
+                 }
+               }
+             }
+           }
+         }
+         &.style-4{
+          @include sm{
+            padding: 60px 0 !important;
+            }
+            @include md{
+                padding: 80px 0 !important;
+            }
+            @include lg{
+                padding: 100px 0 !important;
+            }
+          >.elementor-container{
+            // gap: 40px;
+            .elementor-col-50{
               @include md{
                 width: 100%;
               }
@@ -549,19 +576,6 @@
                 }
               }
              }
-           }
-         }
-         &.style-4{
-          @include sm{
-            padding: 60px 0 !important;
-            }
-            @include md{
-                padding: 80px 0 !important;
-            }
-            @include lg{
-                padding: 100px 0 !important;
-            }
-          >.elementor-container{
             
             .image-card-wrapper{
               @include lg{
