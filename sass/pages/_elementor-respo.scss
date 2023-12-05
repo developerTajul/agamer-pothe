@@ -56,6 +56,7 @@
                   @include md{
                     text-align: start;
                     align-items: start;
+                    margin: 0;
                   }
                 }
               }
@@ -590,9 +591,17 @@
             }
           >.elementor-container{
             // gap: 40px;
+            .list-item-wrapper{
+              @include sm{
+                text-align: start;
+              }
+            }
             .image-card-wrapper{
               @include md{
                 margin-bottom: 40px;
+              }
+              @include sm{
+                margin-bottom: 32px;
               }
             }
             .elementor-col-50{
@@ -600,7 +609,7 @@
                 width: 100%;
               }
               .section-title{
-                @include md{
+                @include rmaxwd(991){
                   align-items: start;
                   text-align: start;
                 }
@@ -735,6 +744,9 @@
         &.style-2{
           .section-title{
             @include lg{
+              margin-bottom: 0;
+            }
+            @include sm{
               margin-bottom: 0;
             }
           }

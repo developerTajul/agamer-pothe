@@ -14869,6 +14869,7 @@ ul.children {
   .elementor-section.about-us-area.style-2 .elementor-container .elementor-col-50:last-child .section-title {
     text-align: start;
     align-items: start;
+    margin: 0;
   }
 }
 
@@ -15369,9 +15370,19 @@ ul.children {
     padding: 100px 0 !important;
   }
 }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.why-choose-area.style-4 > .elementor-container .list-item-wrapper {
+    text-align: start;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.why-choose-area.style-4 > .elementor-container .image-card-wrapper {
     margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.why-choose-area.style-4 > .elementor-container .image-card-wrapper {
+    margin-bottom: 32px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -15379,7 +15390,7 @@ ul.children {
     width: 100%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .elementor-section.why-choose-area.style-4 > .elementor-container .elementor-col-50 .section-title {
     align-items: start;
     text-align: start;
@@ -15519,6 +15530,11 @@ ul.children {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.faq-area.style-2 .section-title {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.faq-area.style-2 .section-title {
     margin-bottom: 0;
   }
