@@ -597,6 +597,9 @@
               }
             }
             .image-card-wrapper{
+              @include xl{
+                padding-right: 40px;
+              }
               @include md{
                 margin-bottom: 40px;
               }
