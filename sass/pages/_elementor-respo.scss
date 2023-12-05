@@ -156,11 +156,17 @@
               @include lg{
                 display: block;
               }
+              @include xl{
+                display: block;
+              }
             }
           }
           .desc{
             br{
               @include lg{
+                display: block;
+              }
+              @include xl{
                 display: block;
               }
             }
@@ -290,6 +296,9 @@
                 .elementor-column{
                   .elementor-widget-wrap{
                     padding: 0 16px !important;
+                    @include sm{
+                      padding: 0 16px !important;
+                    }
                   }
                 }
               }
@@ -614,6 +623,7 @@
                 }
                 @include xl{
                   padding-right: 12px;
+                  margin-bottom: 0;
                 }
               }
               .btn-wrapper{

@@ -14963,7 +14963,17 @@ ul.children {
     display: block;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .elementor-section.feature-area.style-2 .elementor-container .section-title .title br {
+    display: block;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .elementor-section.feature-area.style-2 .elementor-container .section-title .desc br {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .elementor-section.feature-area.style-2 .elementor-container .section-title .desc br {
     display: block;
   }
@@ -15082,6 +15092,11 @@ ul.children {
 }
 .elementor-section.team-area.style-1 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap, .elementor-section.team-area.style-3 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap {
   padding: 0 16px !important;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .elementor-section.team-area.style-1 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap, .elementor-section.team-area.style-3 .team-member-wrapper .elementor-container .elementor-column .elementor-widget-wrap {
+    padding: 0 16px !important;
+  }
 }
 .elementor-section.team-area.style-1 .elementor-container .shape-two, .elementor-section.team-area.style-3 .elementor-container .shape-two {
   width: auto !important;
@@ -15417,6 +15432,7 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
   .elementor-section.faq-area.style-2 > .elementor-container .elementor-col-50 .section-title, .elementor-section.faq-area.style-3 > .elementor-container .elementor-col-50 .section-title {
     padding-right: 12px;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 991px) {
