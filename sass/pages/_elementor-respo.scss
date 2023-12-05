@@ -446,12 +446,13 @@
       }
 }
 
- // Why-choose-area Style-2
+ // Why-choose-area Style-2, style-3, style-4
  .elementor-section{
      &.why-choose-area{
       overflow: hidden;
          &.style-2,
-         &.style-3{
+         &.style-3,
+         &.style-4{
              @include sm{
                  padding: 60px 0 !important;
              }
@@ -527,6 +528,11 @@
                }
              }
            }
+         }
+         &.style-4{
+          >.elementor-container{
+            gap: 40px;
+          }
          }
        }
  }

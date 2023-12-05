@@ -15237,90 +15237,93 @@ ul.children {
   overflow: hidden;
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.why-choose-area.style-2, .elementor-section.why-choose-area.style-3 {
+  .elementor-section.why-choose-area.style-2, .elementor-section.why-choose-area.style-3, .elementor-section.why-choose-area.style-4 {
     padding: 60px 0 !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2, .elementor-section.why-choose-area.style-3 {
+  .elementor-section.why-choose-area.style-2, .elementor-section.why-choose-area.style-3, .elementor-section.why-choose-area.style-4 {
     padding: 80px 0 !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.why-choose-area.style-2, .elementor-section.why-choose-area.style-3 {
+  .elementor-section.why-choose-area.style-2, .elementor-section.why-choose-area.style-3, .elementor-section.why-choose-area.style-4 {
     padding: 100px 0 !important;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container {
+  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container, .elementor-section.why-choose-area.style-4 > .elementor-container {
     padding: 0 80px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container {
+  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container, .elementor-section.why-choose-area.style-4 > .elementor-container {
     padding: 0 40px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container {
+  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container, .elementor-section.why-choose-area.style-4 > .elementor-container {
     padding: 0 36px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container {
+  .elementor-section.why-choose-area.style-2 > .elementor-container, .elementor-section.why-choose-area.style-3 > .elementor-container, .elementor-section.why-choose-area.style-4 > .elementor-container {
     padding: 0 12px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1339px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .shape, .elementor-section.why-choose-area.style-3 > .elementor-container .shape {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .shape, .elementor-section.why-choose-area.style-3 > .elementor-container .shape, .elementor-section.why-choose-area.style-4 > .elementor-container .shape {
     left: -7%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .shape, .elementor-section.why-choose-area.style-3 > .elementor-container .shape {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .shape, .elementor-section.why-choose-area.style-3 > .elementor-container .shape, .elementor-section.why-choose-area.style-4 > .elementor-container .shape {
     left: -7%;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .list-item-wrapper, .elementor-section.why-choose-area.style-3 > .elementor-container .list-item-wrapper {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .list-item-wrapper, .elementor-section.why-choose-area.style-3 > .elementor-container .list-item-wrapper, .elementor-section.why-choose-area.style-4 > .elementor-container .list-item-wrapper {
     text-align: start;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .list-item-wrapper ul li, .elementor-section.why-choose-area.style-3 > .elementor-container .list-item-wrapper ul li {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .list-item-wrapper ul li, .elementor-section.why-choose-area.style-3 > .elementor-container .list-item-wrapper ul li, .elementor-section.why-choose-area.style-4 > .elementor-container .list-item-wrapper ul li {
     justify-content: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .btn-wrapper, .elementor-section.why-choose-area.style-3 > .elementor-container .btn-wrapper {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .btn-wrapper, .elementor-section.why-choose-area.style-3 > .elementor-container .btn-wrapper, .elementor-section.why-choose-area.style-4 > .elementor-container .btn-wrapper {
     text-align: center;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card, .elementor-section.why-choose-area.style-3 > .elementor-container .about-image-card {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card, .elementor-section.why-choose-area.style-3 > .elementor-container .about-image-card, .elementor-section.why-choose-area.style-4 > .elementor-container .about-image-card {
     margin-top: 24px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card, .elementor-section.why-choose-area.style-3 > .elementor-container .about-image-card {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card, .elementor-section.why-choose-area.style-3 > .elementor-container .about-image-card, .elementor-section.why-choose-area.style-4 > .elementor-container .about-image-card {
     margin-top: 48px;
   }
 }
 @media (max-width: 1399px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card .feather, .elementor-section.why-choose-area.style-3 > .elementor-container .about-image-card .feather {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .about-image-card .feather, .elementor-section.why-choose-area.style-3 > .elementor-container .about-image-card .feather, .elementor-section.why-choose-area.style-4 > .elementor-container .about-image-card .feather {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:first-child, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50:first-child {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:first-child, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50:first-child, .elementor-section.why-choose-area.style-4 > .elementor-container .elementor-col-50:first-child {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:last-child, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50:last-child {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:last-child, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50:last-child, .elementor-section.why-choose-area.style-4 > .elementor-container .elementor-col-50:last-child {
     width: 70%;
     margin: 0 auto !important;
   }
+}
+.elementor-section.why-choose-area.style-4 > .elementor-container {
+  gap: 40px;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
