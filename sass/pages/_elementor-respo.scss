@@ -541,10 +541,17 @@
                }
                &:first-child{
                  @include md{
-                   width: 70%;
+                   width: 80%;
                    margin: 0 auto !important;
                  }
                }
+               .section-title{
+                br{
+                  @include md{
+                    display: none;
+                  }
+                }
+              }
              }
            }
          }
