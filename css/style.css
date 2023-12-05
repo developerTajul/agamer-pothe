@@ -15337,6 +15337,17 @@ ul.children {
     padding: 100px 0 !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-4 > .elementor-container .elementor-col-50:first-child {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-4 > .elementor-container .elementor-col-50:last-child {
+    width: 70%;
+    margin: 0 auto !important;
+  }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .elementor-section.why-choose-area.style-4 > .elementor-container .image-card-wrapper {
     padding-right: 40px;
