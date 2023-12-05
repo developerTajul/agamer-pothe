@@ -15232,6 +15232,22 @@ ul.children {
     margin: 0 auto !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 .elementor-col-50:last-child {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 .elementor-col-50:first-child {
+    width: 70%;
+    margin: 0 auto !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 .about-image-card {
+    text-align: start;
+  }
+}
 
 .elementor-section.why-choose-area {
   overflow: hidden;
@@ -15312,14 +15328,19 @@ ul.children {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:first-child, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50:first-child {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50 {
     width: 100%;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50:last-child, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50:last-child {
-    width: 70%;
-    margin: 0 auto !important;
+  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50 .image-card-wrapper, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50 .image-card-wrapper {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50 .section-title, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50 .section-title {
+    align-items: start;
+    text-align: start;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

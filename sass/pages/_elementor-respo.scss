@@ -443,6 +443,26 @@
             }
           }
         }
+        &.style-2{
+          .elementor-col-50{
+            &:last-child{
+              @include md{
+                width: 100%;
+              }
+            }
+            &:first-child{
+              @include md{
+                width: 70%;
+                margin: 0 auto !important;
+              }
+            }
+          }
+          .about-image-card{
+            @include md{
+              text-align: start;
+            }
+          }
+        }
       }
 }
 
@@ -514,17 +534,20 @@
                  }
              }
              .elementor-col-50{
-               &:first-child{
-                 @include md{
-                   width: 100%;
-                 }
-               }
-               &:last-child{
-                 @include md{
-                   width: 70%;
-                   margin: 0 auto !important;
-                 }
-               }
+              @include md{
+                width: 100%;
+              }
+              .image-card-wrapper{
+                @include md{
+                  margin-bottom: 40px;
+                }
+              }
+              .section-title{
+                @include md{
+                  align-items: start;
+                  text-align: start;
+                }
+              }
              }
            }
          }
