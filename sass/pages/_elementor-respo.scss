@@ -562,20 +562,7 @@
                 padding: 100px 0 !important;
             }
           >.elementor-container{
-            // gap: 40px;
-            .elementor-col-50{
-              &:first-child{
-                @include md{
-                  width: 100%;
-                }
-              }
-              &:last-child{
-                @include md{
-                  width: 70%;
-                  margin: 0 auto !important;
-                }
-              }
-            }
+            
             .image-card-wrapper{
               @include lg{
                 padding-right: 40px;
