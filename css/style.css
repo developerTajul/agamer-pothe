@@ -14865,6 +14865,12 @@ ul.children {
     margin: 0 auto;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.about-us-area.style-2 .elementor-container .elementor-col-50:last-child .section-title {
+    text-align: start;
+    align-items: start;
+  }
+}
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .elementor-section.about-us-area.style-2, .elementor-section.about-us-area.style-3 {
@@ -15341,6 +15347,11 @@ ul.children {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .elementor-section.why-choose-area.style-2 > .elementor-container .elementor-col-50 .section-title br, .elementor-section.why-choose-area.style-3 > .elementor-container .elementor-col-50 .section-title br {
     display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .elementor-section.why-choose-area.style-2 .elementor-container .about-image-card {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

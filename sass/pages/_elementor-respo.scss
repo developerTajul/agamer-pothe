@@ -48,6 +48,20 @@
             }
           }
         }
+        &.style-2{
+          .elementor-container{
+            .elementor-col-50{
+              &:last-child{
+                .section-title{
+                  @include md{
+                    text-align: start;
+                    align-items: start;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
 }
 // About-us-area style-2
@@ -554,6 +568,15 @@
               }
              }
            }
+         }
+         &.style-2{
+          @include md{
+            .elementor-container{
+              .about-image-card{
+                text-align: center;
+              }
+            }
+          }
          }
          &.style-4{
           @include sm{
