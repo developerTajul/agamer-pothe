@@ -120,6 +120,13 @@
               }
             }
           }
+          .desc{
+            br{
+              @include lg{
+                display: block;
+              }
+            }
+          }
         }
       }
     }
@@ -541,6 +548,12 @@
             @include lg{
               padding: 0 24px;
             }
+            @include md{
+              padding: 0 24px;
+            }
+            @include sm{
+              padding: 0 12px;
+            }
           }
            .video-popup-card{
             @include xl{
@@ -599,6 +612,9 @@
                 @include md{
                   margin-bottom: 0;
                 }
+                @include xl{
+                  padding-right: 12px;
+                }
               }
               .btn-wrapper{
                 @include rmaxwd(991){
@@ -635,6 +651,9 @@
       .content{
         &.style-3{
           padding-left: 24px;
+          @include sm{
+            padding-left: 0;
+          }
           @include md{
             padding: 78px 40px 0 40px;
             border-color: transparent;
