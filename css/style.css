@@ -11237,6 +11237,14 @@ ul.children {
   background: var(--gradient, linear-gradient(76deg, #ECEAFF 0%, #FFF 140.02%));
 }
 
+.testimonial-area .testimonial-slider-two {
+  height: 504px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-area .testimonial-slider-two {
+    height: 556px;
+  }
+}
 .testimonial-area .testimonial-slider-two .testimonial-arrow-btn {
   position: absolute;
   right: 0;
@@ -11306,11 +11314,6 @@ ul.children {
     align-items: center;
     justify-content: center;
     margin-right: 30px;
-    bottom: 0px;
-    top: unset;
-    left: unset;
-    right: unset;
-    transform: none;
   }
 }
 .testimonial-area .testimonial-slider-two .slick-dots li {

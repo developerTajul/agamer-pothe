@@ -99,6 +99,12 @@
 // Testimonial-area
 .testimonial-area {
   .testimonial-slider-two {
+    height: 504px;
+
+    @include sm {
+      height: 556px;
+    }
+
     .testimonial-arrow-btn {
       position: absolute;
       right: 0;
@@ -166,11 +172,6 @@
         align-items: center;
         justify-content: center;
         margin-right: 30px;
-        bottom: 0px;
-        top: unset;
-        left: unset;
-        right: unset;
-        transform: none;
       }
 
       li {
