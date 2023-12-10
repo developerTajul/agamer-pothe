@@ -137,7 +137,6 @@ body {
   color: #141F39;
   vertical-align: baseline;
   line-height: 30px;
-  font-smoothing: antialiased;
 }
 
 p {
@@ -8001,14 +8000,14 @@ button.testimonial-arrow-btn:hover:before {
 @media (max-width: 375px) {
   .page-heading h3,
   .page-heading .page-title {
-    font-size: 32px;
+    font-size: 32px !important;
     line-height: 42px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .page-heading h3,
   .page-heading .page-title {
-    font-size: 42px;
+    font-size: 42px !important;
     line-height: 52px;
   }
 }
@@ -8675,7 +8674,8 @@ button.testimonial-arrow-btn:hover:before {
   gap: 40px;
 }
 
-.project-details-title h3, .project-details-title p {
+.project-details-title h3,
+.project-details-title p {
   margin: 0;
 }
 .project-details-title p {
@@ -8757,8 +8757,21 @@ button.testimonial-arrow-btn:hover:before {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .more-project-area .section-title-wrapper {
+    font-size: 38px !important;
+    line-height: 48px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1339px) {
+  .more-project-area .section-title-wrapper {
+    font-size: 50px !important;
+  }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .more-project-area .section-title-wrapper {
+    font-size: 34px !important;
+    line-height: 48px;
     flex-direction: column;
     gap: 24px;
   }
@@ -11902,13 +11915,13 @@ ul.children {
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .footer-widget-title {
-    font-size: 30px;
+    font-size: 30px !important;
     letter-spacing: unset;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-widget-title {
-    font-size: 34px;
+    font-size: 34px !important;
   }
 }
 
@@ -12302,6 +12315,12 @@ ul.children {
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .subscribe-area .content-wrapper .subscribe-title {
     font-size: 47px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .subscribe-area .content-wrapper .subscribe-title {
+    font-size: 38px !important;
+    line-height: 50px;
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {

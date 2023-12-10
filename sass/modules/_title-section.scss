@@ -6,25 +6,28 @@
   position: relative;
   justify-content: center;
   margin-top: -8px;
-  @include rmaxwd (991){
+
+  @include rmaxwd (991) {
     align-items: center;
     text-align: center;
   }
+
   &.mb-70,
   &.mb-75 {
     @include rmaxwd(767) {
       margin-bottom: 50px;
     }
   }
+
   .short-title {
-    span{
+    span {
       font-family: $heading-font;
       color: $secondary-color;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 140%;
-        letter-spacing: 0.32px;
-        text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 140%;
+      letter-spacing: 0.32px;
+      text-transform: uppercase;
     }
 
 
@@ -32,35 +35,43 @@
       font-size: 20px;
     }
   }
+
   .title {
     color: $black;
     font-family: $heading-font;
     margin-bottom: 0;
     position: relative;
     z-index: 10;
-    span{
+
+    span {
       background-color: #FFCBBF;
     }
+
     @include nesthub {
       font-size: 47px;
     }
+
     @include md {
       font-size: 38px;
       line-height: 48px;
     }
-    @include xl{
+
+    @include xl {
       font-size: 50px;
     }
+
     @include sm {
       font-size: 34px;
       line-height: 48px;
     }
-    @media only screen and (min-width: 0px) and (max-width: 439px){
+
+    @media only screen and (min-width: 0px) and (max-width: 439px) {
       br {
         display: none;
       }
     }
   }
+
   .desc {
     font-size: 18px;
     font-weight: 400;
@@ -69,47 +80,57 @@
     margin-bottom: 0;
     line-height: 32px;
     margin-top: 8px;
-    @include sm{
+
+    @include sm {
       font-size: 16px;
-      br{
+
+      br {
         display: none;
       }
     }
-    @include lg{
-      br{
+
+    @include lg {
+      br {
         display: none;
       }
     }
   }
+
   .text {
     margin-bottom: 0;
   }
+
   .divider {
     width: 72px;
     height: 6px;
     background-color: $primary-color;
     margin-top: 16px;
   }
-  &.style-2{
+
+  &.style-2 {
     display: flex;
-    
+
   }
 }
-.section-title-wrapper{
+
+.section-title-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  @include rmaxwd(991){
+
+  @include rmaxwd(991) {
     flex-direction: column;
     align-items: center;
     gap: 32px;
   }
-  @include lg{
-    .section-title{
+
+  @include lg {
+    .section-title {
       width: 80%;
     }
   }
-  &.style-2{
+
+  &.style-2 {
     justify-content: center;
   }
 }

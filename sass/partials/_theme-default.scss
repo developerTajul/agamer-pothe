@@ -13,8 +13,8 @@ body {
   color: $black;
   vertical-align: baseline;
   line-height: 30px;
-  font-smoothing: antialiased;
 }
+
 p {
   margin: 0 0 15px;
 }
@@ -32,6 +32,7 @@ h5 a,
 h6 a {
   color: inherit;
 }
+
 h1,
 h2,
 h3,
@@ -47,80 +48,95 @@ h6 {
 
 h1 {
   font-size: 68px;
-  line-height:  75px;
+  line-height: 75px;
   font-weight: 700;
-  @include sm{
+
+  @include sm {
     font-size: 40px;
     line-height: 48px;
   }
-  @include md{
+
+  @include md {
     font-size: 50px;
-  line-height: 60px;
+    line-height: 60px;
   }
-  @include lg{
+
+  @include lg {
     font-size: 46px;
     line-height: 60px;
   }
 }
+
 h2 {
   font-size: 54px;
-  line-height: 65px
-  ;
+  line-height: 65px;
   font-weight: 700;
-  @include sm{
+
+  @include sm {
     font-size: 38px;
     line-height: 50px;
   }
 }
+
 h3 {
   font-size: 36px;
   line-height: 47px;
   font-weight: 700;
 }
+
 h4 {
   font-size: 24px;
   line-height: 34px;
   font-weight: 700;
 }
+
 h5 {
   font-size: 20px;
   line-height: 34px;
   font-weight: 500;
 }
+
 h6 {
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
 }
+
 label {
   color: $text-color;
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
 }
+
 button {
   cursor: pointer;
   @include transition;
 }
+
 a:not([href]):not([tabindex]) {
   color: inherit;
   text-decoration: none;
 }
+
 a,
 .button {
   text-decoration: none;
   @include transition;
 }
+
 a:focus,
 .button:focus {
   text-decoration: none;
   outline: none;
 }
+
 a:focus {
   color: $black;
   text-decoration: none;
   @include transition;
 }
+
 a,
 button {
   color: $primary-color;
@@ -132,6 +148,7 @@ button {
     @include transition;
   }
 }
+
 button:focus,
 input:focus,
 input:focus,
@@ -139,6 +156,7 @@ textarea,
 textarea:focus {
   outline: 0;
 }
+
 ul {
   list-style: outside none none;
   margin: 0;
@@ -150,11 +168,13 @@ ul {
   text-shadow: none;
   color: #fff;
 }
+
 ::selection {
   background: $primary-color;
   text-shadow: none;
   color: #fff;
 }
+
 textarea:focus,
 input:focus {
   outline: none;
@@ -167,24 +187,31 @@ input:focus {
 .bg-light-black {
   background-color: rgb(49, 55, 63);
 }
+
 .background-blue {
   background-color: $blue-color;
 }
+
 .bg-dark-blue {
   background-color: rgb(14, 49, 81);
 }
+
 .background-light-blue {
   background-color: $primary-color;
 }
+
 .background-skye {
   background-color: $sky-color;
 }
+
 .background-gray {
   background-color: $gray-50;
 }
+
 .background-light-gray {
   background-color: #f3f7fc;
 }
+
 .page-bg {
   background-color: $black;
 }
@@ -193,10 +220,12 @@ input:focus {
   padding-top: 112px;
   padding-bottom: 100px;
 }
+
 .blog-area {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .page-area,
 .blog-area {
 
@@ -204,34 +233,40 @@ input:focus {
     padding-top: 100px;
     padding-bottom: 52px;
   }
+
   @include rmaxwd(767) {
     padding-top: 70px;
     padding-bottom: 22px;
   }
+
   .page-links {
     margin-bottom: 20px;
     margin-top: 20px;
   }
 }
+
 .border-radius-12 {
   border-radius: 12px;
 }
+
 .text-white-100 {
   color: $white-100;
 }
+
 code {
   color: $orange-color;
 }
-.theme-btn-wrapper{
+
+.theme-btn-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  &:hover{
-    .theme-btn{
-      
-    }
+
+  &:hover {
+    .theme-btn {}
   }
 }
+
 .theme-btn,
 .wp-block-loginout a,
 input.theme-btn {
@@ -255,12 +290,14 @@ input.theme-btn {
     font-size: 16px;
     line-height: 30px;
   }
+
   &:hover {
     color: $white;
     background-color: $black;
     // animation: lightSpeedInLeft;
     // animation-duration: 2s;
   }
+
   &:focus {
     color: $primary-color;
   }
@@ -269,10 +306,12 @@ input.theme-btn {
     padding-left: 36px;
     padding-right: 36px;
   }
-  &.style-2{
+
+  &.style-2 {
     border: 2px solid $black;
     background-color: transparent;
-    &:hover{
+
+    &:hover {
       background-color: $black;
       color: $white;
     }
@@ -298,6 +337,7 @@ input.theme-btn {
     }
   }
 }
+
 .contact-form-btn {
   justify-content: center;
   width: 100%;
@@ -309,6 +349,7 @@ input.theme-btn {
   }
 
 }
+
 input.theme-btn {
   display: inline-block !important;
   width: inherit !important;
