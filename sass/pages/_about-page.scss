@@ -1,25 +1,29 @@
 // about-us-area
-.about-us-area{
-  &.style-3{
-    @include sm{
+.about-us-area {
+  &.style-3 {
+    @include sm {
       padding-bottom: 54px;
     }
-    .about-info-card{
-      @include xl{
+
+    .about-info-card {
+      @include xl {
         padding-left: 40px;
       }
-      @include sm{
+
+      @include sm {
         margin-top: 32px;
       }
-      .section-title{
-        .title{
-          @include xl{
+
+      .section-title {
+        .title {
+          @include xl {
             font-size: 50px;
           }
         }
       }
-      .icon-card-wrapper{
-        @include sm{
+
+      .icon-card-wrapper {
+        @include sm {
           margin-top: 30px;
         }
 
@@ -29,10 +33,11 @@
 }
 
 // why-choose-area
-.why-choose-area{
-  &.style-3{
+.why-choose-area {
+  &.style-3 {
     position: relative;
-    &:before{
+
+    &:before {
       content: "";
       width: 87%;
       height: 1px;
@@ -42,30 +47,36 @@
       transform: translate(-50%, 0);
       top: 0;
     }
-    .about-info-card{
-      &.style-2{
-        @include rmaxwd(919){
+
+    .about-info-card {
+      &.style-2 {
+        @include rmaxwd(919) {
           margin-top: 48px;
         }
-        .section-title{
+
+        .section-title {
           margin-bottom: 0;
-          @include rmaxwd (991){
-              text-align: start;
-              align-items: start;
+
+          @include rmaxwd (991) {
+            text-align: start;
+            align-items: start;
           }
         }
       }
-      @include rmaxwd(991){
+
+      @include rmaxwd(991) {
         margin-bottom: 40px;
       }
     }
-    
+
   }
 }
+
 .team-area {
-  &.style-3{
+  &.style-3 {
     position: relative;
-    &:before{
+
+    &:before {
       content: "";
       width: 87%;
       height: 1px;
@@ -79,80 +90,155 @@
 }
 
 // faq-area
-.faq-area{
-  &.style-3{
+.faq-area {
+  &.style-3 {
     background: var(--gradient, linear-gradient(76deg, #ECEAFF 0%, #FFF 140.02%));
   }
 }
+
 // Testimonial-area
-.testimonial-area{
-    .testimonial-slider-two{
-      .testimonial-arrow-btn {
-        position: absolute;
-        right: 0;
-        top: -56px;
-        &.prev-btn{
-          right: 68px;
-          @include rmaxwd(991){
-            right: 51%;
-            left: unset;
-          }
-        }
-        &.next-btn{
-          @include rmaxwd(991){
-            left: 51%;
-            right: unset;
-          }
-        }
-        @include rmaxwd(991){
-          right: 50%;
-          top: unset;
-          bottom: -32px;
+.testimonial-area {
+  .testimonial-slider-two {
+    .testimonial-arrow-btn {
+      position: absolute;
+      right: 0;
+      top: -56px;
 
+      &.prev-btn {
+        right: 68px;
+
+        @include rmaxwd(991) {
+          right: 51%;
+          left: unset;
         }
       }
-      .slick-list{
-        padding: 0 !important;
-        @include sm{
-          height: 504px;
+
+      &.next-btn {
+        @include rmaxwd(991) {
+          left: 51%;
+          right: unset;
         }
-        @include md{
-          height: 504px;
-        }        
-        @include lg{
-          height: 504px;
-        }        
-        @include xl{
-          height: 504px;
-        }        
       }
 
+      @include rmaxwd(991) {
+        right: 50%;
+        top: unset;
+        bottom: -32px;
+
+      }
     }
-    .icon-card{
-      &.style-2{
-        margin: 56px 12px;
-        gap: 16px;
-        padding: 38px;
-        display: flex !important;
+
+    .slick-list {
+      padding: 0 !important;
+
+      @include sm {
+        height: 504px;
+      }
+
+      @include md {
+        height: 504px;
+      }
+
+      @include lg {
+        height: 504px;
+      }
+
+      @include xl {
+        height: 504px;
+      }
+    }
+
+    .slick-dots {
+      display: flex;
+      gap: 20px;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      z-index: 2;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 32px;
+
+      @include sm {
+        position: relative;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        bottom: 0px;
+        top: unset;
+        left: unset;
+        right: unset;
+        transform: none;
+      }
+
+      li {
+        display: inline-block;
+        line-height: 0;
+        outline: 1px solid transparent;
+        border: 4px solid transparent;
+
+        border-radius: 50px;
         @include transition;
-        @include rmaxwd(991){
-          &:first-child{
-            margin-top: 0;
+
+        button {
+          font-size: 0;
+          padding: 0;
+          width: 11px;
+          height: 11px;
+          background-color: $primary-color;
+          border-radius: 50px;
+          position: relative;
+          @include transition;
+
+          &:hover {
+            background-color: $black;
+            @include transition;
           }
-          margin-top: 24px;
         }
-        
-          .meta-user{
-            margin-top: 16px;
+
+        &.slick-active {
+          @include transition;
+          outline: 1px solid $secondary-color;
+
+          button {
+            @include transition;
           }
-      }
-      &.slick-active{
-        border: 1px solid $border;
-        box-shadow: none;
-      }
-      &.slick-center{
-        border-color: transparent;
-        box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20);
+        }
       }
     }
+  }
+
+  .icon-card {
+    &.style-2 {
+      margin: 56px 12px;
+      gap: 16px;
+      padding: 38px;
+      display: flex !important;
+      @include transition;
+
+      @include rmaxwd(991) {
+        &:first-child {
+          margin-top: 0;
+        }
+
+        margin-top: 24px;
+      }
+
+      .meta-user {
+        margin-top: 16px;
+      }
+    }
+
+    &.slick-active {
+      border: 1px solid $border;
+      box-shadow: none;
+    }
+
+    &.slick-center {
+      border-color: transparent;
+      box-shadow: 12px 12px 50px 0px rgba(175, 186, 221, 0.20);
+    }
+  }
 }

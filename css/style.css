@@ -11287,6 +11287,61 @@ ul.children {
     height: 504px;
   }
 }
+.testimonial-area .testimonial-slider-two .slick-dots {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 32px;
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .testimonial-area .testimonial-slider-two .slick-dots {
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    bottom: 0px;
+    top: unset;
+    left: unset;
+    right: unset;
+    transform: none;
+  }
+}
+.testimonial-area .testimonial-slider-two .slick-dots li {
+  display: inline-block;
+  line-height: 0;
+  outline: 1px solid transparent;
+  border: 4px solid transparent;
+  border-radius: 50px;
+  transition: all 0.5s ease-out;
+}
+.testimonial-area .testimonial-slider-two .slick-dots li button {
+  font-size: 0;
+  padding: 0;
+  width: 11px;
+  height: 11px;
+  background-color: #6E65E5;
+  border-radius: 50px;
+  position: relative;
+  transition: all 0.5s ease-out;
+}
+.testimonial-area .testimonial-slider-two .slick-dots li button:hover {
+  background-color: #141F39;
+  transition: all 0.5s ease-out;
+}
+.testimonial-area .testimonial-slider-two .slick-dots li.slick-active {
+  transition: all 0.5s ease-out;
+  outline: 1px solid #FF7F63;
+}
+.testimonial-area .testimonial-slider-two .slick-dots li.slick-active button {
+  transition: all 0.5s ease-out;
+}
 .testimonial-area .icon-card.style-2 {
   margin: 56px 12px;
   gap: 16px;
