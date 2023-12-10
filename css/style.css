@@ -12801,14 +12801,21 @@ ul.children {
   margin: 0;
   border-radius: 0;
 }
+.hero-area.style-2 .section-title .slider-title {
+  color: #141F39;
+  font-family: "Urbanist", sans-serif;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-area.style-2 .section-title .title {
+  .hero-area.style-2 .section-title .slider-title {
     font-size: 46px;
     line-height: 60px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-area.style-2 .section-title .title br {
+  .hero-area.style-2 .section-title .slider-title br {
     display: block;
   }
 }
